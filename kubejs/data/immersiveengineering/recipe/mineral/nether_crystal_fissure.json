@@ -1,0 +1,45 @@
+{
+  "type": "immersiveengineering:mineral_mix",
+  "biome_predicates": [
+    [
+      "minecraft:is_nether"
+    ]
+  ],
+  "fail_chance": 0.1,
+  "ores": [
+    {
+      "chance": 0.5,
+      "output": {
+        "id": "biomesoplenty:rose_quartz_block"
+      }
+    },
+    {
+      "chance": 0.3,
+      "output": {
+        "id": "biomesoplenty:rose_quartz_chunk"
+      }
+    }
+  ],
+  "spoils": [
+    {
+      "chance": 0.4,
+      "output": {
+        "id": "minecraft:netherrack"
+      }
+    },
+    {
+      "chance": 0.3,
+      "output": {
+        "id": "minecraft:blackstone"
+      }
+    },
+    {
+      "chance": 0.3,
+      "output": {
+        "id": "biomesoplenty:brimstone"
+      }
+    }
+  ],
+  "sample_background": "biomesoplenty:brimstone",
+  "weight": 12
+}

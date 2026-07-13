@@ -1,0 +1,49 @@
+{
+  "type": "immersiveengineering:mineral_mix",
+  "biome_predicates": [
+    [
+      "minecraft:is_overworld"
+    ],
+    [
+      "minecraft:is_mountain",
+      "minecraft:is_taiga"
+    ]
+  ],
+  "fail_chance": 0.1,
+  "ores": [
+    {
+      "chance": 0.55,
+      "output": {
+        "id": "quark:shale"
+      }
+    },
+    {
+      "chance": 0.25,
+      "output": {
+        "id": "minecraft:clay"
+      }
+    }
+  ],
+  "spoils": [
+    {
+      "chance": 0.35,
+      "output": {
+        "id": "minecraft:gravel"
+      }
+    },
+    {
+      "chance": 0.35,
+      "output": {
+        "id": "minecraft:clay"
+      }
+    },
+    {
+      "chance": 0.3,
+      "output": {
+        "id": "minecraft:cobblestone"
+      }
+    }
+  ],
+  "sample_background": "quark:shale",
+  "weight": 18
+}

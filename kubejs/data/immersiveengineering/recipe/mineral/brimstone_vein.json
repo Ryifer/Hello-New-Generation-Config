@@ -1,0 +1,51 @@
+{
+  "type": "immersiveengineering:mineral_mix",
+  "biome_predicates": [
+    [
+      "minecraft:is_nether"
+    ]
+  ],
+  "fail_chance": 0.1,
+  "ores": [
+    {
+      "chance": 0.5,
+      "output": {
+        "id": "biomesoplenty:brimstone"
+      }
+    },
+    {
+      "chance": 0.25,
+      "output": {
+        "tag": "c:dusts/sulfur"
+      }
+    },
+    {
+      "chance": 0.15,
+      "output": {
+        "id": "minecraft:quartz"
+      }
+    }
+  ],
+  "spoils": [
+    {
+      "chance": 0.5,
+      "output": {
+        "id": "minecraft:netherrack"
+      }
+    },
+    {
+      "chance": 0.3,
+      "output": {
+        "id": "minecraft:magma_block"
+      }
+    },
+    {
+      "chance": 0.2,
+      "output": {
+        "id": "minecraft:gravel"
+      }
+    }
+  ],
+  "sample_background": "biomesoplenty:brimstone",
+  "weight": 8
+}

@@ -1,0 +1,49 @@
+{
+  "type": "immersiveengineering:mineral_mix",
+  "biome_predicates": [
+    [
+      "minecraft:is_overworld"
+    ],
+    [
+      "c:is_swamp",
+      "minecraft:is_desert"
+    ]
+  ],
+  "fail_chance": 0.15,
+  "ores": [
+    {
+      "chance": 0.45,
+      "output": {
+        "id": "chipped:tar_sand"
+      }
+    },
+    {
+      "chance": 0.35,
+      "output": {
+        "id": "chipped:wet_sand"
+      }
+    }
+  ],
+  "spoils": [
+    {
+      "chance": 0.4,
+      "output": {
+        "id": "minecraft:gravel"
+      }
+    },
+    {
+      "chance": 0.3,
+      "output": {
+        "id": "minecraft:dirt"
+      }
+    },
+    {
+      "chance": 0.3,
+      "output": {
+        "id": "minecraft:clay"
+      }
+    }
+  ],
+  "sample_background": "chipped:tar_sand",
+  "weight": 12
+}

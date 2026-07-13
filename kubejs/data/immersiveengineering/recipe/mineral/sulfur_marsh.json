@@ -1,0 +1,50 @@
+{
+  "type": "immersiveengineering:mineral_mix",
+  "biome_predicates": [
+    [
+      "minecraft:is_overworld"
+    ],
+    [
+      "minecraft:is_badlands",
+      "minecraft:is_jungle",
+      "c:is_mountain"
+    ]
+  ],
+  "fail_chance": 0.15,
+  "ores": [
+    {
+      "chance": 0.5,
+      "output": {
+        "id": "biomesoplenty:brimstone"
+      }
+    },
+    {
+      "chance": 0.15,
+      "output": {
+        "tag": "c:dusts/sulfur"
+      }
+    }
+  ],
+  "spoils": [
+    {
+      "chance": 0.4,
+      "output": {
+        "id": "minecraft:netherrack"
+      }
+    },
+    {
+      "chance": 0.3,
+      "output": {
+        "id": "minecraft:basalt"
+      }
+    },
+    {
+      "chance": 0.3,
+      "output": {
+        "id": "minecraft:gravel"
+      }
+    }
+  ],
+  "sample_background": "biomesoplenty:brimstone",
+  "weight": 10
+}
