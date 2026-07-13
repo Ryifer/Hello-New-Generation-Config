@@ -1,0 +1,30 @@
+{
+  "config_version": "2.0.22",
+  "config_datetime": "2026-04-30_00-37-58",
+  "general": {
+    "disable_all_structures": false,
+    "prevent_structure_overlap": false,
+    "enable_global_spacing_and_separation_modifier": false,
+    "global_spacing_and_separation_modifier": 3.0
+  },
+  "structure_namespaces": [],
+  "structures": [
+    {
+      "name": "idas:collectors_museum",
+      "is_disabled": true
+    },
+    {
+      "name": "block_factorys_bosses:dragon_tower",
+      "is_disabled": false,
+      "biomes": [
+        "minecraft:meadow",
+        "minecraft:snowy_slopes",
+        "minecraft:frozen_peaks",
+        "minecraft:jagged_peaks"
+      ],
+      "enable_biome_check": true,
+      "biome_check_distance": 8
+    }
+  ],
+  "structure_sets": []
+}

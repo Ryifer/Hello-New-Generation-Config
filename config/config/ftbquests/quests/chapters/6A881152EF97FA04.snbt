@@ -1,0 +1,215 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6A881152EF97FA04"
+	group: "42DF9A8C445EFF86"
+	icon: {
+		id: "kaleidoscope_tavern:wine"
+	}
+	id: "6A881152EF97FA04"
+	images: [{
+		height: 10.0d
+		image: "mcshaying:textures/22.png"
+		rotation: 0.0d
+		width: 20.0d
+		x: 0.0d
+		y: 0.5d
+	}]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "01D8E6571AF1FB9F"
+			rewards: [{
+				id: "3D3FAE338A651879"
+				item: {
+					count: 1
+					id: "create:creative_blaze_cake"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5B607B5A2009377C"
+					item: { count: 1, id: "kaleidoscope_tavern:molotov" }
+					type: "item"
+				}
+				{
+					id: "48B28D9649CD6E3E"
+					item: { count: 1, id: "kaleidoscope_tavern:vinegar" }
+					type: "item"
+				}
+				{
+					id: "17BA1814A1F81D56"
+					item: { count: 1, id: "kaleidoscope_tavern:wine" }
+					type: "item"
+				}
+				{
+					id: "326193825289F217"
+					item: { count: 1, id: "kaleidoscope_tavern:brandy" }
+					type: "item"
+				}
+				{
+					id: "7C1B50A188EE662D"
+					item: { count: 1, id: "kaleidoscope_tavern:carignan" }
+					type: "item"
+				}
+				{
+					id: "460A6D495993D662"
+					item: { count: 1, id: "kaleidoscope_tavern:whiskey" }
+					type: "item"
+				}
+				{
+					id: "6B8F52A50271693B"
+					item: { count: 1, id: "kaleidoscope_tavern:plum_wine" }
+					type: "item"
+				}
+				{
+					id: "0E726F4FCAA05AA4"
+					item: { count: 1, id: "kaleidoscope_tavern:sakura_wine" }
+					type: "item"
+				}
+				{
+					id: "3F507CFB2C3F9438"
+					item: { count: 1, id: "kaleidoscope_tavern:ice_wine" }
+					type: "item"
+				}
+				{
+					id: "1004C842C12103CE"
+					item: { count: 1, id: "kaleidoscope_tavern:champagne" }
+					type: "item"
+				}
+				{
+					id: "24A34C9051AAA106"
+					item: { count: 1, id: "kaleidoscope_tavern:vodka" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			id: "466E34C2D3719C6E"
+			rewards: [
+				{
+					id: "4EB06F41AA0C0B6E"
+					item: {
+						count: 1
+						id: "create:creative_blaze_cake"
+					}
+					type: "item"
+				}
+				{
+					auto: "disabled"
+					command: "/locate structure block_factorys_bosses:underworld_arena"
+					exclude_from_claim_all: true
+					feedback_message: "&z赫尔瓦，冥界骑士&r：&4地狱迎战&r"
+					icon: {
+						components: {
+							"minecraft:custom_data": {
+								itemKey: "e35793fa-1194-4477-a47b-ca1bc13d4e66"
+							}
+						}
+						id: "block_factorys_bosses:knight_sword"
+					}
+					id: "6C108757E0F417BD"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "2D06B0D2107D80D5"
+					item: { count: 1, id: "kaleidoscope_dim_wine:black_bone_lafite" }
+					type: "item"
+				}
+				{
+					id: "1711CB495F55DE71"
+					item: { count: 1, id: "kaleidoscope_dim_wine:magma_royal_salute" }
+					type: "item"
+				}
+				{
+					id: "3313B2ADC547BB6A"
+					item: { count: 1, id: "kaleidoscope_dim_wine:blaze_martell" }
+					type: "item"
+				}
+				{
+					id: "18D5BDD871F0BAD8"
+					item: { count: 1, id: "kaleidoscope_dim_wine:wart_hennessy" }
+					type: "item"
+				}
+				{
+					id: "22DBC08D5E8F2096"
+					item: { count: 1, id: "kaleidoscope_dim_wine:ethereal_noble" }
+					type: "item"
+				}
+				{
+					id: "38181F5071EE1169"
+					item: { count: 1, id: "kaleidoscope_dim_wine:crimson_crescendo" }
+					type: "item"
+				}
+				{
+					id: "06BE435FAA73445A"
+					item: { count: 1, id: "kaleidoscope_dim_wine:divine_embryo_port" }
+					type: "item"
+				}
+				{
+					id: "7863D2469F62954E"
+					item: { count: 1, id: "kaleidoscope_dim_wine:abyssal_porter" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			id: "1362BF80B30A47C0"
+			rewards: [{
+				id: "50629EB00BFFE05D"
+				item: {
+					count: 1
+					id: "create:creative_motor"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3741833832BD39CE"
+					item: { count: 1, id: "kaleidoscope_dim_wine:silent_sherry" }
+					type: "item"
+				}
+				{
+					id: "229F72CE411F6D50"
+					item: { count: 1, id: "kaleidoscope_dim_wine:forgotten_margarita" }
+					type: "item"
+				}
+				{
+					id: "25EE952DC1D02EF6"
+					item: { count: 1, id: "kaleidoscope_dim_wine:phantom_dream_bubble" }
+					type: "item"
+				}
+				{
+					id: "5A6275F5FA44F62C"
+					item: { count: 1, id: "kaleidoscope_dim_wine:end_starlight" }
+					type: "item"
+				}
+				{
+					id: "6FE40F59083FE461"
+					item: { count: 1, id: "kaleidoscope_dim_wine:draconic_blood_wine" }
+					type: "item"
+				}
+				{
+					id: "6F6E56415DD8FA9A"
+					item: { count: 1, id: "kaleidoscope_dim_wine:dragons_breath_brandy" }
+					type: "item"
+				}
+				{
+					id: "640D01B3D207B2A7"
+					item: { count: 1, id: "kaleidoscope_dim_wine:chorus_cognac" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 2.0d
+		}
+	]
+}

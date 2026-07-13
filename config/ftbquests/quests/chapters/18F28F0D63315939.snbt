@@ -1,0 +1,386 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "18F28F0D63315939"
+	group: ""
+	icon: {
+		components: {
+			"ftbquests:icon": "mcshaying:textures/1packicon.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "18F28F0D63315939"
+	images: [
+		{
+			click: "w"
+			height: 5.0d
+			hover: [
+				"欢迎来到！"
+				"你好，新蒸程！"
+				"世界因我们而精彩"
+			]
+			image: "minecraft:textures/gui/title/minecraft.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			height: 15.0d
+			image: "mcshaying:textures/11.png"
+			order: -1
+			rotation: 0.0d
+			width: 30.0d
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			click: "https://www.bilibili.com/video/BV15iRRBUEmw?"
+			height: 1.0d
+			hover: ["点击跳转载具使用详情"]
+			image: "quark:textures/attribute/unknown.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 3.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0BC0ECD7689390CE"]
+			id: "752D0C3E34CF768A"
+			tasks: [{
+				id: "1338A65DBC8EBCA5"
+				item: { count: 1, id: "create:creative_blaze_cake" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0BC0ECD7689390CE"]
+			id: "002FD7CF5ADF6B13"
+			tasks: [{
+				id: "53EFD75CFA6274EE"
+				item: { count: 1, id: "create:creative_motor" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0BC0ECD7689390CE"]
+			id: "6C76279D281E81EE"
+			tasks: [{
+				id: "3F85A33031FD36FC"
+				item: { count: 1, id: "createaddition:creative_energy" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"752D0C3E34CF768A"
+				"002FD7CF5ADF6B13"
+				"6C76279D281E81EE"
+				"3BB0B425A8426F5B"
+				"1CC79D4E3469E40D"
+				"2A51ED2EBB07FF5A"
+				"0B71DD7F21BD41B8"
+			]
+			id: "0DF667FDEDEAE513"
+			rewards: [
+				{
+					id: "57A592FBB288B165"
+					item: {
+						count: 1
+						id: "createbigcannons:creative_autocannon_ammo_container"
+					}
+					type: "item"
+				}
+				{
+					id: "6A3E6AEB24AE375B"
+					item: {
+						count: 1
+						id: "create:creative_fluid_tank"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "198E580BF4505DD4"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "38F3ACCEC1803D92"
+					item: { count: 1, id: "minecraft:crafting_table" }
+					type: "item"
+				}
+				{
+					id: "2771E4111B2D9673"
+					item: { count: 1, id: "minecraft:stone_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "5EBB9153C34833BA"
+					item: { count: 1, id: "minecraft:raw_iron" }
+					type: "item"
+				}
+				{
+					id: "251ACD6F68C862CC"
+					item: { count: 1, id: "minecraft:flint_and_steel" }
+					type: "item"
+				}
+				{
+					id: "7044D1DAD93CBDBA"
+					item: { count: 1, id: "minecraft:obsidian" }
+					type: "item"
+				}
+				{
+					id: "0F82F1AE6DE4E9DF"
+					item: { count: 1, id: "minecraft:dragon_egg" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 8.5d
+		}
+		{
+			id: "3BB0B425A8426F5B"
+			rewards: [{
+				count: 3
+				id: "484A545FA866B5AF"
+				item: {
+					count: 1
+					id: "create:creative_blaze_cake"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "07C5AFDF58134F28"
+				item: { count: 1, id: "block_factorys_bosses:sandworm_gauntlet" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			id: "1CC79D4E3469E40D"
+			rewards: [{
+				count: 3
+				id: "2B5DBF4E4B200C12"
+				item: {
+					count: 1
+					id: "create:creative_blaze_cake"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E064FA864B3C579"
+				item: { components: { "minecraft:custom_data": { itemKey: "213c5ebf-009c-4b04-8f71-c0e5bbcd5e05" } }, count: 1, id: "block_factorys_bosses:ice_gauntlet" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			id: "2A51ED2EBB07FF5A"
+			rewards: [{
+				count: 3
+				id: "0B1782B76C58772B"
+				item: {
+					count: 1
+					id: "create:creative_blaze_cake"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "46C75A78D024F73A"
+				item: { components: { "minecraft:custom_data": { itemKey: "561b1517-7b60-4789-83a5-330db9ce3b81" } }, count: 1, id: "block_factorys_bosses:knight_sword" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 8.5d
+		}
+		{
+			id: "0B71DD7F21BD41B8"
+			rewards: [{
+				count: 3
+				id: "2CDC22CA053256E4"
+				item: {
+					count: 1
+					id: "create:creative_blaze_cake"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7DE4F0307591FDB2"
+				item: { count: 1, id: "block_factorys_bosses:dragon_skull" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			id: "0BC0ECD7689390CE"
+			rewards: [
+				{
+					id: "19ABFAE30680C999"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:diamond_backpack"
+					}
+					type: "item"
+				}
+				{
+					id: "2227D79C145BD632"
+					item: {
+						components: {
+							"automobility:automobile_data": {
+								engine: "automobility:stone"
+								frame: "automobility:wooden_motorcar"
+								prefab_id: "automobility:wooden_motorcar"
+								wheels: "automobility:carriage"
+							}
+							"minecraft:item_name": "{\"translate\":\"prefab.automobility.wooden_motorcar\"}"
+						}
+						count: 1
+						id: "automobility:automobile"
+					}
+					type: "item"
+				}
+				{
+					id: "03CF43B0F3192F2C"
+					item: {
+						count: 1
+						id: "automobility:automobile_assembler"
+					}
+					type: "item"
+				}
+				{
+					id: "4EE203413C44A129"
+					item: {
+						count: 1
+						id: "automobility:crowbar"
+					}
+					type: "item"
+				}
+				{
+					id: "2E9321A77838FD1D"
+					item: {
+						count: 1
+						id: "create_aeronautics_toolgun:portable_structure_container"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1BF54FD1E2C657FF"
+					type: "checkmark"
+				}
+				{
+					id: "22D0D2965956888E"
+					item: { count: 1, id: "hello_new_generation_core:b1" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0BC0ECD7689390CE"]
+			icon: {
+				id: "cbc_firepower_components:compact_autocannon_mount"
+			}
+			id: "5DB0944F493980C7"
+			rewards: [{
+				count: 2
+				id: "13B981E7D410C317"
+				item: {
+					count: 1
+					id: "minecraft:netherite_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0D19DD98BDA5FC51"
+					item: { count: 1, id: "create_submarine:oxygene_diffuser" }
+					type: "item"
+				}
+				{
+					id: "46E095C14A02479B"
+					item: { count: 1, id: "create_submarine:ballast_tank" }
+					type: "item"
+				}
+				{
+					id: "66C3D502801263F7"
+					item: { count: 1, id: "create_linear_motion_simulated:pneumatic_cylinder" }
+					type: "item"
+				}
+				{
+					id: "7E6D99D0003C39C4"
+					item: { count: 1, id: "windtunnel:wind_tunnel" }
+					type: "item"
+				}
+				{
+					id: "2A28CAC55BB53BB8"
+					item: { count: 1, id: "drivebywiretypewriter:typewriter_hub" }
+					type: "item"
+				}
+				{
+					id: "2ED4653D80154480"
+					item: { count: 1, id: "create_aeronautics_throwable_rope_connector:throwable_rope_connector" }
+					type: "item"
+				}
+				{
+					id: "63AC4DC2D99880A9"
+					item: { count: 1, id: "cbc_firepower_components:autocannon_ammo_feed" }
+					type: "item"
+				}
+				{
+					id: "1A236BB44DCD11E2"
+					item: { count: 1, id: "cbc_firepower_components:compact_autocannon_mount" }
+					type: "item"
+				}
+				{
+					id: "443A463F7E06D90D"
+					item: { count: 1, id: "aeronautics_utility_objects:brass_universal_joint" }
+					type: "item"
+				}
+				{
+					id: "377061EDE48769EE"
+					item: { count: 1, id: "aeronautics_utility_objects:universal_joint_rod" }
+					type: "item"
+				}
+				{
+					id: "0FF3D7063D93CB4B"
+					item: { count: 1, id: "create_simulated_additions:ckbgv_4_engine" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0BC0ECD7689390CE"]
+			id: "0F3629F0C6B66922"
+			tasks: [{
+				id: "39AE10D11B0868DC"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+	]
+}

@@ -1,0 +1,649 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7D394B8378508CBB"
+	group: "59418A0B4E6E90CF"
+	icon: {
+		id: "create:schematic_and_quill"
+	}
+	id: "7D394B8378508CBB"
+	images: [
+		{
+			height: 15.0d
+			image: "immersiveengineering:textures/models/blueprint_frame.png"
+			order: -1
+			rotation: 0.0d
+			width: 25.0d
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: -13.5d
+			y: -5.0d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: -9.5d
+			y: -5.0d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: -5.5d
+			y: -5.0d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: -13.5d
+			y: -1.5d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: -13.5d
+			y: 2.0d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: -9.5d
+			y: -1.5d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: -9.5d
+			y: 2.0d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			height: 1.5d
+			image: "mcshaying:textures/82.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -13.5d
+			y: -5.0d
+		}
+		{
+			height: 2.0d
+			image: "mcshaying:textures/81.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -9.5d
+			y: -5.0d
+		}
+		{
+			height: 3.0d
+			image: "mcshaying:textures/d1.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -5.5d
+			y: -5.0d
+		}
+		{
+			click: "https://www.bilibili.com/video/BV16NLP6JEnN/?spm_id_from=333.337.search-card.all.click&vd_source=fbdd225a2682b4a6fe89334b4ec1c234"
+			height: 1.0d
+			hover: ["点击跳转载具使用详情"]
+			image: "quark:textures/attribute/unknown.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -15.0d
+			y: -6.5d
+		}
+		{
+			click: "https://b23.tv/QxveJte"
+			height: 1.0d
+			hover: ["点击跳转载具使用详情"]
+			image: "quark:textures/attribute/unknown.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: -6.5d
+		}
+		{
+			click: "https://www.bilibili.com/video/BV17mRkBXEv7/?spm_id_from=333.337.search-card.all.click&vd_source=fbdd225a2682b4a6fe89334b4ec1c234"
+			height: 1.0d
+			hover: ["点击跳转载具使用详情"]
+			image: "quark:textures/attribute/unknown.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: -6.5d
+		}
+		{
+			height: 4.0d
+			image: "mcshaying:textures/eee9.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			click: "https://b23.tv/736KraV"
+			height: 1.0d
+			hover: ["点击跳转载具使用详情"]
+			image: "quark:textures/attribute/unknown.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -6.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			icon: {
+				id: "hello_new_generation_core:c2"
+			}
+			id: "5979B2496DF7D057"
+			rewards: [{
+				id: "5ECCF959BD943465"
+				item: {
+					count: 1
+					id: "hello_new_generation_core:c2"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "1EDB8B4F3B3D50A1"
+					item: { count: 1, id: "simulated:steering_wheel" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "51EE3A751E5AE7CC"
+					item: { count: 1, id: "simulated:throttle_lever" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "784706C4E450F051"
+					item: { count: 1, id: "simulated:red_portable_engine" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "28558F817A81CCA3"
+					item: { count: 1, id: "create_connected:vertical_six_way_gearbox" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "229848EB92BF96A9"
+					item: { count: 1, id: "simulated:directional_gearshift" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "5B3B477AE39284B8"
+					item: { count: 1, id: "create:redstone_link" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 6L
+					id: "55DD8032D5F0064C"
+					item: { count: 1, id: "aeronautics:andesite_propeller" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "477CD4F8807BC2F4"
+					item: { count: 1, id: "simulated:analog_transmission" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "6B58A50B1EE1922B"
+					item: { count: 1, id: "create:cogwheel" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "23434ADD315E047A"
+					item: { count: 1, id: "aeroworks:gyroscope" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "6CDDF3787BB014AF"
+					item: { count: 1, id: "minecraft:comparator" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "73DF7B9CFDDD2F53"
+					item: { components: { "minecraft:block_entity_data": { Keys: [ { FirstItem: { }, GLFWKey: 87, SecondItem: { count: 1, id: "minecraft:oak_planks" } }, { FirstItem: { count: 1, id: "minecraft:oak_planks" }, GLFWKey: 83, SecondItem: { } } ], id: "simulated:linked_typewriter", typedEntry: "WWWWWWWWWWWWWWWSWSWWWWWW" } }, count: 1, id: "simulated:linked_typewriter" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2298C5B3110E7482"
+					item: { count: 1, id: "simulated:velocity_sensor" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 6L
+					id: "66F8688AC34C4C14"
+					item: { count: 1, id: "minecraft:diamond" }
+					type: "item"
+				}
+			]
+			x: -13.5d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "hello_new_generation_core:c5"
+			}
+			id: "08AA6ED767865521"
+			rewards: [{
+				id: "63AA5AB471405F72"
+				item: {
+					count: 1
+					id: "hello_new_generation_core:c5"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 12L
+					id: "09B9FF8E665DA2DF"
+					item: { count: 1, id: "create:encased_chain_drive" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "74DD37DF2AFBE791"
+					item: { count: 1, id: "create:rotation_speed_controller" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "507CD86AE8C4E8F2"
+					item: { count: 1, id: "aeroworks:gyroscope" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "6854866B7AEDDCC4"
+					item: { count: 1, id: "aeronautics:propeller_bearing" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2D6435DCF8D95039"
+					item: { count: 1, id: "simulated:rope_winch" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "334DD8DA427DF5DC"
+					item: { count: 1, id: "simulated:throttle_lever" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "440241CE1E404EB0"
+					item: { count: 1, id: "simulated:navigation_table" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "7C21524449F14D76"
+					item: { count: 1, id: "createdieselgenerators:huge_diesel_engine" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 9L
+					id: "3115901574AFE0D8"
+					item: { count: 1, id: "create:redstone_link" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "57FAC8DAD72BA574"
+					item: { count: 1, id: "simulated:analog_transmission" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "7D3290708EABB592"
+					item: { count: 1, id: "simulated:directional_gearshift" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 32L
+					id: "403446EAE34DB424"
+					item: { count: 1, id: "create:white_sail" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "18349DF155109FD5"
+					item: { components: { "minecraft:block_entity_data": { Keys: [ { FirstItem: { }, GLFWKey: 83, SecondItem: { count: 1, id: "minecraft:gray_shulker_box" } }, { FirstItem: { count: 1, id: "minecraft:gray_shulker_box" }, GLFWKey: 87, SecondItem: { } }, { FirstItem: { }, GLFWKey: 68, SecondItem: { count: 1, id: "minecraft:light_gray_shulker_box" } }, { FirstItem: { count: 1, id: "minecraft:light_gray_shulker_box" }, GLFWKey: 65, SecondItem: { } } ], id: "simulated:linked_typewriter", typedEntry: "ADDADAADAWSWSWWDAWAADWDA" } }, count: 1, id: "simulated:linked_typewriter" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 6L
+					id: "55BF6A46E8C7F249"
+					item: { count: 1, id: "minecraft:diamond" }
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "hello_new_generation_core:d1"
+			}
+			id: "27B87B18221AEF4E"
+			rewards: [{
+				id: "3E3DF2FD4CCC28F7"
+				item: {
+					count: 1
+					id: "hello_new_generation_core:d1"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "12F87323FFB3A45D"
+					item: { count: 1, id: "create:encased_chain_drive" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 32L
+					id: "0A60E1CC76ABD2DA"
+					item: { count: 1, id: "simulated:white_symmetric_sail" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 48L
+					id: "31583AD6199A0B58"
+					item: { count: 1, id: "create:encased_fan" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 6L
+					id: "7AEE1B85770E2931"
+					item: { count: 1, id: "createdieselgenerators:large_diesel_engine" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "13D9766E4B1F3FC8"
+					item: { count: 1, id: "simulated:analog_transmission" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "78FB8A95E19AB4FA"
+					item: { count: 1, id: "createbigcannons:cannon_mount" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 48L
+					id: "2456B06D957DCA84"
+					item: { count: 1, id: "create:nozzle" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "16F59E9D909DBAAA"
+					item: { count: 1, id: "create:rotation_speed_controller" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "4B24D2DDC1800B16"
+					item: { count: 1, id: "create:redstone_link" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 9L
+					id: "015882A096AA7434"
+					item: { count: 1, id: "create:cogwheel" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "0526AD5E7A2800EC"
+					item: { count: 1, id: "create:mechanical_pump" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "23BD064DADA82B0C"
+					item: { count: 1, id: "minecraft:netherite_ingot" }
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "create:cardboard_package_12x12"
+			}
+			id: "3BE8806545BE9A06"
+			rewards: [{
+				id: "54FCBE2FCD4EDB1D"
+				item: {
+					count: 1
+					id: "hello_new_generation_core:e5"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "260BA0F4AD4E31BE"
+					item: { count: 1, id: "create:blaze_cake" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "4D44420BE5C17F19"
+					item: { count: 1, id: "create:precision_mechanism" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "4B2FFB19DDE8CAFD"
+					item: { count: 1, id: "create:electron_tube" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "73C7C9A53D60B9DE"
+					item: { count: 1, id: "create_flight_control:control_unit" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "029159E3EBC394AF"
+					item: { count: 1, id: "createpropulsion:thruster" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "5B71661BA79A9D31"
+					item: { count: 1, id: "aeroworks:joystick" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "4FB83B0F98D352D4"
+					item: { count: 1, id: "create:brass_block" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10L
+					id: "5068CD75116D02ED"
+					item: { count: 1, id: "simulated:docking_connector" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "1314D5B1AE456DF5"
+					item: { count: 1, id: "create:andesite_alloy_block" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 32L
+					id: "75C0CAE663E7F9AB"
+					item: { count: 1, id: "minecraft:oak_log" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "050011C03519A577"
+					item: { count: 1, id: "framedblocks:framed_cube" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 32L
+					id: "42149C0D2B58552F"
+					item: { count: 1, id: "minecraft:netherite_block" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "04BBEB182043BEB7"
+					item: { count: 1, id: "aeroworks:gyroscope" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -4.0d
+		}
+	]
+}

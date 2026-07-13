@@ -1,0 +1,30 @@
+{
+  "spreadFactor": 3.2,
+  "idBasedSalt": true,
+  "customSpreadFactors": [
+    {
+      "structure": "minecraft:fortress",
+      "factor": 1
+    },
+    {
+      "structure": "minecraft:bastion_remnant",
+      "factor": 1
+    },
+    {
+      "structure": "minecraft:nether_fossil",
+      "factor": 1
+    },
+    {
+      "structure": "minecraft:ruined_portal",
+      "factor": 1
+    },
+    {
+      "structure": "minecraft:end_city",
+      "factor": 1
+    },
+    {
+      "structure": "minecraft:mansion",
+      "factor": 3.2
+    }
+  ]
+}

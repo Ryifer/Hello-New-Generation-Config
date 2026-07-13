@@ -1,0 +1,414 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7C07A761EADF3908"
+	group: "42DF9A8C445EFF86"
+	icon: {
+		id: "kaleidoscope_cookery:golden_salad"
+	}
+	id: "7C07A761EADF3908"
+	images: [
+		{
+			click: "https://www.bilibili.com/video/BV1uPb2zMESG/?spm_id_from=333.337.search-card.all.click"
+			height: 2.0d
+			hover: ["点击查看森罗厨房教程！"]
+			image: "kaleidoscope_cookery:textures/mob_effect/warmth.png"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "kaleidoscope_cookery:block/stove_front_lit"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			height: 2.0d
+			image: "kaleidoscope_cookery:textures/advancement/background.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			height: 2.0d
+			image: "kaleidoscope_cookery:textures/advancement/background.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			height: 2.0d
+			image: "kaleidoscope_cookery:textures/advancement/background.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			height: 2.0d
+			image: "kaleidoscope_cookery:textures/advancement/background.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			height: 2.0d
+			image: "kaleidoscope_cookery:textures/advancement/background.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			height: 2.0d
+			image: "kaleidoscope_cookery:textures/advancement/background.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.0d
+			y: 1.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1168EBF568E6A991"
+			rewards: [
+				{
+					id: "0BF1CE9E81132405"
+					item: {
+						count: 1
+						id: "kaleidoscope_cookery:kitchen_shovel"
+					}
+					type: "item"
+				}
+				{
+					id: "3DCED220DC9FAD60"
+					item: {
+						count: 1
+						id: "kaleidoscope_cookery:diamond_kitchen_knife"
+					}
+					type: "item"
+				}
+				{
+					id: "3A2D3BCCFAA3270B"
+					item: {
+						count: 1
+						id: "kaleidoscope_cookery:cook_stool_birch"
+					}
+					type: "item"
+				}
+				{
+					id: "0EBFAD30BD961349"
+					item: {
+						count: 1
+						id: "kaleidoscope_cookery:chopping_board"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1EDE3C1D786F2362"
+					item: { count: 1, id: "kaleidoscope_cookery:stove" }
+					type: "item"
+				}
+				{
+					id: "288AB3EDBFF24E82"
+					item: { count: 1, id: "kaleidoscope_cookery:shawarma_spit" }
+					type: "item"
+				}
+				{
+					id: "6A674A1A09DB3B09"
+					item: { count: 1, id: "kaleidoscope_cookery:pot" }
+					type: "item"
+				}
+				{
+					id: "285A74D90EDA35FA"
+					item: { count: 1, id: "kaleidoscope_cookery:stockpot" }
+					type: "item"
+				}
+				{
+					id: "5666F13C984D8170"
+					item: { count: 1, id: "kaleidoscope_cookery:stockpot_lid" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			id: "594B18BB09E95924"
+			rewards: [
+				{
+					count: 4
+					id: "72AE8A58D06CAD44"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "054C08E160CD24E8"
+					item: {
+						count: 1
+						id: "paraglider:heart_container"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6DC26DFE1EEC08F5"
+					item: { count: 1, id: "kaleidoscope_cookery:fish_flavored_shredded_pork_rice_bowl" }
+					type: "item"
+				}
+				{
+					id: "7A893F4CC205C55B"
+					item: { count: 1, id: "kaleidoscope_cookery:sweet_and_sour_pork_rice_bowl" }
+					type: "item"
+				}
+				{
+					id: "06F445F2C8D73778"
+					item: { count: 1, id: "kaleidoscope_cookery:stir_fried_pork_with_peppers_rice_bowl" }
+					type: "item"
+				}
+				{
+					id: "2440EFB3DA5DC503"
+					item: { count: 1, id: "kaleidoscope_cookery:braised_beef_rice_bowl" }
+					type: "item"
+				}
+				{
+					id: "1D8CF88951180AF3"
+					item: { count: 1, id: "kaleidoscope_cookery:scramble_egg_with_tomatoes_rice_bowl" }
+					type: "item"
+				}
+				{
+					id: "569481EB6BBB0CA5"
+					item: { count: 1, id: "kaleidoscope_cookery:egg_fried_rice" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			id: "3D83927C0245F592"
+			rewards: [{
+				count: 2
+				id: "138F9A7F4DC72A50"
+				item: {
+					count: 1
+					id: "paraglider:heart_container"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3677626017425958"
+					item: { count: 1, id: "kaleidoscope_cookery:end_style_sashimi" }
+					type: "item"
+				}
+				{
+					id: "3D914560E6D2C9CB"
+					item: { count: 1, id: "kaleidoscope_cookery:nether_style_sashimi" }
+					type: "item"
+				}
+				{
+					id: "5CF971132B370493"
+					item: { count: 1, id: "kaleidoscope_cookery:desert_style_sashimi" }
+					type: "item"
+				}
+				{
+					id: "01402317BD6861FA"
+					item: { count: 1, id: "kaleidoscope_cookery:tundra_style_sashimi" }
+					type: "item"
+				}
+				{
+					id: "548CF535286DDD11"
+					item: { count: 1, id: "kaleidoscope_cookery:cold_style_sashimi" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			id: "23884B4FE5C227D9"
+			rewards: [{
+				count: 2
+				id: "3E27235AE6D52F25"
+				item: {
+					count: 1
+					id: "paraglider:heart_container"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1664EBDA4ADCD546"
+					item: { count: 1, id: "kaleidoscope_cookery:braised_beef_with_potatoes" }
+					type: "item"
+				}
+				{
+					id: "2DABB68A8836DEF6"
+					item: { count: 1, id: "kaleidoscope_cookery:fish_flavored_shredded_pork" }
+					type: "item"
+				}
+				{
+					id: "6705AA980FE48287"
+					item: { count: 1, id: "kaleidoscope_cookery:sweet_and_sour_pork" }
+					type: "item"
+				}
+				{
+					id: "661CB4314106929A"
+					item: { count: 1, id: "kaleidoscope_cookery:spicy_chicken" }
+					type: "item"
+				}
+				{
+					id: "060F7877276C7A0C"
+					item: { count: 1, id: "kaleidoscope_cookery:dongpo_pork" }
+					type: "item"
+				}
+				{
+					id: "68F5AFA0C2BFD2C5"
+					item: { count: 1, id: "kaleidoscope_cookery:golden_salad" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			id: "269A9609C518FB5D"
+			rewards: [{
+				count: 2
+				id: "56D16D15DABC8B5C"
+				item: {
+					count: 1
+					id: "paraglider:heart_container"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "39A9E46AD7CD4728"
+					item: { count: 1, id: "kaleidoscope_cookery:stir_fried_pork_with_peppers" }
+					type: "item"
+				}
+				{
+					id: "0C8F9A9C5037EA61"
+					item: { count: 1, id: "kaleidoscope_cookery:braised_beef" }
+					type: "item"
+				}
+				{
+					id: "2BA347FFBB5CEC1E"
+					item: { count: 1, id: "kaleidoscope_cookery:scramble_egg_with_tomatoes" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			id: "50A49DAF087CABB2"
+			rewards: [{
+				count: 2
+				id: "685D3DF3C283B0C8"
+				item: {
+					count: 1
+					id: "paraglider:heart_container"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6F8260516FB5CF55"
+					item: { count: 1, id: "kaleidoscope_cookery:pan_seared_knight_steak" }
+					type: "item"
+				}
+				{
+					id: "441B47CCEAE6AC13"
+					item: { count: 1, id: "kaleidoscope_cookery:sweet_and_sour_ender_pearls" }
+					type: "item"
+				}
+				{
+					id: "210736CBF46D36F8"
+					item: { count: 1, id: "kaleidoscope_cookery:crystal_lamb_chop" }
+					type: "item"
+				}
+				{
+					id: "6CE5356BDF3CCF66"
+					item: { count: 1, id: "kaleidoscope_cookery:blaze_lamb_chop" }
+					type: "item"
+				}
+				{
+					id: "5BB3A475D5719E6F"
+					item: { count: 1, id: "kaleidoscope_cookery:frost_lamb_chop" }
+					type: "item"
+				}
+				{
+					id: "3314903D8536E33F"
+					item: { count: 1, id: "kaleidoscope_cookery:slime_ball_meal" }
+					type: "item"
+				}
+				{
+					id: "0BAC2C1D9C246577"
+					item: { count: 1, id: "kaleidoscope_cookery:fondant_pie" }
+					type: "item"
+				}
+				{
+					id: "04CF6AACE729F4F4"
+					item: { count: 1, id: "kaleidoscope_cookery:fondant_spider_eye" }
+					type: "item"
+				}
+				{
+					id: "31A700010D61219C"
+					item: { count: 1, id: "kaleidoscope_cookery:chorus_fried_egg" }
+					type: "item"
+				}
+				{
+					id: "5D152444B2F69855"
+					item: { count: 1, id: "kaleidoscope_cookery:stargazy_pie" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"50A49DAF087CABB2"
+				"269A9609C518FB5D"
+				"23884B4FE5C227D9"
+			]
+			id: "5353998C322049BC"
+			rewards: [{
+				id: "47A2C3C95925E311"
+				item: {
+					count: 1
+					id: "create:creative_blaze_cake"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "390B8E5FCC69018C"
+				item: { count: 1, id: "create:creative_blaze_cake" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+	]
+}

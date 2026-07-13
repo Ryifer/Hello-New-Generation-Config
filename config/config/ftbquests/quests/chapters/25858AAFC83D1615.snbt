@@ -1,0 +1,1304 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "25858AAFC83D1615"
+	group: ""
+	icon: {
+		id: "create:wrench"
+	}
+	id: "25858AAFC83D1615"
+	images: [
+		{
+			click: "https://www.bilibili.com/video/BV1964y1K7mv/?spm_id_from=333.337.search-card.all.click&vd_source=456eba6eee026a08852a2630df3f6eb4"
+			height: 3.0d
+			hover: ["点击查看机械动力相关教程"]
+			image: "create:textures/gui/logo.png"
+			order: 3
+			rotation: 0.0d
+			width: 3.0d
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			height: 15.0d
+			image: "immersiveengineering:textures/models/blueprint_frame.png"
+			rotation: 0.0d
+			width: 25.0d
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			click: "https://www.creativemechanicserver.com/"
+			height: 2.0d
+			hover: ["点击打开机械动力蓝图站"]
+			image: "create:item/crafting_blueprint"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: -13.0d
+			y: -1.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2F77B596E44C1449"]
+			id: "717C16AE6516D4A4"
+			rewards: [
+				{
+					count: 64
+					id: "71DAFA787C86F88A"
+					item: {
+						count: 1
+						id: "minecraft:white_wool"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5EE346630ABE0A7E"
+					item: {
+						count: 1
+						id: "create:large_water_wheel"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1DD47C814FD90E31"
+					item: {
+						count: 1
+						id: "minecraft:andesite"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [
+				{
+					id: "7497CE61864C252B"
+					item: { count: 1, id: "create:windmill_bearing" }
+					type: "item"
+				}
+				{
+					id: "70C0D448326B68A1"
+					item: { count: 1, id: "create:water_wheel" }
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["00843C4FC84EE6E5"]
+			id: "2BE58474C83E9824"
+			rewards: [{
+				id: "7E4828736D1B0EE9"
+				item: {
+					count: 1
+					id: "sophisticatedbackpacks:crafting_upgrade"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "220AAD733B807A3D"
+				item: { count: 1, id: "create:mechanical_press" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2BE58474C83E9824"]
+			id: "25FE3814091C0CA9"
+			rewards: [
+				{
+					count: 8
+					id: "04F549A330B0AD03"
+					item: {
+						count: 1
+						id: "create:blaze_burner"
+					}
+					type: "item"
+				}
+				{
+					id: "301FA59D8BE161DA"
+					item: {
+						count: 1
+						id: "createdieselgenerators:burner"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "37FCD9A2D5CB0262"
+					item: {
+						count: 1
+						id: "createaddition:straw"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "24DB6B5130E6287B"
+					item: { count: 1, id: "create:empty_blaze_burner" }
+					type: "item"
+				}
+				{
+					id: "645486518648DAFD"
+					item: { count: 1, id: "create:blaze_burner" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"5198F73E3FC7C7D8"
+				"5C8BE542897F046C"
+				"3BBFA2BE07F7597D"
+			]
+			id: "0788E5B5E4FF2984"
+			rewards: [{
+				count: 8
+				id: "79EF8E3B1F583BA5"
+				item: {
+					count: 1
+					id: "create:steam_engine"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "5BF5D658F9B00499"
+				item: { count: 1, id: "create:steam_engine" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["25FE3814091C0CA9"]
+			id: "5198F73E3FC7C7D8"
+			rewards: [{
+				count: 64
+				id: "1906D796C4F54E9F"
+				item: {
+					count: 1
+					id: "create:fluid_tank"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D1222497BBFEE4C"
+				item: { count: 1, id: "create:fluid_tank" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["25FE3814091C0CA9"]
+			id: "3EB461AF4183A805"
+			rewards: [{
+				count: 64
+				id: "31EA3CA523CDF081"
+				item: {
+					count: 1
+					id: "minecraft:coal_block"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6666BBAAAA4C77FE"
+					item: { count: 1, id: "create:mechanical_mixer" }
+					type: "item"
+				}
+				{
+					id: "19C4ACA6F768A36A"
+					item: { count: 1, id: "create:basin" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "56CDEE235EB431C0"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "61D1371CBAA5A00C"
+				item: { count: 1, id: "minecraft:copper_ingot" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			id: "4280693DE857894C"
+			rewards: [{
+				id: "331BEE4621247ADA"
+				item: {
+					count: 1
+					id: "create:orange_toolbox"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "66EC83A692C13D6A"
+				item: { count: 1, id: "create:zinc_ingot" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"4280693DE857894C"
+				"56CDEE235EB431C0"
+				"3A5DD0D8D1306DDA"
+			]
+			id: "688E451A81E46838"
+			shape: "hexagon"
+			tasks: [{
+				id: "3171742A2658C825"
+				item: { count: 1, id: "create:brass_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["688E451A81E46838"]
+			id: "613A008E8B5C54E1"
+			rewards: [{
+				count: 64
+				id: "5F1D9767623B8FE7"
+				item: {
+					count: 1
+					id: "create:encased_chain_drive"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4279BAD770EE2D92"
+				item: { count: 1, id: "create:deployer" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["613A008E8B5C54E1"]
+			id: "7F974A27FBC6E96A"
+			rewards: [{
+				count: 16
+				id: "74BA78F57912523B"
+				item: {
+					count: 1
+					id: "create:brass_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6482BEF77CC39172"
+				item: { count: 1, id: "create:precision_mechanism" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7F974A27FBC6E96A"]
+			id: "73CAF74D3D7999E9"
+			rewards: [{
+				count: 16
+				id: "126EDD0FAF3A749F"
+				item: {
+					count: 1
+					id: "waystones:waystone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4941E3351949ED7F"
+				item: { count: 1, id: "create:mechanical_crafter" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["73CAF74D3D7999E9"]
+			id: "31853E56D2F3CDF1"
+			rewards: [
+				{
+					count: 5
+					id: "0E9D618285272073"
+					item: {
+						count: 1
+						id: "paraglider:heart_container"
+					}
+					type: "item"
+				}
+				{
+					id: "564344FE381D726F"
+					item: {
+						count: 1
+						id: "create:creative_blaze_cake"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				count: 2L
+				id: "53C48A3C0332AF26"
+				item: { count: 1, id: "create:crushing_wheel" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2B40086F17EFDA48"]
+			id: "5C8BE542897F046C"
+			rewards: [{
+				id: "734919186030B026"
+				item: {
+					count: 1
+					id: "create:super_glue"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3DE29755AFBC4642"
+				item: { count: 1, id: "create:goggles" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["688E451A81E46838"]
+			id: "480024036431C2C8"
+			rewards: [{
+				id: "3C5F6BB89DE4A046"
+				item: {
+					count: 1
+					id: "create:filter"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "66F03208CCBBF6DD"
+				item: { count: 1, id: "create:brass_funnel" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2BE58474C83E9824"]
+			id: "2B40086F17EFDA48"
+			rewards: [{
+				id: "564ED7BCB791C78E"
+				item: {
+					count: 1
+					id: "sophisticatedbackpacks:everlasting_upgrade"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "73B06E68659BDA37"
+				item: { count: 1, id: "create:golden_sheet" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2BE58474C83E9824"]
+			id: "4D89EFBF6B213B96"
+			rewards: [{
+				count: 48
+				id: "21DD2D745AB489C8"
+				item: {
+					count: 1
+					id: "minecraft:dried_kelp"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "525359C9BF1425AB"
+				item: { count: 1, id: "create:copper_sheet" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2BE58474C83E9824"]
+			id: "795201F41C9B6440"
+			rewards: [{
+				count: 64
+				id: "6356176398547E4F"
+				item: {
+					count: 1
+					id: "create:experience_nugget"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "13BF976EFA9E5D6A"
+				item: { count: 1, id: "create:iron_sheet" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"4944D9C2FADA65AA"
+				"5BE1D5D2B0D98918"
+			]
+			id: "4B5E41F25D0D4DE1"
+			shape: "circle"
+			tasks: [{
+				id: "7D109F8441BF4FF8"
+				item: { count: 1, id: "create:spout" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"5198F73E3FC7C7D8"
+				"3482BF07A7C06BD1"
+			]
+			id: "4944D9C2FADA65AA"
+			rewards: [{
+				count: 4
+				id: "552E7A839FF4E04A"
+				item: {
+					count: 1
+					id: "create:mechanical_pump"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5810A3CA2BB98716"
+				item: { count: 1, id: "create:item_drain" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["688E451A81E46838"]
+			id: "2ECDFE18E7D06813"
+			tasks: [{
+				id: "2BC9D768FC846FEE"
+				item: { count: 1, id: "create:brass_tunnel" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			id: "2F77B596E44C1449"
+			rewards: [
+				{
+					count: 16
+					id: "408DE591F071F21D"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "5D34BA9D140AF94D"
+					item: {
+						count: 1
+						id: "minecraft:red_bed"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4A03F349D3CF1CE1"
+					item: {
+						count: 1
+						id: "minecraft:dried_kelp_block"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "051EE7417E208D46"
+					item: {
+						count: 1
+						id: "minecraft:kelp"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1244CC7230DE1C93"
+				item: { count: 1, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["717C16AE6516D4A4"]
+			id: "1CDC2828B0A391EE"
+			rewards: [{
+				count: 32
+				id: "0E23EAAC5C6CB0E2"
+				item: {
+					count: 1
+					id: "create:andesite_casing"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "089661F1FFC314C1"
+				item: { count: 1, id: "create:andesite_casing" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["56CDEE235EB431C0"]
+			id: "5BE1D5D2B0D98918"
+			tasks: [{
+				id: "28EE3776EAB88384"
+				item: { count: 1, id: "create:copper_casing" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["56CDEE235EB431C0"]
+			id: "3482BF07A7C06BD1"
+			tasks: [
+				{
+					id: "59541833230C4083"
+					item: { count: 1, id: "create:fluid_pipe" }
+					type: "item"
+				}
+				{
+					id: "3DAB0FFB367200AF"
+					item: { count: 1, id: "create:mechanical_pump" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1CDC2828B0A391EE"]
+			id: "340EA5AB74311661"
+			rewards: [
+				{
+					count: 16
+					id: "0B01D3D5C12095E9"
+					item: {
+						count: 1
+						id: "create:iron_sheet"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "0660AA8032F5CB6A"
+					item: {
+						count: 1
+						id: "create:belt_connector"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "671E137253F78E69"
+				item: { count: 1, id: "create:mechanical_saw" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1CDC2828B0A391EE"]
+			id: "40CA3C066BAC8152"
+			rewards: [
+				{
+					count: 64
+					id: "65754108CBD3EE55"
+					item: {
+						count: 1
+						id: "create:crushed_raw_iron"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4DD8BD02199CDEE5"
+					item: {
+						count: 1
+						id: "create:crushed_raw_gold"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "2A5B67FFD20BD183"
+					item: {
+						count: 1
+						id: "create:crushed_raw_copper"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3A1E2CCF3A882BF1"
+					item: {
+						count: 1
+						id: "create:crushed_raw_zinc"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1055A85540850B84"
+					item: {
+						count: 1
+						id: "create:crushed_raw_tin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "19639F9B7F72FBC7"
+				item: { count: 1, id: "create:mechanical_drill" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1CDC2828B0A391EE"]
+			id: "577D6D40DC96E56E"
+			rewards: [
+				{
+					count: 2
+					id: "037C31CE5F08BBE3"
+					item: {
+						count: 1
+						id: "minecraft:composter"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "5ED6DACDE18E0B30"
+					item: {
+						count: 1
+						id: "create:experience_nugget"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "31F6E385A4C48771"
+				item: { count: 1, id: "create:mechanical_harvester" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1CDC2828B0A391EE"]
+			id: "3F08FB8CA84C5163"
+			rewards: [{
+				id: "29F144F32F615825"
+				item: {
+					count: 1
+					id: "minecraft:mooshroom_spawn_egg"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3AE2BC1744A32F76"
+				item: { count: 1, id: "create:mechanical_plough" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1CDC2828B0A391EE"]
+			id: "01654FC0571B9319"
+			rewards: [
+				{
+					count: 16
+					id: "49EEF5D5DD07D31F"
+					item: {
+						count: 1
+						id: "create:sweet_roll"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "16598CA67BAC7676"
+					item: {
+						count: 1
+						id: "create:portable_storage_interface"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "096FFBCD552F1CCE"
+				item: { count: 1, id: "create:mechanical_bearing" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["01654FC0571B9319"]
+			id: "2F2B9C9FFF9B5184"
+			rewards: [
+				{
+					count: 16
+					id: "4009376EA9394422"
+					item: {
+						count: 1
+						id: "create:chocolate_glazed_berries"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4B3E64F368E3FA11"
+					item: {
+						count: 1
+						id: "create:portable_storage_interface"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "52FA9581ADE8147B"
+				item: { count: 1, id: "create:linear_chassis" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2B40086F17EFDA48"]
+			id: "3BBFA2BE07F7597D"
+			rewards: [{
+				id: "2591B57374565719"
+				item: {
+					count: 1
+					id: "create:filter"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5EE3057D1A1F43AE"
+				item: { count: 1, id: "create:wrench" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1CDC2828B0A391EE"]
+			id: "63883401BDF609D5"
+			rewards: [
+				{
+					id: "6EE18AD273EE6FAE"
+					item: {
+						count: 1
+						id: "minecraft:lava_bucket"
+					}
+					type: "item"
+				}
+				{
+					id: "187C755B8675C7A3"
+					item: {
+						count: 1
+						id: "minecraft:water_bucket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0031A7E64894B170"
+				item: { count: 1, id: "create:encased_fan" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2ECDFE18E7D06813"]
+			id: "160532EA67A38598"
+			rewards: [{
+				count: 4
+				id: "03A2F6978A922E69"
+				item: {
+					count: 1
+					id: "create:steam_whistle"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F2DE75608238B96"
+				item: { count: 1, id: "create:stockpile_switch" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7F974A27FBC6E96A"]
+			id: "40BD81DF57EA7AC4"
+			rewards: [{
+				command: "/locate structure block_factorys_bosses:sandworm_nest"
+				icon: {
+					id: "block_factorys_bosses:sandworm_gauntlet"
+				}
+				id: "58C35E23DD8F7DD5"
+				type: "command"
+			}]
+			tasks: [{
+				id: "206697E5A61CC117"
+				item: { count: 1, id: "create:mechanical_arm" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["480024036431C2C8"]
+			id: "4F8509C34149A9E7"
+			tasks: [{
+				id: "0B747F8B9C1DBC47"
+				item: { count: 1, id: "create:smart_chute" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1CDC2828B0A391EE"]
+			id: "1F5939479A4BB9D6"
+			rewards: [
+				{
+					count: 16
+					id: "760C1B6E727F076A"
+					item: {
+						count: 1
+						id: "create:rose_quartz"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "57E05CE197B4DB03"
+					item: {
+						count: 1
+						id: "minecraft:kelp"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "32B622197D529D95"
+					item: {
+						count: 1
+						id: "minecraft:dried_kelp_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 32L
+					id: "2F0E3BD50073F8E8"
+					item: { count: 1, id: "create:shaft" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "042A8C0A4A0BAD09"
+					item: { count: 1, id: "create:cogwheel" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "54A725C6B7EC714E"
+					item: { count: 1, id: "create:large_cogwheel" }
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1F5939479A4BB9D6"]
+			id: "00843C4FC84EE6E5"
+			tasks: [{
+				id: "61588E46DF48C5E5"
+				item: { count: 1, id: "create:depot" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3EB461AF4183A805"]
+			id: "3A5DD0D8D1306DDA"
+			rewards: [{
+				id: "6DA93CDEA1DE4507"
+				item: {
+					count: 1
+					id: "create:filter"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F40BB3B3083465C"
+				item: { count: 1, id: "create:basin" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["63883401BDF609D5"]
+			id: "1553A1DB854C4A04"
+			tasks: [
+				{
+					id: "57623938539E088A"
+					item: { count: 1, id: "create_connected:fan_haunting_catalyst" }
+					type: "item"
+				}
+				{
+					id: "53F357B5DC18C747"
+					item: { count: 1, id: "create_connected:fan_blasting_catalyst" }
+					type: "item"
+				}
+				{
+					id: "60803590BF988082"
+					item: { count: 1, id: "create_connected:fan_smoking_catalyst" }
+					type: "item"
+				}
+				{
+					id: "184312050BE3C574"
+					item: { count: 1, id: "create_connected:fan_splashing_catalyst" }
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			id: "7C7E4E5E1AE2DEBB"
+			rewards: [{
+				count: 9
+				id: "6BA19C64A72A6B07"
+				item: {
+					count: 1
+					id: "minecraft:blaze_spawn_egg"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "44A63FAAC3AB5EEC"
+				item: { count: 1, id: "create:analog_lever" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["7C7E4E5E1AE2DEBB"]
+			id: "7B027B0978BAE2FD"
+			rewards: [{
+				count: 5
+				id: "428AB7D305A3CC2D"
+				item: {
+					count: 1
+					id: "create:rose_quartz_lamp"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4A03C541CC9D6633"
+					item: { count: 1, id: "create:pulse_repeater" }
+					type: "item"
+				}
+				{
+					id: "1065E9EF7CAE9EF5"
+					item: { count: 1, id: "create:pulse_extender" }
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7C7E4E5E1AE2DEBB"]
+			id: "6ED41C0BD138D3DB"
+			tasks: [
+				{
+					id: "074DB09C3DDC4E69"
+					item: { count: 1, id: "create:powered_latch" }
+					type: "item"
+				}
+				{
+					id: "344B82A7B1654DB8"
+					item: { count: 1, id: "create:powered_toggle_latch" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7C7E4E5E1AE2DEBB"]
+			id: "2E133BEC9EA16F1E"
+			rewards: [{
+				count: 16
+				id: "3B0E62B55A29111D"
+				item: {
+					count: 1
+					id: "minecraft:redstone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B93CFA4FC43B553"
+				item: { count: 1, id: "create:redstone_link" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["688E451A81E46838"]
+			id: "555BAD0ED8BF32D1"
+			tasks: [{
+				id: "1D5725DEEA759C62"
+				item: { count: 1, id: "create:display_link" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["555BAD0ED8BF32D1"]
+			id: "3E751EF08CF2EFE9"
+			tasks: [{
+				id: "620FA07B6145BE7D"
+				item: { count: 1, id: "create:display_board" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["555BAD0ED8BF32D1"]
+			id: "4201C2EA6B7B578D"
+			tasks: [{
+				id: "7D76888186A62FF0"
+				item: { count: 1, id: "create:nixie_tube" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["63883401BDF609D5"]
+			id: "123BD091E85DAE02"
+			rewards: [{
+				count: 8
+				id: "2290A1A6656410A0"
+				item: {
+					count: 1
+					id: "create:bar_of_chocolate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "09AAADB9431ADB8C"
+				item: { count: 1, id: "create:nozzle" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4B5E41F25D0D4DE1"]
+			id: "2418667BB10415D2"
+			rewards: [{
+				id: "213B6F06AC9EE88F"
+				item: {
+					count: 1
+					id: "createdieselgenerators:diesel_bucket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B4490C11756BD66"
+				item: { count: 1, id: "create:fluid_valve" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B5E41F25D0D4DE1"]
+			id: "51D7538EFD6986F9"
+			rewards: [{
+				id: "4BA561DB8D25FD22"
+				item: {
+					count: 1
+					id: "createdieselgenerators:biodiesel_bucket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B6F248E6AB72149"
+				item: { count: 1, id: "create:smart_fluid_pipe" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4B5E41F25D0D4DE1"]
+			id: "23E4848B8A5ECD5F"
+			rewards: [{
+				id: "7F14F1224BBE085A"
+				item: {
+					count: 1
+					id: "createdieselgenerators:gasoline_bucket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D6CC33FD4E45231"
+				item: { count: 1, id: "create:portable_fluid_interface" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1F5939479A4BB9D6"]
+			id: "56A894829E5A2771"
+			rewards: [{
+				count: 32
+				id: "3C7C7DBE063C2D17"
+				item: {
+					count: 1
+					id: "minecraft:chain"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "316ECAB517C3850B"
+					item: { count: 1, id: "bits_n_bobs:large_flanged_cogwheel" }
+					type: "item"
+				}
+				{
+					id: "0D799DD3B50D9423"
+					item: { count: 1, id: "bits_n_bobs:small_flanged_cogwheel" }
+					type: "item"
+				}
+				{
+					id: "4660E4D767A06387"
+					item: { count: 1, id: "createadditionallogistics:lazy_shaft" }
+					type: "item"
+				}
+				{
+					id: "6E47F999DFE4B9F0"
+					item: { count: 1, id: "createadditionallogistics:flexible_shaft" }
+					type: "item"
+				}
+				{
+					id: "51D2D7BC63DD9731"
+					item: { count: 1, id: "createadditionallogistics:lazy_cogwheel" }
+					type: "item"
+				}
+				{
+					id: "2E3EF97883B74CFF"
+					item: { count: 1, id: "createadditionallogistics:lazy_large_cogwheel" }
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			id: "34D427A91BAA0DE9"
+			tasks: [{
+				id: "6517B28456AC3C82"
+				item: { count: 1, id: "create_enchantment_industry:blaze_enchanter" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["34D427A91BAA0DE9"]
+			id: "585407004D5A4721"
+			tasks: [{
+				id: "09541791A84913B1"
+				item: { count: 1, id: "create_enchantment_industry:printer" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["585407004D5A4721"]
+			id: "616F83656B3AEC4E"
+			tasks: [{
+				id: "70B75D381C78045D"
+				item: { count: 1, id: "create_enchantment_industry:experience_lantern" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 4.5d
+		}
+	]
+}

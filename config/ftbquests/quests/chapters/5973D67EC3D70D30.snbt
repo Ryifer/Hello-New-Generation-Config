@@ -1,0 +1,382 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5973D67EC3D70D30"
+	group: "032D94FFF1828E6D"
+	icon: {
+		id: "createbigcannons:solid_shot"
+	}
+	id: "5973D67EC3D70D30"
+	images: [
+		{
+			click: "https://www.bilibili.com/video/BV1qu4m137ST?t=2.3"
+			height: 1.0d
+			hover: [
+				"点击查看教程"
+				"机械动力火炮"
+			]
+			image: "jei:textures/jei/atlas/gui/icons/config_button.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "powergrid:block/circuit_design_table_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "powergrid:block/circuit_design_table_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "powergrid:block/circuit_design_table_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "powergrid:block/circuit_design_table_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "powergrid:block/circuit_design_table_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "powergrid:block/circuit_design_table_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "powergrid:block/circuit_design_table_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "powergrid:block/circuit_design_table_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "powergrid:block/circuit_design_table_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "powergrid:block/circuit_design_table_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "powergrid:block/circuit_design_table_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -1.5d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6F3CE5472B3DE1DC"]
+			id: "6B238379E1706B3C"
+			rewards: [{
+				id: "027F878A95D37A62"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0CCEE69A1DC2BEE2"
+				item: { count: 1, id: "createbigcannons:steel_sliding_breech" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6B238379E1706B3C"]
+			id: "3AC3485366B1F532"
+			rewards: [{
+				id: "6760A81135A69A26"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7FE4FEC43F6EBE46"
+				item: { count: 1, id: "createbigcannons:steel_cannon_chamber" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3AC3485366B1F532"]
+			id: "486EF0888B272CC4"
+			rewards: [{
+				id: "08853F65C6212AA7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "26CC32C5518B16D8"
+				item: { count: 1, id: "createbigcannons:steel_cannon_barrel" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			id: "4678713804568015"
+			tasks: [{
+				id: "636B7139CE20622F"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4678713804568015"]
+			id: "6A4D2877D1E630F5"
+			rewards: [{
+				count: 16
+				id: "070EFD6D93530F28"
+				item: {
+					count: 1
+					id: "createbigcannons:solid_shot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "28818A36C99F300B"
+				item: { count: 1, id: "createbigcannons:casting_sand" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"6A4D2877D1E630F5"
+				"4FFFE5291E07E3B5"
+			]
+			id: "58EC5C58480B1406"
+			rewards: [{
+				count: 16
+				id: "1AC6A335E1283EE0"
+				item: {
+					count: 1
+					id: "createbigcannons:ap_shot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "72B22E3F2B2F0C93"
+				item: { count: 1, id: "createbigcannons:molten_steel_bucket" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["58EC5C58480B1406"]
+			id: "5DF44CAA1670C2CA"
+			rewards: [{
+				count: 16
+				id: "15D6DE757092D734"
+				item: {
+					count: 1
+					id: "createbigcannons:mortar_stone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C7CBCD5B9D35216"
+				item: { count: 1, id: "createbigcannons:cannon_drill" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5DF44CAA1670C2CA"]
+			id: "43D3572968E745DF"
+			rewards: [{
+				count: 16
+				id: "0F6DDCBF084C8867"
+				item: {
+					count: 1
+					id: "createbigcannons:bag_of_grapeshot"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3A5597DFD26CF944"
+					item: { count: 1, id: "createbigcannons:small_steel_cannon_layer" }
+					type: "item"
+				}
+				{
+					id: "160844AE9BCE5819"
+					item: { count: 1, id: "createbigcannons:very_small_steel_cannon_layer" }
+					type: "item"
+				}
+				{
+					id: "5B0DC659955C35D7"
+					item: { count: 1, id: "createbigcannons:cannon_builder" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["43D3572968E745DF"]
+			id: "3A9C4F8F8A0D81DA"
+			rewards: [
+				{
+					count: 16
+					id: "508707DFF081770A"
+					item: {
+						count: 1
+						id: "createbigcannons:he_shell"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7437419C58CDEFC0"
+					item: {
+						count: 1
+						id: "createbigcannons:ap_shell"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "749D5CF613C0FFFD"
+					item: {
+						count: 1
+						id: "createbigcannons:drop_mortar_shell"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "06C229B57EAB76AA"
+					item: {
+						count: 1
+						id: "createbigcannons:proximity_fuze"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "59B400501DBEF08A"
+					item: { count: 1, id: "create:encased_fan" }
+					type: "item"
+				}
+				{
+					id: "50C8E35067C851F0"
+					item: { count: 1, id: "create_connected:fan_blasting_catalyst" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			id: "4FFFE5291E07E3B5"
+			tasks: [
+				{
+					id: "28C77D5F1BAF7856"
+					item: { count: 1, id: "createbigcannons:screw_breech_cast_mould" }
+					type: "item"
+				}
+				{
+					id: "1639724B49865164"
+					item: { count: 1, id: "createbigcannons:sliding_breech_cast_mould" }
+					type: "item"
+				}
+				{
+					id: "529A8341B858C4BC"
+					item: { count: 1, id: "createbigcannons:cannon_end_cast_mould" }
+					type: "item"
+				}
+				{
+					id: "1B9F2BBE2FF81C85"
+					item: { count: 1, id: "createbigcannons:very_large_cast_mould" }
+					type: "item"
+				}
+				{
+					id: "7F75788702CCB758"
+					item: { count: 1, id: "createbigcannons:large_cast_mould" }
+					type: "item"
+				}
+				{
+					id: "6311FBE0ECFCE621"
+					item: { count: 1, id: "createbigcannons:medium_cast_mould" }
+					type: "item"
+				}
+				{
+					id: "39792F8809102E7C"
+					item: { count: 1, id: "createbigcannons:small_cast_mould" }
+					type: "item"
+				}
+				{
+					id: "0A1A0D5E50B587B9"
+					item: { count: 1, id: "createbigcannons:very_small_cast_mould" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			id: "6F3CE5472B3DE1DC"
+			tasks: [{
+				id: "1BA9C8C859383E2C"
+				item: { count: 1, id: "createbigcannons:fixed_cannon_mount" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+	]
+}

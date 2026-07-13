@@ -1,0 +1,62 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "287BA2CF807935D9"
+	group: "42DF9A8C445EFF86"
+	icon: {
+		id: "beyonddimensions:net_creater"
+	}
+	id: "287BA2CF807935D9"
+	images: [
+		{
+			click: "https://b23.tv/OsCUrKw"
+			height: 15.0d
+			hover: ["文字讲解太多了，我要看视频教程！"]
+			image: "create:block/belt/yellow_diagonal_scroll"
+			rotation: 90.0d
+			width: 8.0d
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			height: 15.0d
+			image: "create:block/belt/yellow_diagonal_scroll"
+			rotation: 90.0d
+			width: 8.0d
+			x: 13.5d
+			y: -0.5d
+		}
+		{
+			height: 15.0d
+			image: "create:block/belt/yellow_diagonal_scroll"
+			rotation: 90.0d
+			width: 8.0d
+			x: -10.5d
+			y: -0.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "5E0817E5C707248D"
+		rewards: [{
+			count: 64
+			id: "4D26B9F77C867A33"
+			item: {
+				count: 1
+				id: "minecraft:barrel"
+			}
+			type: "item"
+		}]
+		shape: "none"
+		size: 2.0d
+		tasks: [{
+			id: "4F1A1E2D3170B85B"
+			item: { count: 1, id: "beyonddimensions:net_creater" }
+			match_components: "strict"
+			type: "item"
+		}]
+		x: 1.0d
+		y: -1.0d
+	}]
+}

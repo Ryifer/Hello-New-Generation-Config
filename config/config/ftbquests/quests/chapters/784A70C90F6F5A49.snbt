@@ -1,0 +1,408 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "784A70C90F6F5A49"
+	group: "485E071B353FF153"
+	icon: {
+		id: "aeronautics:andesite_propeller"
+	}
+	id: "784A70C90F6F5A49"
+	images: [
+		{
+			height: 1.0d
+			image: "powergrid:block/circuit_design_table_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "powergrid:block/circuit_design_table_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "powergrid:block/circuit_design_table_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "powergrid:block/circuit_design_table_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "powergrid:block/circuit_design_table_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "powergrid:block/circuit_design_table_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "powergrid:block/circuit_design_table_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "powergrid:block/circuit_design_table_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "powergrid:block/circuit_design_table_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "powergrid:block/circuit_design_table_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "powergrid:block/circuit_design_table_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "powergrid:block/circuit_design_table_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "powergrid:block/circuit_design_table_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			height: 15.0d
+			image: "immersiveengineering:textures/models/blueprint_frame.png"
+			order: -1
+			rotation: 0.0d
+			width: 15.0d
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			click: "https://www.bilibili.com/video/BV1xCo7BKEdg?t=12.9"
+			height: 10.0d
+			hover: ["点击查看固定翼飞机制作教程"]
+			image: "mcshaying:textures/2.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: -3.5d
+			y: -7.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5025EF8C58C02DC1"]
+			id: "55695BB0689DA42D"
+			rewards: [
+				{
+					id: "163ADF492C898818"
+					item: {
+						count: 1
+						id: "aeronautics:wooden_propeller"
+					}
+					type: "item"
+				}
+				{
+					id: "161CD5EFBFCE22A0"
+					item: {
+						count: 1
+						id: "aeronautics:andesite_propeller"
+					}
+					type: "item"
+				}
+				{
+					id: "2E845FBA1C7E4911"
+					item: {
+						count: 1
+						id: "aeronautics:smart_propeller"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1568FEC69C0D2EDD"
+				item: { count: 1, id: "aeronautics:propeller_bearing" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			id: "5025EF8C58C02DC1"
+			rewards: [
+				{
+					id: "7DD041B6A5E8048A"
+					item: {
+						count: 1
+						id: "aeronautics:aviators_goggles"
+					}
+					type: "item"
+				}
+				{
+					id: "6750BEACD0E8EA7E"
+					item: {
+						count: 1
+						id: "simulated:honey_glue"
+					}
+					type: "item"
+				}
+				{
+					id: "32E98C8E5164A805"
+					item: {
+						count: 1
+						id: "create_aeronautics_toolgun:survival_structure_tool"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "713707A0D9E3A31D"
+				item: { count: 1, id: "simulated:physics_assembler" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5025EF8C58C02DC1"]
+			id: "71A8CD17950F9E7E"
+			rewards: [{
+				id: "5696775BED39DE48"
+				item: {
+					count: 1
+					id: "aeronautics:music_disc_cloud_skipper"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "235B75168E34FCCD"
+					item: { count: 1, id: "aeronautics:adjustable_burner" }
+					type: "item"
+				}
+				{
+					id: "3C5A43543DEA6090"
+					item: { count: 1, id: "aeronautics:white_envelope" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["71A8CD17950F9E7E"]
+			id: "085644036C8D8E6B"
+			tasks: [{
+				id: "1328574065120365"
+				item: { count: 1, id: "aeronautics:steam_vent" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["71A8CD17950F9E7E"]
+			id: "6573601764C6C5C9"
+			rewards: [{
+				id: "5E2B49B361E23B57"
+				item: {
+					count: 1
+					id: "simulated:altitude_sensor"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7892F177D7ED6D27"
+				item: { count: 1, id: "simulated:steering_wheel" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["55695BB0689DA42D"]
+			id: "650511D5AE612BDC"
+			rewards: [
+				{
+					count: 64
+					id: "4AA2061680757A3B"
+					item: {
+						count: 1
+						id: "aeronautics:levitite"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "022E08E2E8139415"
+					item: {
+						count: 1
+						id: "aeronautics:pearlescent_levitite"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5CEB83D5B4790DB9"
+				item: { count: 1, id: "aeronautics:gyroscopic_propeller_bearing" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["55695BB0689DA42D"]
+			id: "4B330C9C0FC02882"
+			tasks: [{
+				count: 16L
+				id: "1B423D0883DC788C"
+				item: { count: 1, id: "simulated:white_symmetric_sail" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5025EF8C58C02DC1"]
+			id: "5F9E9900C12EE80D"
+			rewards: [{
+				id: "647A251DF216F9B1"
+				item: {
+					count: 1
+					id: "simulated:white_nameplate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "00F9923267506A1A"
+				item: { count: 1, id: "simulated:red_portable_engine" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5025EF8C58C02DC1"]
+			icon: {
+				id: "simulated:rope_coupling"
+			}
+			id: "1F74719E8E87A936"
+			rewards: [{
+				id: "1D5C63B9D69AA5C2"
+				item: {
+					count: 1
+					id: "simulated:white_nameplate"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6A2F827A445726B4"
+					item: { count: 1, id: "simulated:rope_winch" }
+					type: "item"
+				}
+				{
+					id: "5089C15B077150E4"
+					item: { count: 1, id: "simulated:rope_coupling" }
+					type: "item"
+				}
+				{
+					id: "4A8D820ED00F7052"
+					item: { count: 1, id: "simulated:rope_connector" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5F9E9900C12EE80D"]
+			id: "52D1D550BD08BD15"
+			tasks: [{
+				id: "7AD11FB4943C7677"
+				item: { count: 1, id: "simulated:docking_connector" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5F9E9900C12EE80D"]
+			id: "5EB327C37240443F"
+			tasks: [{
+				id: "0E7309B8631DA29F"
+				item: { count: 1, id: "simulated:analog_transmission" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1F74719E8E87A936"]
+			id: "0585FA396B31976E"
+			tasks: [{
+				id: "500DE143D5B057F9"
+				item: { count: 1, id: "simulated:navigation_table" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1F74719E8E87A936"]
+			id: "51D780CADAEBBFAF"
+			tasks: [{
+				id: "39B07F437B4EDD4B"
+				item: { count: 1, id: "simulated:spring" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.5d
+		}
+	]
+}

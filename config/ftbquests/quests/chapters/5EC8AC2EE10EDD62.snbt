@@ -1,0 +1,77 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5EC8AC2EE10EDD62"
+	group: "032D94FFF1828E6D"
+	icon: {
+		id: "create:contraption_controls"
+	}
+	id: "5EC8AC2EE10EDD62"
+	images: [{
+		height: 1.0d
+		image: "powergrid:block/circuit_design_table_top"
+		rotation: 0.0d
+		width: 1.0d
+		x: -0.5d
+		y: 0.0d
+	}]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0C10FBFA2BF9C7E4"]
+			id: "7AF0AB2628E0844E"
+			tasks: [{
+				id: "17743B3C32B352B0"
+				item: { count: 1, id: "create:contraption_controls" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "0C10FBFA2BF9C7E4"
+			rewards: [{
+				id: "3564C3B29292E5DE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "602A9EAD76B21B7F"
+				item: { count: 1, id: "create:elevator_pulley" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7AF0AB2628E0844E"]
+			id: "4F838BF1D397188C"
+			rewards: [
+				{
+					id: "2A8DCAA7069CA060"
+					item: {
+						count: 1
+						id: "kaleidoscope_cookery:dongpo_pork"
+					}
+					type: "item"
+				}
+				{
+					id: "1266F5B3E7D60080"
+					item: {
+						count: 1
+						id: "create:creative_blaze_cake"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3D333EFA4A9B3370"
+				item: { count: 1, id: "create:redstone_contact" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+	]
+}

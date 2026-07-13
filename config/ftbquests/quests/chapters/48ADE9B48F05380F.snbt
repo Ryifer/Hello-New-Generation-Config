@@ -1,0 +1,192 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "48ADE9B48F05380F"
+	group: "032D94FFF1828E6D"
+	icon: {
+		id: "create:cardboard_package_12x10"
+	}
+	id: "48ADE9B48F05380F"
+	images: [
+		{
+			height: 1.0d
+			image: "powergrid:block/circuit_design_table_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "powergrid:block/circuit_design_table_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "powergrid:block/circuit_design_table_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "powergrid:block/circuit_design_table_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "powergrid:block/circuit_design_table_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "powergrid:block/circuit_design_table_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "powergrid:block/circuit_design_table_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "powergrid:block/circuit_design_table_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "powergrid:block/circuit_design_table_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 3.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0529BCD8E124D3CA"
+			tasks: [{
+				id: "27D44AADC26279F1"
+				item: { count: 1, id: "create:packager" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0529BCD8E124D3CA"]
+			id: "06C0B8230DFB4624"
+			tasks: [{
+				id: "29188E85136F2CDE"
+				item: { count: 1, id: "create:package_frogport" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			id: "0D48B7445BAF3673"
+			tasks: [{
+				id: "482D8AE66830D86B"
+				item: { count: 1, id: "create:stock_ticker" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0D48B7445BAF3673"]
+			id: "05C004423B109880"
+			tasks: [{
+				id: "4A21F08840454CC1"
+				item: { count: 1, id: "create:stock_link" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["05C004423B109880"]
+			id: "5A1FC4B1EDFEE3E5"
+			tasks: [{
+				id: "47F43D906FA710BA"
+				item: { count: 1, id: "create:redstone_requester" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5A1FC4B1EDFEE3E5"]
+			id: "2187FE73B42CEAF3"
+			tasks: [{
+				id: "17A2943DCE7BEAC4"
+				item: { count: 1, id: "create:red_table_cloth" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			id: "1928A866F69B214F"
+			tasks: [{
+				id: "297C0B4CB84E62D8"
+				item: { count: 1, id: "create_mobile_packages:bee_port" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1928A866F69B214F"]
+			id: "118B76F7F79B0FC4"
+			tasks: [{
+				id: "7BF4117C11CB071F"
+				item: { count: 1, id: "create_mobile_packages:portable_stock_ticker" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["118B76F7F79B0FC4"]
+			id: "301B82C06AEB65FA"
+			rewards: [{
+				id: "6F43556BE8C0E3B0"
+				item: {
+					count: 1
+					id: "create_mobile_packages:mobile_packager"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2333594C321E42E7"
+				item: { count: 1, id: "create_mobile_packages:robo_bee" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+	]
+}
