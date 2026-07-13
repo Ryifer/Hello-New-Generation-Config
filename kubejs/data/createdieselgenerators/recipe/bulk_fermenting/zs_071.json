@@ -1,0 +1,35 @@
+{
+    "type": "createdieselgenerators:bulk_fermenting",
+    "ingredients": [
+        {
+            "type": "fluid_stack",
+            "fluid": "kaleidoscope_tavern:glow_berries_juice",
+            "amount": 250
+        },
+        {
+            "type": "fluid_stack",
+            "fluid": "creategearsandtavern:glowflower_brew",
+            "amount": 50,
+            "components": {
+                "creategearsandtavern:kaleidoscope_drink_variant": {
+                    "brew_level": 1,
+                    "drink_id": "kaleidoscope_tavern:glowflower_brew"
+                }
+            }
+        }
+    ],
+    "processing_time": 200,
+    "results": [
+        {
+            "type": "fluid_stack",
+            "fluid": "creategearsandtavern:glowflower_brew",
+            "amount": 300,
+            "components": {
+                "creategearsandtavern:kaleidoscope_drink_variant": {
+                    "brew_level": 1,
+                    "drink_id": "kaleidoscope_tavern:glowflower_brew"
+                }
+            }
+        }
+    ]
+}

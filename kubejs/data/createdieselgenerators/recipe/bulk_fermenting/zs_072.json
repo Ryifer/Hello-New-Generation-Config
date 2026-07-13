@@ -1,0 +1,35 @@
+{
+    "type": "createdieselgenerators:bulk_fermenting",
+    "ingredients": [
+        {
+            "type": "fluid_stack",
+            "fluid": "kaleidoscope_tavern:green_grape_juice",
+            "amount": 250
+        },
+        {
+            "type": "fluid_stack",
+            "fluid": "creategearsandtavern:brandy",
+            "amount": 50,
+            "components": {
+                "creategearsandtavern:kaleidoscope_drink_variant": {
+                    "brew_level": 1,
+                    "drink_id": "kaleidoscope_tavern:brandy"
+                }
+            }
+        }
+    ],
+    "processing_time": 350,
+    "results": [
+        {
+            "type": "fluid_stack",
+            "fluid": "creategearsandtavern:brandy",
+            "amount": 300,
+            "components": {
+                "creategearsandtavern:kaleidoscope_drink_variant": {
+                    "brew_level": 1,
+                    "drink_id": "kaleidoscope_tavern:brandy"
+                }
+            }
+        }
+    ]
+}

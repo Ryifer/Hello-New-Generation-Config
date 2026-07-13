@@ -1,0 +1,24 @@
+{
+    "type": "createdieselgenerators:basin_fermenting",
+    "ingredients": [
+        {
+            "type": "fluid_stack",
+            "fluid": "kaleidoscope_tavern:sweet_berries_juice",
+            "amount": 250
+        }
+    ],
+    "processing_time": 500,
+    "results": [
+        {
+            "type": "fluid_stack",
+            "fluid": "creategearsandtavern:sweet_berry_wine",
+            "amount": 250,
+            "components": {
+                "creategearsandtavern:kaleidoscope_drink_variant": {
+                    "brew_level": 1,
+                    "drink_id": "kaleidoscope_tavern:sweet_berry_wine"
+                }
+            }
+        }
+    ]
+}

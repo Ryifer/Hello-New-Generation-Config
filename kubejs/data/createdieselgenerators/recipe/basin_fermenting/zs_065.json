@@ -1,0 +1,24 @@
+{
+    "type": "createdieselgenerators:basin_fermenting",
+    "ingredients": [
+        {
+            "type": "fluid_stack",
+            "fluid": "kaleidoscope_tavern:glow_berries_juice",
+            "amount": 250
+        }
+    ],
+    "processing_time": 400,
+    "results": [
+        {
+            "type": "fluid_stack",
+            "fluid": "creategearsandtavern:glowflower_brew",
+            "amount": 250,
+            "components": {
+                "creategearsandtavern:kaleidoscope_drink_variant": {
+                    "brew_level": 1,
+                    "drink_id": "kaleidoscope_tavern:glowflower_brew"
+                }
+            }
+        }
+    ]
+}

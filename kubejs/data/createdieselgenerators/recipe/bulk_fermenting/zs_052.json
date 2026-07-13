@@ -1,0 +1,30 @@
+{
+    "type": "createdieselgenerators:bulk_fermenting",
+    "ingredients": [
+        {
+            "type": "fluid_stack",
+            "fluid": "create:potion",
+            "amount": 250,
+            "components": {
+                "minecraft:potion_contents": {
+                    "potion": "minecraft:awkward"
+                }
+            }
+        },
+        {
+            "item": "quark:crab_shell"
+        }
+    ],
+    "processing_time": 200,
+    "results": [
+        {
+            "id": "create:potion",
+            "amount": 250,
+            "components": {
+                "minecraft:potion_contents": {
+                    "potion": "quark:resilience"
+                }
+            }
+        }
+    ]
+}

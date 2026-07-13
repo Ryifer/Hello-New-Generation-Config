@@ -1,0 +1,35 @@
+{
+    "type": "createdieselgenerators:bulk_fermenting",
+    "ingredients": [
+        {
+            "type": "fluid_stack",
+            "fluid": "kaleidoscope_tavern:ice_grape_juice",
+            "amount": 250
+        },
+        {
+            "type": "fluid_stack",
+            "fluid": "creategearsandtavern:ice_wine",
+            "amount": 50,
+            "components": {
+                "creategearsandtavern:kaleidoscope_drink_variant": {
+                    "brew_level": 1,
+                    "drink_id": "kaleidoscope_tavern:ice_wine"
+                }
+            }
+        }
+    ],
+    "processing_time": 400,
+    "results": [
+        {
+            "type": "fluid_stack",
+            "fluid": "creategearsandtavern:ice_wine",
+            "amount": 300,
+            "components": {
+                "creategearsandtavern:kaleidoscope_drink_variant": {
+                    "brew_level": 1,
+                    "drink_id": "kaleidoscope_tavern:ice_wine"
+                }
+            }
+        }
+    ]
+}
