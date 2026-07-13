@@ -1,0 +1,7 @@
+{
+  "type": "immersiveengineering:metal_press",
+  "mold": "immersiveengineering:mold_wire",
+  "input": { "basePredicate": { "tag": "c:plates/copper" }, "count": 1 },
+  "result": { "id": "powergrid:wire", "count": 4 },
+  "energy": 2400
+}

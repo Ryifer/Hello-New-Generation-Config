@@ -1,0 +1,7 @@
+{
+  "type": "immersiveengineering:metal_press",
+  "mold": "immersiveengineering:mold_rod",
+  "input": { "tag": "c:dusts/wood", "count": 4 },
+  "result": { "id": "minecraft:stick", "count": 1 },
+  "energy": 2400
+}
