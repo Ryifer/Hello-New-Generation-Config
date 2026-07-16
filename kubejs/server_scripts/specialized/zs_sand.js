@@ -99,9 +99,9 @@ ServerEvents.recipes(function (event) {
     create.mixing('chipped:tar_sand', [Ingredient.of('#c:sands', 1), Fluid.of('createdieselgenerators:crude_oil', 150)]).heated();
     create.compacting(['biomesoplenty:black_sand', Fluid.of('createdieselgenerators:crude_oil', 125)], 'chipped:tar_sand');
 	
-    create.compacting(Item.of('createdieselgenerators:asphalt_block', 6), [
-		Item.of('chipped:tar_sand', 3),
-		Ingredient.of('#c:gravels', 3)]);
+    create.compacting(Item.of('createdieselgenerators:asphalt_block', 4), [
+		Item.of('chipped:tar_sand', 2),
+		Ingredient.of('#c:gravels', 2)]);
 
     // 1.10 湿沙：沙 + 水 → 搅拌
     create.mixing('chipped:wet_sand', ['minecraft:sand', Fluid.of('minecraft:water', 125)]);
@@ -261,12 +261,12 @@ ServerEvents.recipes(function (event) {
 // ========================================================================
 ServerEvents.tags('item', function (event) {
 
-    var SANDSTONES = ['','cut','chiseled','smooth'];
+    var SANDSTONES = ['','cut_','chiseled_','smooth_'];
     SANDSTONES.forEach(function(s) {
-		event.add('c:sandstone/white_blocks', 'biomesoplenty:' + s + '_white_sandstone');
-		event.add('c:sandstone/orange_blocks', 'biomesoplenty:' + s + '_orange_sandstone');
-		event.add('c:sandstone/black_blocks', 'biomesoplenty:' + s + '_black_sandstone');
-		event.add('c:sandstone/soul_blocks', 'quark:' + s + '_soul_sandstone');
+		event.add('c:sandstone/white_blocks', 'biomesoplenty:' + s + 'white_sandstone');
+		event.add('c:sandstone/orange_blocks', 'biomesoplenty:' + s + 'orange_sandstone');
+		event.add('c:sandstone/black_blocks', 'biomesoplenty:' + s + 'black_sandstone');
+		event.add('c:sandstone/soul_blocks', 'quark:' + s + 'soul_sandstone');
 	});
 
     var SANDS = ['ash_sand','coarse_sand',

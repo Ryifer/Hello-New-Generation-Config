@@ -64,10 +64,10 @@ ServerEvents.recipes(function (event) {
     event.shapeless('chipped:mangrove_tile_barrel', 'chipped:mangrove_brick_barrel');
 
     event.shaped('chipped:gilded_barrel', [
-        'GGG',
-        'GBG',
-        'GGG'
-    ], { G: 'minecraft:gold_nugget', B: 'minecraft:barrel' });
+		'PSP',
+		'PGP',
+		'PSP'
+	], { P: 'minecraft:dark_oak_planks', S: 'minecraft:dark_oak_slab', G: 'minecraft:gold_ingot'});
 
     event.remove({ id: 'createdieselgenerators:crushing/wood_chip_barrels' });
     create.crushing([
@@ -79,7 +79,7 @@ ServerEvents.recipes(function (event) {
     // 三、板条箱体系（29 种）
     // ========================================================================
 
-    // 3.1 简易板条箱 → 切割 → 木板
+    // 3.1 简易板条箱
     var SIMPLE_CRATES = [
         ['acacia_crate',  'minecraft:acacia_planks',  6],
         ['birch_crate',   'minecraft:birch_planks',   6],
@@ -91,16 +91,15 @@ ServerEvents.recipes(function (event) {
         ['spruce_crate',  'minecraft:spruce_planks',  6],
         ['warped_crate',  'minecraft:warped_planks',  6]
     ];
-    /*SIMPLE_CRATES.forEach(function(c) {
-        event.stonecutting(Item.of(c[1], c[2]), 'chipped:' + c[0]);
-    });*/
+    //SIMPLE_CRATES.forEach(function(c) {
+    //    event.stonecutting(Item.of(c[1], c[2]), 'chipped:' + c[0]);
+    //});
     SIMPLE_CRATES.forEach(function(c) {
-        var wood = c[1];
         event.shaped('chipped:' + c[0], [
             'WSW',
             'S S',
             'WSW'
-        ], { W: wood, S: 'minecraft:stick' });
+        ], { W: c[1], S: 'minecraft:stick' });
     });
 	
     create.crushing([
@@ -108,7 +107,7 @@ ServerEvents.recipes(function (event) {
         CreateItem.of('createdieselgenerators:wood_chip', 0.5)
     ], Ingredient.of('#c:crate_simple/wooden', 1));
 
-    // 3.2 加强板条箱 → 切割 → 木板 + 铁粒（分两步：切石出木板、粉碎出铁粒）
+    // 3.2 加强板条箱
     var REINFORCED_CRATES = [
         ['reinforced_acacia_crate',  'minecraft:acacia_planks'],
         ['reinforced_birch_crate',   'minecraft:birch_planks'],
@@ -120,10 +119,10 @@ ServerEvents.recipes(function (event) {
         ['reinforced_spruce_crate',  'minecraft:spruce_planks'],
         ['reinforced_warped_crate',  'minecraft:warped_planks']
     ];
-    REINFORCED_CRATES.forEach(function(c) {
-        event.stonecutting(Item.of(c[1], 6), 'chipped:' + c[0]);
-        create.mixing(Item.of('minecraft:iron_nugget', 4), 'chipped:' + c[0]);
-    });
+    //REINFORCED_CRATES.forEach(function(c) {
+    //    event.stonecutting(Item.of(c[1], 6), 'chipped:' + c[0]);
+    //    create.mixing(Item.of('minecraft:iron_nugget', 4), 'chipped:' + c[0]);
+    //});
     REINFORCED_CRATES.forEach(function(c) {
         event.shaped('chipped:' + c[0], [
             ' S ',
@@ -176,6 +175,7 @@ ServerEvents.recipes(function (event) {
 	DRIPSTONEA.forEach(function(e) {
 		create.filling('chipped:' + e[0], [e[1], Fluid.of('minecraft:water', 500)]);
 	});
+	create.filling('minecraft:pointed_dripstone', ['minecraft:dripstone_block', Fluid.of('minecraft:water', 500)]);
 	var DRIPSTONEB = [
 		['basalt_pointed_dripstone',    'minecraft:basalt'],
 		['blackstone_pointed_dripstone','minecraft:blackstone'],
@@ -190,7 +190,7 @@ ServerEvents.recipes(function (event) {
 	});
 
 	// ========================================================================
-	// 五、白色红石灯 — 移出 chipped 互转 + 海晶灯合成
+	// 五、灯扩展 — 移出 chipped 互转 + 海晶灯合成
 	// ========================================================================
 
 	/*var WHITE_LAMPS = [
@@ -217,6 +217,19 @@ ServerEvents.recipes(function (event) {
 		'RSR',
 		' R '
 	], { R: 'minecraft:redstone', S: 'minecraft:sea_lantern' });*/
+	
+	event.shaped('chipped:glowstone_lantern', [
+		' R ',
+		'RSR',
+		' R '
+	], { R: 'minecraft:iron_nugget', S: 'minecraft:glowstone' });
+
+	event.shaped('chipped:shroomlight_lantern', [
+		' R ',
+		'RSR',
+		' R '
+	], { R: 'minecraft:iron_nugget', S: 'minecraft:shroomlight' });
+
 });
 
 
@@ -275,6 +288,20 @@ ServerEvents.tags('item', function (event) {
 	});
 	// 从supplementaries引入白色红石灯
 	event.add('chipped:white_redstone_lamp', 'supplementaries:redstone_illuminator');
-	
+		
+	// 萤石灯笼和菌光体灯笼
+	var LANTERNS = [
+		'edged_',
+		'fancy_',
+		'framed_',
+		'ornate_',
+		'',
+	];
+	LANTERNS.forEach(function(l) {
+		event.remove('chipped:glowstone', 'chipped:' + l + 'glowstone_lantern');
+		event.add('chipped:glowstone_lantern', 'chipped:' + l + 'glowstone_lantern');
+		event.remove('chipped:shroomlight', 'chipped:' + l + 'shroomlight_lantern');
+		event.add('chipped:shroomlight_lantern', 'chipped:' + l + 'shroomlight_lantern');
+	});
 });
 
