@@ -77,6 +77,7 @@ ServerEvents.recipes(function (event) {
     ]);
 
     // 5.2 盐块 → 磨制 → 9 盐（替代手搓拆解）
+    event.remove({ id: 'bakeries:integration/create/milling/salt' });
     create.milling('9x kaleidoscope_chinesefood:salt',
         'bakeries:raw_salt_block').processingTime(200);
 
