@@ -66,12 +66,12 @@ ServerEvents.recipes(function (event) {
     // 二、Chipped沙体系（12 种）
     // ========================================================================
 
-    // 1.1 灰沙：沙 + 玄武岩 → 粉碎
+    // 1.1 灰沙：沙 + 灰尘 → 搅拌
     //create.crushing('chipped:ash_sand', 'chipped:dusty_gravel').processingTime(200);
     create.mixing('chipped:ash_sand', ['biomesoplenty:black_sand', 'supplementaries:ash']);
     create.splashing('biomesoplenty:black_sand', 'chipped:ash_sand');
 
-    // 1.2 粗沙：沙 + 沙砾 → 搅拌
+    // 1.2 粗沙：沙砂 → 搅拌
     create.mixing('chipped:coarse_sand', 'chipped:sandy_gravel');
 
     // 1.3 荒漠砂：沙 → 加热搅拌（高温干燥）
@@ -89,13 +89,13 @@ ServerEvents.recipes(function (event) {
     create.mixing(Item.of('chipped:overgrown_sand', 2), ['minecraft:sand', 'minecraft:moss_block']);
     create.splashing(CreateItem.of('minecraft:moss_block', 0.35), 'chipped:overgrown_sand');
 
-    // 1.7 珠砂：沙 + 石英 → 搅拌
+    // 1.7 珠砂：海晶石 → 粉碎
     create.crushing('chipped:pearl_sand', 'minecraft:prismarine').processingTime(200);
 
     // 1.8 软沙：沙 → 石磨
     create.milling('chipped:soft_sand', 'minecraft:sand').processingTime(150);
 
-    // 1.9 油沙：沙 + 煤炭 → 搅拌
+    // 1.9 油沙：沙 + 油 → 搅拌
     create.mixing('chipped:tar_sand', [Ingredient.of('#c:sands', 1), Fluid.of('createdieselgenerators:crude_oil', 150)]).heated();
     create.compacting(['biomesoplenty:black_sand', Fluid.of('createdieselgenerators:crude_oil', 125)], 'chipped:tar_sand');
 	
@@ -118,7 +118,7 @@ ServerEvents.recipes(function (event) {
     // 三、Chipped砂砾体系（7 种）
     // ========================================================================
 
-    // 2.4 橙色/花岗砂砾：沙砾 + 铁粒 → 搅拌（铁染）
+    // 2.4 橙色/花岗砂砾：
     //create.mixing('chipped:orange_gravel', ['minecraft:gravel', 'minecraft:iron_nugget']);
     create.milling([
         Item.of('chipped:orange_gravel'),
@@ -129,7 +129,7 @@ ServerEvents.recipes(function (event) {
         CreateItem.of('minecraft:quartz', 0.25),
     ], 'chipped:orange_gravel').processingTime(200);
 
-    // 2.5 粗糙/闪长/大理砂砾：沙砾 → 粉碎（保持粗糙）
+    // 2.5 粗糙/闪长/大理砂砾：
     //create.crushing('chipped:rought_gravel', 'minecraft:gravel').processingTime(100);
     create.milling([
         Item.of('chipped:rought_gravel'),
@@ -145,7 +145,7 @@ ServerEvents.recipes(function (event) {
         CreateItem.of('minecraft:quartz', 0.125)
     ], 'chipped:rought_gravel').processingTime(200);
 	
-    // 2.1 安山砂砾：安山岩 + 沙砾 → 粉碎
+    // 2.1 安山砂砾：安山岩 → 磨粉
     //create.crushing('chipped:andesite_gravel', 'minecraft:andesite').processingTime(200);
     create.milling([
         Item.of('chipped:andesite_gravel'),
@@ -157,7 +157,7 @@ ServerEvents.recipes(function (event) {
         CreateItem.of('minecraft:quartz', 0.05)
     ], 'chipped:andesite_gravel').processingTime(200);
 
-    // 2.3 积尘砂砾：沙砾 → 石磨（磨去棱角）
+    // 2.3 积尘砂砾：沙砾 + 灰尘 → 搅拌
     create.mixing('chipped:dusty_gravel', ['minecraft:gravel', 'supplementaries:ash']);
     create.splashing('minecraft:gravel', 'chipped:dusty_gravel');
 
@@ -200,22 +200,22 @@ ServerEvents.recipes(function (event) {
         output: { count: 1, id: 'chipped:sifted_soul_sand' }
     })
 	
-    // 3.4 砾混魂沙：魂沙 + 沙砾 → 搅拌
+    // 3.4 砾混魂沙：魂沙 + 沙砾 → 粗糙混合（不搅拌）
     event.shapeless(Item.of('chipped:graveled_soul_sand', 2), ['minecraft:soul_sand', 'minecraft:gravel']);
 
-    // 3.6 硬化魂沙：魂沙 + 岩浆膏 → 加热搅拌
+    // 3.5 硬化魂沙：普通魂沙压制
     create.compacting('chipped:hardened_soul_sand', 'minecraft:soul_sand')
-    create.milling('minecraft:soul_sand', 'chipped:hardened_soul_sand').processingTime(150);
+    create.milling('chipped:fine_soul_sand', 'chipped:hardened_soul_sand').processingTime(150); // 跳过一级的磨粉，缩短加工链
 
-    // 3.6 硬化魂沙：魂沙 + 岩浆膏 → 加热搅拌
+    // 3.6 踩踏魂沙：硬化魂沙压制
     create.compacting('chipped:trampled_soul_sand', 'chipped:hardened_soul_sand')
     create.milling('minecraft:soul_sand', 'chipped:trampled_soul_sand').processingTime(150);
 	
-    // 3.6 硬化魂沙：魂沙 + 岩浆膏 → 加热搅拌
+    // 3.7 褪色魂沙：踩踏魂沙压制
     create.compacting('chipped:faded_soul_sand', 'chipped:trampled_soul_sand')
     create.milling('chipped:hardened_soul_sand', 'chipped:faded_soul_sand').processingTime(150);
 	
-    // 3.6 硬化魂沙：魂沙 + 岩浆膏 → 加热搅拌
+    // 3.8 光滑魂沙：褪色魂沙压制
     create.compacting('chipped:smoothed_soul_sand', 'chipped:faded_soul_sand')
     create.milling('chipped:trampled_soul_sand', 'chipped:smoothed_soul_sand').processingTime(150);
 	
@@ -239,6 +239,8 @@ ServerEvents.recipes(function (event) {
             secondaries: [{ chance: 0.5, output: { tag: 'c:dusts/saltpeter' } }]
         });
     });
+
+	// 考虑引入热力膨胀的沙砾熔炼得熔渣/矿渣配方，但需斟酌
 	
     // 4.1 矿渣 → 粉碎轮 → 矿渣沙砾（与 IE 粉碎机互补）
     create.crushing('immersiveengineering:slag_gravel', 'immersiveengineering:slag').processingTime(200);
@@ -246,7 +248,7 @@ ServerEvents.recipes(function (event) {
     // 4.2 矿渣沙砾 → 粉碎轮 → 砂（制砂）
     create.crushing('biomesoplenty:orange_sand', 'immersiveengineering:slag_gravel').processingTime(200);
 
-    // 4.3 矿渣沙砾 → 洗涤器 → 12.5% 铝粒（水洗回收铝）
+    // 4.3 矿渣沙砾 → 水洗 → 12.5% 铝粒
     create.splashing(CreateItem.of('immersiveengineering:nugget_aluminum', 0.125), 'immersiveengineering:slag_gravel');
 
     // 粗砂
