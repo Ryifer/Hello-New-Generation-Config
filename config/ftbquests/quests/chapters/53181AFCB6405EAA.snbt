@@ -15,7 +15,11 @@
 		x: -5.0d
 		y: 1.5d
 	}]
+<<<<<<< Updated upstream
 	order_index: 1
+=======
+	order_index: 2
+>>>>>>> Stashed changes
 	quest_links: [ ]
 	quests: [
 		{

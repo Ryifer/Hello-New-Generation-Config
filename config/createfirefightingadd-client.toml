@@ -1,0 +1,4 @@
+#Particle density multiplier for firefighting spray effects (0.0-1.0). 1.0 = full particles, 0.5 = half, 0.0 = none. Client-side only.
+# Default: 1.0
+# Range: 0.0 ~ 1.0
+particleDensity = 1.0

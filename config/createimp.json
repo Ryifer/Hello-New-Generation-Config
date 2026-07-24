@@ -1,0 +1,40 @@
+{
+  "scrapBucket": {
+    "itemsPerNugget": 64,
+    "mbPerNugget": 2000,
+    "generateExperienceNuggets": true,
+    "brassScrapBucketProduceItem": "create:experience_nugget",
+    "itemTransferAmount": 64,
+    "itemTransferInterval": 10,
+    "fluidTransferAmount": 1024,
+    "fluidTransferInterval": 10,
+    "blacklistedItems": [],
+    "blacklistedFluids": []
+  },
+  "quickUnpack": {
+    "enabled": true
+  },
+  "labeledRedstoneLinkConfig": {
+    "showFrequencyLabel": true
+  },
+  "networkManagerConfig": {
+    "longPressThreshold": 10
+  },
+  "batchMechanicalCrafterConfig": {
+    "maxSpeedStressImpact": 2048,
+    "showItemCount": true
+  },
+  "workWarehouseConfig": {
+    "backToConnectedInventoryAddress": "/back"
+  },
+  "processManagerConfig": {
+    "historyLogRetentionCount": 10
+  },
+  "packagerAddressFilterConfig": {
+    "enabled": true
+  },
+  "templateConfig": {
+    "stockKeeperTemplateDisplayStyle": "STYLE_1",
+    "mergeTemplateWithStock": false
+  }
+}

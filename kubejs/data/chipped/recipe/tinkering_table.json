@@ -6,8 +6,6 @@
     {"tag": "chipped:redstone_lamp"},
     {"tag": "chipped:white_redstone_lamp"},
     {"tag": "chipped:redstone_block"},
-    {"tag": "chipped:glowstone_lantern"},
-    {"tag": "chipped:shroomlight_lantern"},
     {"tag": "chipped:lantern"},
     {"tag": "chipped:soul_lantern"},
     {"tag": "chipped:special_lantern"},

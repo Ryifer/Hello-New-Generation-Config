@@ -1,5 +1,0 @@
-[General]
-	#The padding for the chunk loading radius.
-	# Default: 2
-	# Range: 0 ~ 16
-	chunkLoadPadding = 2

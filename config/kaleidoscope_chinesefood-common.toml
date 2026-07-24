@@ -1,0 +1,5 @@
+["Compatibility Settings"]
+	#是否启用内置玉米
+	enableCornDelightCompat = true
+	#是否启用模糊烹饪配方
+	enableCustomPacks = true

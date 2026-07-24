@@ -1,0 +1,2024 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "10CF8D53594C5B21"
+	group: "18B92B6CD69F44D8"
+	icon: {
+		id: "create:schematic_and_quill"
+	}
+	id: "10CF8D53594C5B21"
+	images: [
+		{
+			height: 20.0d
+			image: "immersiveengineering:textures/models/blueprint_frame.png"
+			order: -1
+			rotation: 0.0d
+			width: 30.0d
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: -13.5d
+			y: -7.5d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: -9.5d
+			y: -7.5d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: -5.5d
+			y: -7.5d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: -1.5d
+			y: -7.5d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: 6.5d
+			y: -7.5d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: -13.5d
+			y: -4.0d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: -13.5d
+			y: -0.5d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: -13.5d
+			y: 3.0d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: -9.5d
+			y: -4.0d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: -9.5d
+			y: -0.5d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: -9.5d
+			y: 3.0d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			click: "https://www.bilibili.com/video/BV1D7R7BKEkk?"
+			height: 1.0d
+			hover: ["点击跳转载具使用详情"]
+			image: "quark:textures/attribute/unknown.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -15.0d
+			y: -9.0d
+		}
+		{
+			height: 2.0d
+			image: "mcshaying:textures/55.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -13.5d
+			y: -7.5d
+		}
+		{
+			click: "https://www.bilibili.com/video/BV1SW9sBHESf?"
+			height: 1.0d
+			hover: ["点击跳转载具使用详情"]
+			image: "quark:textures/attribute/unknown.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: -9.0d
+		}
+		{
+			height: 2.0d
+			image: "mcshaying:textures/58.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -5.5d
+			y: -7.5d
+		}
+		{
+			height: 1.0d
+			hover: ["点击跳转载具使用详情"]
+			image: "quark:textures/attribute/unknown.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			height: 3.0d
+			image: "mcshaying:textures/84.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			click: "https://www.bilibili.com/video/BV1CtojBtE4E?"
+			height: 1.0d
+			hover: ["点击跳转载具演示"]
+			image: "quark:textures/attribute/unknown.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -9.0d
+		}
+		{
+			height: 3.0d
+			image: "mcshaying:textures/ss2.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 6.5d
+			y: -7.5d
+		}
+		{
+			click: "https://www.bilibili.com/video/BV1PtR7B8Ejh?"
+			height: 1.0d
+			hover: ["点击跳转载具使用详情"]
+			image: "quark:textures/attribute/unknown.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			height: 2.0d
+			image: "mcshaying:textures/59.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			click: "https://space.bilibili.com/47777182?spm_id_from=333.337.0.0"
+			height: 1.0d
+			hover: ["点击跳转载具使用详情"]
+			image: "quark:textures/attribute/unknown.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -9.0d
+		}
+		{
+			height: 3.0d
+			image: "mcshaying:textures/eee5.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: -1.5d
+			y: -7.5d
+		}
+		{
+			height: 3.0d
+			image: "mcshaying:textures/fff8.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			height: 3.0d
+			image: "mcshaying:textures/fff10.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			click: "https://www.bilibili.com/video/BV1JmLP6DEHb?"
+			height: 1.0d
+			hover: ["点击跳转载具使用详情"]
+			image: "quark:textures/attribute/unknown.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: -9.0d
+		}
+		{
+			height: 2.0d
+			image: "mcshaying:textures/d2.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -9.5d
+			y: -7.5d
+		}
+		{
+			height: 2.0d
+			image: "mcshaying:textures/ffff4.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -13.5d
+			y: -0.5d
+		}
+		{
+			height: 3.0d
+			image: "mcshaying:textures/gg21.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			height: 3.0d
+			image: "mcshaying:textures/gggg3.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -9.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			hover: ["点击跳转载具使用详情"]
+			image: "quark:textures/attribute/unknown.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -9.0d
+		}
+		{
+			click: "https://www.bilibili.com/video/BV1WENt6aEtQ/?vd_source=1d24525f7230af3e68f6fed294a4c9ff"
+			height: 1.0d
+			hover: ["点击跳转载具使用详情"]
+			image: "quark:textures/attribute/unknown.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -15.0d
+			y: -5.5d
+		}
+		{
+			click: "https://www.bilibili.com/video/BV1v7jc6BEkL?t=14.1"
+			height: 1.0d
+			hover: ["点击跳转载具使用详情"]
+			image: "quark:textures/attribute/unknown.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -15.0d
+			y: -2.0d
+		}
+		{
+			click: "https://www.bilibili.com/video/BV1RYTb6ZEZW/?share_source=copy_web&vd_source=be02c765f3e593279bbac1bf093cb803"
+			height: 1.0d
+			hover: ["点击跳转载具使用详情"]
+			image: "quark:textures/attribute/unknown.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: -2.0d
+		}
+		{
+			click: "https://www.bilibili.com/video/BV1gsN76mErm?t=0.7"
+			height: 1.0d
+			hover: ["点击跳转载具使用详情"]
+			image: "quark:textures/attribute/unknown.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			click: "https://b23.tv/U038DsG"
+			height: 1.0d
+			hover: ["点击跳转载具使用详情"]
+			image: "quark:textures/attribute/unknown.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: -5.5d
+		}
+		{
+			click: "https://www.bilibili.com/video/BV1N6MK6UEFW?t=1.3"
+			height: 1.0d
+			hover: ["点击跳转载具使用详情"]
+			image: "quark:textures/attribute/unknown.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			hover: ["点击跳转载具使用详情"]
+			image: "quark:textures/attribute/unknown.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			height: 3.0d
+			image: "mcshaying:textures/ff3.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -13.5d
+			y: -4.0d
+		}
+		{
+			height: 5.0d
+			image: "mcshaying:textures/ff7.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			height: 3.0d
+			image: "mcshaying:textures/fff53.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -9.5d
+			y: -4.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			icon: {
+				id: "hello_new_generation_core:aa5"
+			}
+			id: "37A38518936290F7"
+			rewards: [{
+				id: "05D8BD288BF04F57"
+				item: {
+					count: 1
+					id: "hello_new_generation_core:aa5"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 38L
+					id: "7965E9F7C6500AD9"
+					item: { count: 1, id: "create:white_sail" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10L
+					id: "59CE0CEF843AE6B4"
+					item: { count: 1, id: "simulated:rope_connector" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "114F5DED7A742B9D"
+					item: { count: 1, id: "simulated:analog_transmission" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "4C968C3B35D9F0F9"
+					item: { count: 1, id: "simulated:red_portable_engine" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "484E2CB240CBA2E3"
+					item: { count: 1, id: "create:cogwheel" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "15106EAAC53B7569"
+					item: { components: { "minecraft:block_entity_data": { Keys: [ { FirstItem: { count: 1, id: "create:andesite_casing" }, GLFWKey: 32, SecondItem: { count: 1, id: "create:andesite_casing" } }, { FirstItem: { count: 1, id: "create:cogwheel" }, GLFWKey: 65, SecondItem: { } }, { FirstItem: { }, GLFWKey: 81, SecondItem: { count: 1, id: "minecraft:oak_planks" } }, { FirstItem: { count: 1, id: "minecraft:grass_block" }, GLFWKey: 83, SecondItem: { } }, { FirstItem: { }, GLFWKey: 68, SecondItem: { count: 1, id: "create:cogwheel" } }, { FirstItem: { count: 1, id: "minecraft:oak_planks" }, GLFWKey: 69, SecondItem: { } }, { FirstItem: { }, GLFWKey: 87, SecondItem: { count: 1, id: "minecraft:grass_block" } } ], id: "simulated:linked_typewriter", typedEntry: "EQEEW ADADADADWSADWWSQEA" } }, count: 1, id: "simulated:linked_typewriter" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "6644CC59865F4432"
+					item: { count: 1, id: "simulated:throttle_lever" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "573A6D2774E779BB"
+					item: { count: 1, id: "create:vertical_gearbox" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "2E348E0D80F434EC"
+					item: { count: 1, id: "simulated:directional_gearshift" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "3499CBAD197886A6"
+					item: { count: 1, id: "simulated:torsion_spring" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "7E4DFC0A0C9B5F7B"
+					item: { count: 1, id: "offroad:wheel_mount" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7235ACF3CA45B332"
+					item: { count: 1, id: "offroad:large_tire" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "1DFB8CA0A9130242"
+					item: { count: 1, id: "aeronautics:propeller_bearing" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5L
+					id: "6BD0DA97DED725AA"
+					item: { count: 1, id: "create:mechanical_bearing" }
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 13L
+					id: "78CF021BF7145F19"
+					item: { count: 1, id: "simulated:white_symmetric_sail" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3BA368ECC27A37CA"
+					item: { count: 1, id: "minecraft:diamond_block" }
+					type: "item"
+				}
+			]
+			x: -13.5d
+			y: -6.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "hello_new_generation_core:aa5"
+			}
+			id: "4D8A9353F3AC6A7B"
+			rewards: [{
+				id: "1FECBEF370D05B67"
+				item: {
+					count: 1
+					id: "hello_new_generation_core:aa4"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "24B0F68E513C62C6"
+					item: { count: 1, id: "create:white_sail" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "65AD94EE6CD31FB4"
+					item: { count: 1, id: "simulated:gimbal_sensor" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "1B745D8095E5B44F"
+					item: { count: 1, id: "simulated:analog_transmission" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "078CEF28FC44C8A7"
+					item: { count: 1, id: "simulated:altitude_sensor" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "5C81A5B21CDB4B53"
+					item: { count: 1, id: "simulated:red_portable_engine" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "5DC36E80CC762A85"
+					item: { count: 1, id: "aeronautics:propeller_bearing" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "42B254AB8640F654"
+					item: { components: { "minecraft:custom_data": { DriveByWireHub: 5629785216542367875L, Hub: 5629785216542367875L } }, count: 1, id: "create_tweaked_controllers:tweaked_linked_controller" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "36120649F1B0E825"
+					item: { count: 1, id: "simulated:velocity_sensor" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3B63CC6C56ADA5DC"
+					item: { components: { "minecraft:block_entity_data": { Keys: [ { FirstItem: { count: 1, id: "create:cogwheel" }, GLFWKey: 65, SecondItem: { } }, { FirstItem: { }, GLFWKey: 81, SecondItem: { count: 1, id: "minecraft:oak_planks" } }, { FirstItem: { }, GLFWKey: 83, SecondItem: { count: 1, id: "minecraft:grass_block" } }, { FirstItem: { }, GLFWKey: 68, SecondItem: { count: 1, id: "create:cogwheel" } }, { FirstItem: { count: 1, id: "minecraft:oak_planks" }, GLFWKey: 69, SecondItem: { } }, { FirstItem: { count: 1, id: "minecraft:grass_block" }, GLFWKey: 87, SecondItem: { } } ], id: "simulated:linked_typewriter", typedEntry: "DADADADAAQEWWSADEDQQEQQE" } }, count: 1, id: "simulated:linked_typewriter" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "5E715A46DED03557"
+					item: { count: 1, id: "create:vertical_gearbox" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "5770172A1567CA31"
+					item: { count: 1, id: "simulated:throttle_lever" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "735290AEB22CBF5B"
+					item: { count: 1, id: "simulated:directional_gearshift" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "64597DAE857AB073"
+					item: { count: 1, id: "simulated:torsion_spring" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5L
+					id: "2E26B06208DF9C43"
+					item: { count: 1, id: "create:mechanical_bearing" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "72756D09D47F8B72"
+					item: { count: 1, id: "offroad:wheel_mount" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "7EF2FF85C0EBC776"
+					item: { count: 1, id: "offroad:large_tire" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "72855F7028E9E8CB"
+					item: { count: 1, id: "simulated:iron_handle" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "10DA298DA3131ED1"
+					item: { count: 1, id: "create:encased_chain_drive" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "69C539185DC8768F"
+					item: { count: 1, id: "minecraft:diamond_block" }
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -6.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "hello_new_generation_core:aa5"
+			}
+			id: "02C345C4465EC096"
+			rewards: [{
+				id: "1BF8F696007F8DA7"
+				item: {
+					count: 1
+					id: "hello_new_generation_core:c1"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 7L
+					id: "1CE4387BD170357D"
+					item: { count: 1, id: "create:redstone_link" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "26A021CBAE656EC9"
+					item: { count: 1, id: "compactflap:compact_flap_bearing" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 7L
+					id: "58E99E9D367EC7C8"
+					item: { count: 1, id: "simulated:swivel_bearing" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 7L
+					id: "7D60723BE75B8D7C"
+					item: { count: 1, id: "createadditionallogistics:flexible_shaft" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "06090B3A9C8C1FE4"
+					item: { count: 1, id: "aeronautics:propeller_bearing" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "7AEAF99C9BAEB216"
+					item: { count: 1, id: "create_connected:fluid_vessel" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5L
+					id: "72BE0780CE9EE5F2"
+					item: { count: 1, id: "simulated:analog_transmission" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "508B4D4AB31E7BB9"
+					item: { count: 1, id: "aeronautics:andesite_propeller" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10L
+					id: "0DC93576E20F22D5"
+					item: { count: 1, id: "create:vertical_gearbox" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3BDD7FEB30389758"
+					item: { count: 1, id: "simulated:throttle_lever" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "2E9C76B1C280F186"
+					item: { count: 1, id: "simulated:torsion_spring" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "6C57BCFAF5102DDE"
+					item: { count: 1, id: "createdieselgenerators:large_diesel_engine" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "2AC8D49DE1D4FD58"
+					item: { count: 1, id: "simulated:directional_gearshift" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 6L
+					id: "0B16B8E4F562668C"
+					item: { count: 1, id: "minecraft:diamond" }
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "hello_new_generation_core:aa5"
+			}
+			id: "5128C291229A4140"
+			rewards: [{
+				id: "7F03886D27FB86A4"
+				item: {
+					count: 1
+					id: "hello_new_generation_core:ss2"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 9L
+					id: "18B1DE0B3C4733F1"
+					item: { count: 1, id: "simulated:rope_connector" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "335F1E2E65E7DE7E"
+					item: { count: 1, id: "offroad:wheel_mount" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "1BD3243FC9BC1DC3"
+					item: { count: 1, id: "simulated:analog_transmission" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3890A7AD73BAF108"
+					item: { count: 1, id: "create:mechanical_arm" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "45CE4222D4A05431"
+					item: { count: 1, id: "offroad:small_tire" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "1F09D433B38FA5C0"
+					item: { count: 1, id: "create:adjustable_chain_gearshift" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 25L
+					id: "55D9FFFC6642D4D7"
+					item: { count: 1, id: "simulated:white_symmetric_sail" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 13L
+					id: "2B3E34506BEA3978"
+					item: { count: 1, id: "simulated:torsion_spring" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 13L
+					id: "1F85A80DE3E0085A"
+					item: { count: 1, id: "create:white_sail" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "78972FB11C946E92"
+					item: { count: 1, id: "create:mechanical_bearing" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 6L
+					id: "4989BB8792EE312A"
+					item: { count: 1, id: "simulated:rope_coupling" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "6A6579CC4C005B6E"
+					item: { count: 1, id: "simulated:directional_gearshift" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "244064198AB62CE8"
+					item: { count: 1, id: "simulated:red_portable_engine" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "54FFB4328402339A"
+					item: { count: 1, id: "aeronautics:propeller_bearing" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 13L
+					id: "6EE3290DAA9A3012"
+					item: { count: 1, id: "simulated:throttle_lever" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "3D24A550ECA20847"
+					item: { count: 1, id: "createbigcannons:fixed_cannon_mount" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4AB6D90E6E4D47C7"
+					item: { count: 1, id: "minecraft:netherite_ingot" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -6.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "hello_new_generation_core:aa11"
+			}
+			id: "0FA4AF540898DC68"
+			rewards: [{
+				id: "3D98DA41BC428E26"
+				item: {
+					count: 1
+					id: "hello_new_generation_core:aa11"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "27E323CDC0A74F94"
+					item: { count: 1, id: "offroad:wheel_mount" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "02F84204515A902E"
+					item: { count: 1, id: "offroad:large_tire" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "7F634F7A9FFD97B5"
+					item: { count: 1, id: "create:fluid_tank" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "79E9C53FE0BEEC40"
+					item: { count: 1, id: "create:fluid_pipe" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "724DB16251238BFC"
+					item: { count: 1, id: "create:mechanical_bearing" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "535045E60D263E02"
+					item: { count: 1, id: "simulated:docking_connector" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "1EE645B0A57A0044"
+					item: { count: 1, id: "simulated:white_symmetric_sail" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 9L
+					id: "0F85F1AEF13631FF"
+					item: { count: 1, id: "create:gearbox" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 20L
+					id: "5B8A05B586F1BEEC"
+					item: { count: 1, id: "create:shaft" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 22L
+					id: "0589055F50D1F80D"
+					item: { count: 1, id: "minecraft:chain" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "6A079AC7D88E21D0"
+					item: { count: 1, id: "bits_n_bobs:small_flanged_cogwheel" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3F80EA37D52E05AF"
+					item: { count: 1, id: "create:powered_toggle_latch" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4EDEB650FF000245"
+					item: { count: 1, id: "simulated:redstone_accumulator" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "7E8CC950BB8CE547"
+					item: { count: 1, id: "simulated:torsion_spring" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7DB5E1BA85E9D9B6"
+					item: { count: 1, id: "simulated:analog_transmission" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4E84799E458593C6"
+					item: { count: 1, id: "simulated:directional_gearshift" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7B97D7D3103A6E89"
+					item: { count: 1, id: "create:rotation_speed_controller" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "06945D479C671995"
+					item: { count: 1, id: "create_connected:overstress_clutch" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7DAD81336DCEE57E"
+					item: { count: 1, id: "create_connected:centrifugal_clutch" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "16D175D76980B00F"
+					item: { count: 1, id: "createdieselgenerators:huge_diesel_engine" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "1899F0FF764F4D74"
+					item: { count: 1, id: "minecraft:netherite_ingot" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "create:cardboard_package_12x12"
+			}
+			id: "12492C42DA95B2C5"
+			rewards: [{
+				id: "42897AF03E8CDF7F"
+				item: {
+					count: 1
+					id: "hello_new_generation_core:e9"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "1DBF0CF17DA572B1"
+					item: { count: 1, id: "copycats:copycat_block" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "740923BE256132E3"
+					item: { count: 1, id: "simulated:white_symmetric_sail" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 32L
+					id: "25BE9B43C7A84523"
+					item: { count: 1, id: "create:white_sail" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "43E748BE8E373201"
+					item: { count: 1, id: "simulated:torsion_spring" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "23F038E61536AB03"
+					item: { count: 1, id: "aeronautics:propeller_bearing" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "699AD48BB3EF5C79"
+					item: { count: 1, id: "bits_n_bobs:small_flanged_cogwheel" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "0DF4A597F03471CA"
+					item: { count: 1, id: "simulated:directional_gearshift" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "5CF060508CA6BB30"
+					item: { count: 1, id: "simulated:analog_transmission" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 12L
+					id: "0D63D5E2D1CC8870"
+					item: { count: 1, id: "create:framed_glass" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "1FAAFA9ED0DC3C6C"
+					item: { count: 1, id: "simulated:throttle_lever" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2BAE151A786A4886"
+					item: { count: 1, id: "create:mechanical_pump" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 12L
+					id: "31F0885124ABBA8D"
+					item: { count: 1, id: "minecraft:iron_block" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "230B9C8E0E6B0701"
+					item: { count: 1, id: "createdieselgenerators:large_diesel_engine" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 12L
+					id: "13898490CC9C94E9"
+					item: { count: 1, id: "create:redstone_link" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7C0E14DE1D1A3C50"
+					item: { count: 1, id: "create:hand_crank" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "40417FDD5EC3625F"
+					item: { count: 1, id: "create_connected:fluid_vessel" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "24925A933558C2AA"
+					item: { count: 1, id: "create:fluid_pipe" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 32L
+					id: "1F5C862385E6C304"
+					item: { count: 1, id: "create:andesite_alloy" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "create:cardboard_package_12x12"
+			}
+			id: "517BC6E38A738830"
+			rewards: [{
+				id: "2AE082664F3A96BE"
+				item: {
+					count: 1
+					id: "hello_new_generation_core:f14"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 47L
+					id: "771CE7988151AD9D"
+					item: { count: 1, id: "create:brass_casing" }
+					type: "item"
+				}
+				{
+					count: 60L
+					id: "24BFB79EC105CD0F"
+					item: { count: 1, id: "create:white_sail" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4A9DF87136920CBD"
+					item: { count: 1, id: "offroad:wheel_mount" }
+					type: "item"
+				}
+				{
+					count: 19L
+					id: "2B9CECACF19F4EC3"
+					item: { count: 1, id: "create:encased_chain_drive" }
+					type: "item"
+				}
+				{
+					id: "167BE3B293B61751"
+					item: { count: 1, id: "simulated:docking_connector" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7E306FAE59A93317"
+					item: { count: 1, id: "offroad:small_tire" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "118EDE9EE53BB1BD"
+					item: { count: 1, id: "cbc_compact_mount:compact_cannon_mount" }
+					type: "item"
+				}
+				{
+					id: "732FB26D3681DFE7"
+					item: { count: 1, id: "createbigcannons:cannon_mount" }
+					type: "item"
+				}
+				{
+					id: "74A4D3808F2137E6"
+					item: { count: 1, id: "simulated:analog_transmission" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6BE4A2918ACAF152"
+					item: { count: 1, id: "aeronautics:propeller_bearing" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "31FAF01AAD01C051"
+					item: { count: 1, id: "create:redstone_link" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "38C8E1609B67A818"
+					item: { count: 1, id: "simulated:directional_gearshift" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "06095BEB9182B56F"
+					item: { count: 1, id: "createendertransmission:energy_transmitter" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "5B91B45BF0959490"
+					item: { count: 1, id: "simulated:torsion_spring" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4C9FAB92A76B897C"
+					item: { count: 1, id: "create:mechanical_bearing" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -6.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "minecraft:barrier"
+			}
+			id: "76D0C20B537C9C42"
+			rewards: [{
+				id: "1D90A98803142C2B"
+				item: {
+					count: 1
+					id: "hello_new_generation_core:f12"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2CE5B3B13D01D849"
+					item: { count: 1, id: "hello_new_generation_core:f12" }
+					type: "item"
+				}
+				{
+					id: "0813B12FD7639EB8"
+					item: { count: 1, id: "minecraft:barrier" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "hello_new_generation_core:c2"
+			}
+			id: "2B52F307C8ED8EAC"
+			rewards: [{
+				id: "15B6E459EA5ED469"
+				item: {
+					count: 1
+					id: "hello_new_generation_core:d2"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "731D4B201CCBD692"
+					item: { count: 1, id: "simulated:redstone_accumulator" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "5218471123DF3E46"
+					item: { count: 1, id: "offroad:wheel_mount" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "07156AB8F20C8E30"
+					item: { count: 1, id: "offroad:small_tire" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "070CE3F25276634E"
+					item: { count: 1, id: "create:mechanical_pump" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 20L
+					id: "025F68620297E91F"
+					item: { count: 1, id: "create:white_sail" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "44B3DC4BB3CCF178"
+					item: { count: 1, id: "simulated:gray_portable_engine" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "1AF39640FBA521A9"
+					item: { count: 1, id: "compactflap:compact_flap_bearing" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "37DC597B71302B8F"
+					item: { count: 1, id: "simulated:white_symmetric_sail" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "6089FFAA3E3F050B"
+					item: { count: 1, id: "createdieselgenerators:large_diesel_engine" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "6ACA1D996FF1419E"
+					item: { count: 1, id: "aeronautics:propeller_bearing" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4257980EB85D1E14"
+					item: { count: 1, id: "createdieselgenerators:engine_turbocharger" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "63E18FC7607CC28B"
+					item: { count: 1, id: "simulated:analog_transmission" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 6L
+					id: "3E7F43D7742F7008"
+					item: { count: 1, id: "minecraft:diamond" }
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: -6.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "create:cardboard_package_12x12"
+			}
+			id: "6F92735BBCE7F811"
+			rewards: [{
+				id: "6BC976703E3FD250"
+				item: {
+					count: 1
+					id: "hello_new_generation_core:f16"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 36L
+					id: "773D1642433B458E"
+					item: { count: 1, id: "railways:white_slashed_locometal" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4717D1BA7CD4B29E"
+					item: { count: 1, id: "copycats:copycat_slope" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "5B9E09A6657D8081"
+					item: { count: 1, id: "copycats:copycat_block" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "65D5204051CC303C"
+					item: { count: 1, id: "beyonddimensions:net_energy_pathway" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "55F766AC6E4A9E3B"
+					item: { count: 1, id: "createpropulsion:ion_thruster" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "2F72AB6B9F4EA059"
+					item: { count: 1, id: "simulated:docking_connector" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6FB6B37DA5FF4D58"
+					item: { count: 1, id: "create:mechanical_bearing" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "602F21C73A53269A"
+					item: { count: 1, id: "simulated:torsion_spring" }
+					type: "item"
+				}
+				{
+					id: "4D8CB7F78B8B4E31"
+					item: { count: 1, id: "simulated:red_portable_engine" }
+					type: "item"
+				}
+			]
+			x: -13.5d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "create:cardboard_package_12x12"
+			}
+			id: "05B44F5870E0616A"
+			rewards: [{
+				id: "0A44B57DFBCBE3A0"
+				item: {
+					count: 1
+					id: "hello_new_generation_core:f34"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "03AF6DAC84307566"
+					item: { count: 1, id: "createdieselgenerators:diesel_engine" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "69C2E48D76472903"
+					item: { count: 1, id: "create_flight_control:smart_vector_thruster" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2AC02A12F60DBC10"
+					item: { count: 1, id: "create_connected:encased_chain_cogwheel" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "5EBE04173933EB6D"
+					item: { count: 1, id: "vsfluidlink:chain_connector" }
+					type: "item"
+				}
+				{
+					count: 11L
+					id: "41F34C514ADF4E2A"
+					item: { count: 1, id: "create_connected:fluid_vessel" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "26D12A86776D8B33"
+					item: { count: 1, id: "synaxis:dynamic_joint_motor" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2DCCC3526592609D"
+					item: { count: 1, id: "create:stockpile_switch" }
+					type: "item"
+				}
+				{
+					count: 63L
+					id: "617563475AEA2185"
+					item: { count: 1, id: "s_a_b:lightsteelblockpanzergrau" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "7BB9B26EEB513F88"
+					item: { count: 1, id: "create_connected:encased_chain_cogwheel" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "79221362E8FA47F8"
+					item: { count: 1, id: "createbigcannons:fixed_cannon_mount" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5BBC8DA6264AC4E7"
+					item: { count: 1, id: "compactflap:compact_swivel_flap" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "create:cardboard_package_12x12"
+			}
+			id: "3662EA1C50B108E8"
+			rewards: [{
+				id: "5C680106643CE1D1"
+				item: {
+					count: 1
+					id: "hello_new_generation_core:f38"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "78FFA2691A575339"
+					item: { count: 1, id: "cbc_firepower_components:compact_cannon_mount" }
+					type: "item"
+				}
+				{
+					id: "311DDFD9DB191C28"
+					item: { count: 1, id: "create_radar:plane_radar" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "71C070D7F57EB232"
+					item: { count: 1, id: "beyonddimensions:net_energy_pathway" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "7433C40E99513268"
+					item: { count: 1, id: "simulated:swivel_bearing" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "686C1F628986912C"
+					item: { count: 1, id: "compactflap:compact_swivel_flap" }
+					type: "item"
+				}
+				{
+					count: 7L
+					id: "35F0505AF88E88B0"
+					item: { count: 1, id: "create:redstone_link" }
+					type: "item"
+				}
+				{
+					count: 19L
+					id: "5175FC847F7A546E"
+					item: { count: 1, id: "createadditionallogistics:flexible_shaft" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "50D5F3B27F213878"
+					item: { count: 1, id: "simulated:directional_gearshift" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "53F2A2CD2ADBE4EF"
+					item: { count: 1, id: "createpropulsion:ion_thruster" }
+					type: "item"
+				}
+				{
+					count: 17L
+					id: "4FF471A76D7F7F41"
+					item: { count: 1, id: "aeronautics_utility_objects:brass_universal_joint" }
+					type: "item"
+				}
+				{
+					id: "194022B80753081F"
+					item: { count: 1, id: "create_radar:data_link" }
+					type: "item"
+				}
+				{
+					id: "2A6BF332EBAF6EE2"
+					item: { count: 1, id: "create_radar:network_filterer" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "4EA8563BABA2971D"
+					item: { count: 1, id: "simulated:torsion_spring" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "01AA4CE329917219"
+					item: { count: 1, id: "simulated:white_portable_engine" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "create:cardboard_package_12x12"
+			}
+			id: "25E84686EC731CE7"
+			rewards: [{
+				id: "2D1CAEA7A6387B0F"
+				item: {
+					count: 1
+					id: "hello_new_generation_core:f46"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "22CBA4D4BAAE577E"
+					item: { count: 1, id: "railways:maroon_slashed_locometal" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "49AA6C4CB0F867C2"
+					item: { count: 1, id: "copycats:copycat_slope_layer" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "175BE6980309B92B"
+					item: { count: 1, id: "create_connected:encased_chain_cogwheel" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "30F71C01C3EE5D8A"
+					item: { count: 1, id: "create:powered_toggle_latch" }
+					type: "item"
+				}
+				{
+					id: "5D9CE035ABDA8884"
+					item: { count: 1, id: "beyonddimensions:net_interface" }
+					type: "item"
+				}
+				{
+					id: "7C1664B7595DFE51"
+					item: { components: { "minecraft:block_entity_data": { Keys: [ { FirstItem: { count: 1, id: "rottencreatures:mummy_head" }, GLFWKey: 32, SecondItem: { } }, { FirstItem: { }, GLFWKey: 65, SecondItem: { count: 1, id: "rottencreatures:undead_miner_head" } }, { FirstItem: { count: 1, id: "rottencreatures:frostbitten_head" }, GLFWKey: 81, SecondItem: { } }, { FirstItem: { }, GLFWKey: 83, SecondItem: { count: 1, id: "rottencreatures:dead_beard_head" } }, { FirstItem: { count: 1, id: "rottencreatures:undead_miner_head" }, GLFWKey: 68, SecondItem: { } }, { FirstItem: { }, GLFWKey: 340, SecondItem: { count: 1, id: "rottencreatures:mummy_head" } }, { FirstItem: { }, GLFWKey: 69, SecondItem: { count: 1, id: "rottencreatures:frostbitten_head" } }, { FirstItem: { count: 1, id: "rottencreatures:glacial_hunter_head" }, GLFWKey: 70, SecondItem: { } }, { FirstItem: { count: 1, id: "rottencreatures:burned_head" }, GLFWKey: 86, SecondItem: { } }, { FirstItem: { count: 1, id: "rottencreatures:dead_beard_head" }, GLFWKey: 87, SecondItem: { } }, { FirstItem: { count: 1, id: "create:desk_bell" }, GLFWKey: 71, SecondItem: { count: 1, id: "create:desk_bell" } } ], id: "simulated:linked_typewriter", typedEntry: "WWWWWWWWWWWWWWWWWWADAFAA" } }, count: 1, id: "simulated:linked_typewriter" }
+					type: "item"
+				}
+				{
+					id: "54B73E274FB73500"
+					item: { count: 1, id: "simulated:iron_handle" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5A2D34345826CD31"
+					item: { count: 1, id: "createdieselgenerators:large_diesel_engine" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "65363D161B423A0C"
+					item: { count: 1, id: "create:redstone_link" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1D5900148F224235"
+					item: { count: 1, id: "aero_reformation:rcs_thruster" }
+					type: "item"
+				}
+				{
+					id: "64048A8F86D08CDB"
+					item: { count: 1, id: "synaxis:dynamic_joint_motor" }
+					type: "item"
+				}
+			]
+			x: -13.5d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "create:cardboard_package_12x12"
+			}
+			id: "031F2E1781CDA031"
+			rewards: [{
+				id: "09F6343DF029D1C1"
+				item: {
+					count: 1
+					id: "hello_new_generation_core:f50"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "680EE8F49DACBCFB"
+					item: { count: 1, id: "create_radar:data_link" }
+					type: "item"
+				}
+				{
+					id: "3126369225176617"
+					item: { count: 1, id: "cbc_firepower_components:compact_autocannon_mount" }
+					type: "item"
+				}
+				{
+					id: "6AC47A191E3AB179"
+					item: { count: 1, id: "simulated:gray_portable_engine" }
+					type: "item"
+				}
+				{
+					id: "3C4996227C926E36"
+					item: { count: 1, id: "simulated:redstone_accumulator" }
+					type: "item"
+				}
+				{
+					id: "42AE472AE8E881FC"
+					item: { count: 1, id: "aero_no_horizon:oleo_wheel" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3201537C8B223610"
+					item: { count: 1, id: "offroad:wheel_mount" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3BAA66516B2BC93A"
+					item: { count: 1, id: "offroad:small_tire" }
+					type: "item"
+				}
+				{
+					id: "550971B4A0048C3C"
+					item: { count: 1, id: "create:powered_toggle_latch" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0C4C3E86DDB5F935"
+					item: { count: 1, id: "simulated:swivel_bearing" }
+					type: "item"
+				}
+				{
+					count: 54L
+					id: "47B5F39CCC747805"
+					item: { count: 1, id: "railways:white_slashed_locometal" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "00962D7CD5B54B7E"
+					item: { count: 1, id: "create:redstone_link" }
+					type: "item"
+				}
+				{
+					count: 7L
+					id: "73A3EF1469D45048"
+					item: { count: 1, id: "create_connected:brass_gearbox" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "66D64281D3228EF7"
+					item: { count: 1, id: "aeronautics_utility_objects:brass_universal_joint" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3D89317705555026"
+					item: { count: 1, id: "aeronautics_utility_objects:universal_joint_rod2" }
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: 0.5d
+		}
+		{
+			id: "0A46FF0CE1D9514E"
+			rewards: [{
+				id: "121FB315A7D64787"
+				item: {
+					count: 1
+					id: "hello_new_generation_core:f53"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "242A8C254009EEA4"
+					item: { count: 1, id: "hello_new_generation_core:f53" }
+					type: "item"
+				}
+				{
+					id: "52EE51372D9A2B12"
+					item: { count: 1, id: "minecraft:barrier" }
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			id: "452DE8743A1EDDB2"
+			rewards: [{
+				id: "605BDF2CD9344669"
+				item: {
+					count: 1
+					id: "create_aeronautics_toolgun:portable_structure_container"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "4A07949B66EBCB3B"
+				item: { count: 1, id: "create:blaze_cake" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -9.5d
+		}
+	]
+}

@@ -1,0 +1,239 @@
+#.
+#Parameters of Simurail block behaviors
+[blocks]
+
+	#.
+	#.
+	#Steering Connections
+	[blocks.steeringConnection]
+		#.
+		#[in ṁ]
+		#The maximum distance of steering connections between Physics Bogeys on the same sublevel.
+		# Default: 32.0
+		# Range: 1.0 ~ 256.0
+		bogeyConnectionRangeSame = 32.0
+		#.
+		#[in ṁ]
+		#The maximum distance of steering connections between Physics Bogeys on different sublevels.
+		# Default: 12.0
+		# Range: 1.0 ~ 256.0
+		bogeyConnectionRangeDifferent = 12.0
+		#.
+		#[in ṁ]
+		#The maximum distance of steering connections between a Train Coupler and a Physics Bogey.
+		# Default: 4.0
+		# Range: 1.0 ~ 256.0
+		couplerConnectionRange = 4.0
+
+#.
+#Parameters of Simurail physics behaviors
+[physics]
+
+	#.
+	#.
+	#Physics Bogeys
+	[physics.bogey]
+		#.
+		#[in kġ]
+		#The mass of the pivot of the Physics Bogey.
+		# Default: 1.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		bogeyPivotMass = 1.0
+		#.
+		#[in Ṅ∙ṁ∙s/rad]
+		#Passive angular damping between the Physics Bogey and its pivot.
+		# Default: 10.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		bogeyPassiveAngularDamping = 10.0
+		#.
+		#[in rad/s]
+		#Vertical spring frequency between the Physics Bogey and its pivot.
+		# Default: 50.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		bogeyVerticalSpringFrequency = 50.0
+		#.
+		#Vertical spring damping rate between the Physics Bogey and its pivot.
+		# Default: 1.2000000476837158
+		# Range: 0.0 ~ 3.4028234663852886E38
+		bogeyVerticalSpringDampingRate = 1.2000000476837158
+		#.
+		#[in Ṅ]
+		#Vertical spring maximum force between the Physics Bogey and its pivot.
+		# Default: 10000.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		bogeyVerticalSpringMaxForce = 10000.0
+		#.
+		#[in rad/s]
+		#Lateral spring frequency between the Physics Bogey and its pivot.
+		# Default: 10.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		bogeyLateralSpringFrequency = 10.0
+		#.
+		#Lateral spring damping rate between the Physics Bogey and its pivot.
+		# Default: 1.2000000476837158
+		# Range: 0.0 ~ 3.4028234663852886E38
+		bogeyLateralSpringDampingRate = 1.2000000476837158
+		#.
+		#[in Ṅ]
+		#Lateral spring maximum force between the Physics Bogey and its pivot.
+		# Default: 10000.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		bogeyLateralSpringMaxForce = 10000.0
+		#.
+		#[in rad/s]
+		#Angular spring frequency between the Physics Bogey and its pivot.
+		# Default: 15.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		bogeyAngularSpringFrequency = 15.0
+		#.
+		#Angular spring damping rate between the Physics Bogey and its pivot.
+		# Default: 1.2000000476837158
+		# Range: 0.0 ~ 3.4028234663852886E38
+		bogeyAngularSpringDampingRate = 1.2000000476837158
+		#.
+		#[in Ṅ∙ṁ]
+		#Angular spring maximum torque between the Physics Bogey and its pivot.
+		# Default: 5000.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		bogeyAngularSpringMaxTorque = 5000.0
+
+	#.
+	#Physics Bogey Axles
+	[physics.axle]
+		#.
+		#[in s]
+		#Time to update the axle spacing when changed for the axles of the Physics Bogey.
+		# Default: 2.0
+		# Range: 0.0 ~ 10.0
+		axleSpacingUpdateTime = 2.0
+		#.
+		#[in Ṅ∙s/ṁ]
+		#Passive linear damping between an axle of the Physics Bogey and its track.
+		# Default: 100.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		axlePassiveLinearDamping = 100.0
+		#.
+		#[in Ṅ∙ṁ∙s/rad]
+		#Passive angular damping between an axle of the Physics Bogey and its track.
+		# Default: 1.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		axlePassiveAngularDamping = 1.0
+		#.
+		#[in ṁ/s²]
+		#Lateral max speed factor between an axle of the Physics Bogey and a standard track. Max speed is sqrt(factor / curvature).
+		# Default: 30.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		axleStandardLateralMaxSpeedFactor = 30.0
+		#.
+		#[in ṁ/s²]
+		#Vertical max speed factor between an axle of the Physics Bogey and a standard track. Max speed is sqrt(factor / curvature).
+		# Default: 50.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		axleStandardVerticalMaxSpeedFactor = 50.0
+		#.
+		#[in ṁ/s]
+		#Conversion of RPM to target speed between an axle of the Physics Bogey and its track.
+		# Default: 0.25
+		# Range: 0.0 ~ 3.4028234663852886E38
+		axleTargetSpeedFactor = 0.25
+		#.
+		#[in Ṅ∙s/ṁ]
+		#Conversion of current and target speed difference to drive force between an axle of the Physics Bogey and its track.
+		# Default: 0.5
+		# Range: 0.0 ~ 3.4028234663852886E38
+		axleDriveForceFactor = 0.5
+		#.
+		#[in ṁ/s²]
+		#Conversion of brake strength [0-1] to brake force between an axle of the Physics Bogey and its track.
+		# Default: 20.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		axleBrakeStrengthFactor = 20.0
+		#.
+		#Factor of effective friction between an axle of the Physics Bogey and the ground when derailed.
+		# Default: 0.5
+		# Range: 0.0 ~ 1.0
+		axleDerailFrictionFactor = 0.5
+		#.
+		#[in s]
+		#Inverval to find nearest track when derailed for an axle of the Physics Bogey.
+		# Default: 0.10000000149011612
+		# Range: 0.0 ~ 5.0
+		axleTrackCheckTime = 0.10000000149011612
+		#.
+		#[in s]
+		#Inverval to re-find nearest track for an axle of the Physics Bogey.
+		# Default: 3.0
+		# Range: 0.0 ~ 60.0
+		axleTrackRecheckTime = 3.0
+
+	#.
+	#Train Couplers
+	[physics.coupler]
+		#.
+		#[in Ṅ∙s/ṁ]
+		#Passive linear damping between a Train Coupler and its partner.
+		# Default: 10.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		couplerPassiveLinearDamping = 10.0
+		#.
+		#[in Ṅ∙ṁ∙s/rad]
+		#Passive angular damping between a Train Coupler and its partner.
+		# Default: 1.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		couplerPassiveAngularDamping = 1.0
+		#.
+		#[in rad/s]
+		#Spring frequency between a Train Coupler and its partner.
+		# Default: 100.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		couplerSpringFrequency = 100.0
+		#.
+		#Spring damping rate between a Train Coupler and its partner.
+		# Default: 2.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		couplerSpringDampingRate = 2.0
+
+#.
+#Parameters of Simurail compat behaviors
+[compat]
+
+	#.
+	#.
+	#Steam 'n' Rails
+	[compat.railways]
+		#.
+		#[in ṁ/s²]
+		#Lateral max speed factor between an axle of the Physics Bogey and a monorail track. Max speed is sqrt(factor / curvature).
+		# Default: 500.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		axleMonorailLateralMaxSpeedFactor = 500.0
+		#.
+		#[in ṁ/s²]
+		#Vertical max speed factor between an axle of the Physics Bogey and a monorail track. Max speed is sqrt(factor / curvature).
+		# Default: 100.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		axleMonorailVerticalMaxSpeedFactor = 100.0
+		#.
+		#[in ṁ/s²]
+		#Lateral max speed factor between an axle of the Physics Bogey and a narrow track. Max speed is sqrt(factor / curvature).
+		# Default: 25.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		axleNarrowLateralMaxSpeedFactor = 25.0
+		#.
+		#[in ṁ/s²]
+		#Vertical max speed factor between an axle of the Physics Bogey and a narrow track. Max speed is sqrt(factor / curvature).
+		# Default: 50.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		axleNarrowVerticalMaxSpeedFactor = 50.0
+		#.
+		#[in ṁ/s²]
+		#Lateral max speed factor between an axle of the Physics Bogey and a wide track. Max speed is sqrt(factor / curvature).
+		# Default: 50.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		axleWideLateralMaxSpeedFactor = 50.0
+		#.
+		#[in ṁ/s²]
+		#Vertical max speed factor between an axle of the Physics Bogey and a wide track. Max speed is sqrt(factor / curvature).
+		# Default: 50.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		axleWideVerticalMaxSpeedFactor = 50.0
