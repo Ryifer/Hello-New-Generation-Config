@@ -52,6 +52,7 @@
 			dependencies: ["0BC0ECD7689390CE"]
 			id: "752D0C3E34CF768A"
 			tasks: [{
+				consume_items: false
 				id: "1338A65DBC8EBCA5"
 				item: { count: 1, id: "create:creative_blaze_cake" }
 				type: "item"
@@ -63,6 +64,7 @@
 			dependencies: ["0BC0ECD7689390CE"]
 			id: "002FD7CF5ADF6B13"
 			tasks: [{
+				consume_items: false
 				id: "53EFD75CFA6274EE"
 				item: { count: 1, id: "create:creative_motor" }
 				type: "item"
@@ -74,6 +76,7 @@
 			dependencies: ["0BC0ECD7689390CE"]
 			id: "6C76279D281E81EE"
 			tasks: [{
+				consume_items: false
 				id: "3F85A33031FD36FC"
 				item: { count: 1, id: "createaddition:creative_energy" }
 				type: "item"
@@ -282,95 +285,21 @@
 					}
 					type: "item"
 				}
-			]
-			tasks: [
 				{
-					id: "1BF54FD1E2C657FF"
-					type: "checkmark"
-				}
-				{
-					id: "22D0D2965956888E"
-					item: { count: 1, id: "hello_new_generation_core:b1" }
+					id: "6B60B2A3F521C0D6"
+					item: {
+						count: 1
+						id: "hello_new_generation_core:f44"
+					}
 					type: "item"
 				}
 			]
+			tasks: [{
+				id: "1BF54FD1E2C657FF"
+				type: "checkmark"
+			}]
 			x: 6.5d
 			y: 4.0d
-		}
-		{
-			dependencies: ["0BC0ECD7689390CE"]
-			icon: {
-				id: "cbc_firepower_components:compact_autocannon_mount"
-			}
-			id: "5DB0944F493980C7"
-			rewards: [{
-				count: 2
-				id: "13B981E7D410C317"
-				item: {
-					count: 1
-					id: "minecraft:netherite_ingot"
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "0D19DD98BDA5FC51"
-					item: { count: 1, id: "create_submarine:oxygene_diffuser" }
-					type: "item"
-				}
-				{
-					id: "46E095C14A02479B"
-					item: { count: 1, id: "create_submarine:ballast_tank" }
-					type: "item"
-				}
-				{
-					id: "66C3D502801263F7"
-					item: { count: 1, id: "create_linear_motion_simulated:pneumatic_cylinder" }
-					type: "item"
-				}
-				{
-					id: "7E6D99D0003C39C4"
-					item: { count: 1, id: "windtunnel:wind_tunnel" }
-					type: "item"
-				}
-				{
-					id: "2A28CAC55BB53BB8"
-					item: { count: 1, id: "drivebywiretypewriter:typewriter_hub" }
-					type: "item"
-				}
-				{
-					id: "2ED4653D80154480"
-					item: { count: 1, id: "create_aeronautics_throwable_rope_connector:throwable_rope_connector" }
-					type: "item"
-				}
-				{
-					id: "63AC4DC2D99880A9"
-					item: { count: 1, id: "cbc_firepower_components:autocannon_ammo_feed" }
-					type: "item"
-				}
-				{
-					id: "1A236BB44DCD11E2"
-					item: { count: 1, id: "cbc_firepower_components:compact_autocannon_mount" }
-					type: "item"
-				}
-				{
-					id: "443A463F7E06D90D"
-					item: { count: 1, id: "aeronautics_utility_objects:brass_universal_joint" }
-					type: "item"
-				}
-				{
-					id: "377061EDE48769EE"
-					item: { count: 1, id: "aeronautics_utility_objects:universal_joint_rod" }
-					type: "item"
-				}
-				{
-					id: "0FF3D7063D93CB4B"
-					item: { count: 1, id: "create_simulated_additions:ckbgv_4_engine" }
-					type: "item"
-				}
-			]
-			x: 8.0d
-			y: 4.5d
 		}
 		{
 			dependencies: ["0BC0ECD7689390CE"]
@@ -381,6 +310,24 @@
 			}]
 			x: 5.0d
 			y: 4.5d
+		}
+		{
+			id: "6CE8C98034EE861D"
+			rewards: [{
+				count: 4
+				id: "0D7FFF112695F4A4"
+				item: {
+					count: 1
+					id: "minecraft:andesite"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "76DA50963F194798"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -3.5d
 		}
 	]
 }

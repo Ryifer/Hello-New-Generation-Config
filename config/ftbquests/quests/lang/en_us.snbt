@@ -1,22 +1,15 @@
 {
 	chapter.18F28F0D63315939.title: "启程！你好，新世代！"
-	chapter.2238BEDE60CB23FA.title: "机械动力火车"
-	chapter.250E34EF3BC0CABC.title: "机械动力柴油"
 	chapter.25858AAFC83D1615.title: "机械动力主线"
 	chapter.287BA2CF807935D9.title: "简单方便储存"
 	chapter.2B650370485D02F0.title: "美味烘焙"
-	chapter.48ADE9B48F05380F.title: "机械动力包邮"
-	chapter.4BD524484B7B75A5.title: "机械动力电网"
 	chapter.53181AFCB6405EAA.title: "机械动力矿产"
-	chapter.5973D67EC3D70D30.title: "机械动力火炮"
 	chapter.5B37EF04AA3C2848.title: "喝啤酒啦！"
-	chapter.5EC8AC2EE10EDD62.title: "机械动力电梯"
 	chapter.74BE5C98B21375B7.title: "小龙虾的家具"
 	chapter.7C07A761EADF3908.title: "森罗厨房"
 	chapter_group.42DF9A8C445EFF86.title: "养老种地悠然自得"
 	chapter_group.485E071B353FF153.title: "机械设计制造及其自动化"
 	quest.00843C4FC84EE6E5.quest_subtitle: "你猜想制作铁板了"
-	quest.00EC6F4C9C85E945.quest_subtitle: "造大载具？"
 	quest.01654FC0571B9319.quest_subtitle: "按w思索"
 	quest.027E7972194B5EE9.quest_desc: ["&4使用遥控器&r&6右键车子右边座位的有俩天线的黄色半砖方块&r&2绑定遥控器&r"]
 	quest.027E7972194B5EE9.title: "黑色赛车"
@@ -25,7 +18,6 @@
 	quest.0788E5B5E4FF2984.quest_subtitle: "压力山大"
 	quest.0AE1E0BFED08C657.quest_subtitle: "粉碎凝灰岩不错的选择"
 	quest.0C10FBFA2BF9C7E4.quest_subtitle: "请长按w思索"
-	quest.0FBCCF1C06570003.quest_subtitle: "终于安静了"
 	quest.116264E4EE62CF97.quest_desc: ["在物理轴承前面放上任意方块儿，然后右键物理轴承，可以使前面的方块儿物理化，你可以继续在已经被物理化的方块儿上面继续放置其他方块儿。在物理轴承的后面通入应力。前面的物理结构会跟着旋转，旋转方向与通入应力的旋转方向相同"]
 	quest.116264E4EE62CF97.quest_subtitle: "不如控制学的电机"
 	quest.123BD091E85DAE02.quest_subtitle: "大面积空间收集"
@@ -60,7 +52,6 @@
 	quest.25FE3814091C0CA9.quest_subtitle: "做蒸汽炉的第一步"
 	quest.2626D92B0D5A63F1.quest_subtitle: "没错那个mod就是我"
 	quest.269A9609C518FB5D.title: "家常小炒"
-	quest.28B8300B07D0EDE2.quest_subtitle: "大家伙"
 	quest.2B3DC8FC73B93F10.quest_desc: ["放在物理结构上，与船舵一起使用，就可以做简单的飞船了！"]
 	quest.2B3DC8FC73B93F10.quest_subtitle: "提供升力"
 	quest.2B40086F17EFDA48.quest_subtitle: "做转速控制器吧"
@@ -107,7 +98,6 @@
 	quest.4665A7105EAD4CEA.quest_subtitle: "造飞机提供动力"
 	quest.4678713804568015.quest_desc: ["&4注意机械动力，现代战争。无法正常游玩&r！但是作为更细炮管的前置，仍然需要安装，之后版本解决，&2使用机械动力，火炮没有问题&r"]
 	quest.4678713804568015.quest_subtitle: "以钢制火炮为例"
-	quest.47EB7740E3156706.quest_subtitle: "造载具？"
 	quest.480024036431C2C8.quest_subtitle: "分类用的和过滤网搭配更加"
 	quest.485397A6F1EDD87D.quest_subtitle: "嗯，是时候消灭所有传动了"
 	quest.485397A6F1EDD87D.title: "大月寸子"

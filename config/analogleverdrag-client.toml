@@ -67,6 +67,18 @@
 	client_enable_supplementaries_crank = true
 	#Client-side toggle: show/use ALD UI for DnDecor breaker switch on this client.
 	client_enable_dndecor_breaker_switch = true
+	#If enabled, the camera stays unlocked while the lever interface is open. Mouse movement looks around; use the mouse wheel or lever keybinds to change signal.
+	unlock_camera = false
+	#If enabled, the configured increase/decrease lever signal keys work while the lever interface is open.
+	enable_signal_keybinds = true
+	#Client-side toggle: enable lever drugster input helpers for Compact Gearbox manual gear selector / sequential gearbox on this client without replacing the original gearbox UI.
+	client_enable_compact_gearbox = true
+	#If enabled, Compact Gearbox mouse input behaves like a manual H-pattern shifter: move through neutral first, then up/down into a gear. If disabled, diagonal quick zones select gears immediately.
+	compact_gearbox_manual_gate = true
+	#If enabled, Compact Gearbox manual H-gate uses real mouse-driven stick movement through neutral and along the H path. If disabled, it uses the older firm stepped lane/gear clicks.
+	compact_gearbox_smooth_manual_gate = true
+	#Client-side toggle: show/use ALD UI for Caverns & Chasms resistor on this client.
+	client_enable_caverns_and_chasms_resistor = true
 
 [sensitivity]
 	#Sensitivity for Create and DnDecor linear levers.
@@ -77,3 +89,7 @@
 	# Default: 0.6
 	# Range: 0.01 ~ 10.0
 	circular_sensitivity = 0.6
+	#Sensitivity for Compact Gearbox manual selector mouse input. Lower values make H-gate movement stiffer and less likely to skip through neutral.
+	# Default: 0.1
+	# Range: 0.01 ~ 10.0
+	compact_gearbox_sensitivity = 0.1

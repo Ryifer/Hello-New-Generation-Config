@@ -79,6 +79,9 @@
   "immersiveengineering": {
     "multiblock_icon": true
   },
+  "kaleidoscope_chinesefood": {
+    "pickle_jar": true
+  },
   "jade": {
     "coordinates.rel": false,
     "registry_name.special": false,
@@ -93,6 +96,9 @@
   "balm": {
     "jade": true
   },
+  "fxntstorage": {
+    "oak_simple_storage_box": true
+  },
   "create_mobile_packages": {
     "bee_port": true
   },
@@ -102,16 +108,24 @@
   "jadeaddons": {
     "equipment_requirement": ""
   },
+  "exposure": {
+    "lightroom": true,
+    "photograph_frame": true
+  },
   "beyonddimensions": {
     "net_info": true
   },
   "jadeaddons.lootr": {
     "info": true
   },
+  "create_rns": {
+    "deposit_block_info": true
+  },
   "kaleidoscope_cookery": {
     "chopping_board": true,
     "shawarma_spit": true,
     "recipe_block": true,
+    "food_bite_block": true,
     "millstone": true,
     "enamel_basin": true
   },

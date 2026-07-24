@@ -9,20 +9,205 @@
 	id: "5B37EF04AA3C2848"
 	images: [
 		{
-			height: 2.0d
-			image: "drinkbeer:item/beer_mug"
+			height: 1.0d
+			image: "bakeries:block/dough_crafting_table"
 			rotation: 0.0d
-			width: 2.0d
-			x: 8.0d
-			y: 0.0d
+			width: 1.2d
+			x: 6.0d
+			y: 2.0d
 		}
 		{
-			height: 4.0d
-			image: "refurbished_furniture:block/acacia_particle"
+			height: 1.0d
+			image: "bakeries:block/dough_crafting_table"
 			rotation: 0.0d
-			width: 4.0d
+			width: 1.2d
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "bakeries:block/dough_crafting_table"
+			rotation: 0.0d
+			width: 1.2d
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "bakeries:block/dough_crafting_table"
+			rotation: 0.0d
+			width: 1.2d
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "bakeries:block/dough_crafting_table"
+			rotation: 0.0d
+			width: 1.2d
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "bakeries:block/dough_crafting_table"
+			rotation: 0.0d
+			width: 1.2d
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "bakeries:block/dough_crafting_table"
+			rotation: 0.0d
+			width: 1.2d
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "bakeries:block/dough_crafting_table"
+			rotation: 0.0d
+			width: 1.2d
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "bakeries:block/dough_crafting_table"
+			rotation: 0.0d
+			width: 1.2d
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "bakeries:block/dough_crafting_table"
+			rotation: 0.0d
+			width: 1.2d
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "drinkbeer:item/beer_mug_frothy_pink_eggnog"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "drinkbeer:textures/particle/mixed_beer_default.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "drinkbeer:textures/particle/mixed_beer_default.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "drinkbeer:textures/particle/mixed_beer_default.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "drinkbeer:textures/particle/mixed_beer_default.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "drinkbeer:textures/particle/mixed_beer_default.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "drinkbeer:textures/particle/mixed_beer_default.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "drinkbeer:textures/particle/mixed_beer_default.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "drinkbeer:textures/particle/mixed_beer_default.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "drinkbeer:textures/particle/mixed_beer_default.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "drinkbeer:textures/particle/mixed_beer_default.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "drinkbeer:textures/particle/mixed_beer_default.png"
+			rotation: 0.0d
+			width: 1.0d
 			x: 5.5d
-			y: -0.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "drinkbeer:textures/particle/call_bell_tinkle_paw.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "drinkbeer:textures/mob_effect/drunk_frost_walker.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			hover: ["醉~"]
+			image: "touhou_little_maid:textures/chat_bubble/maid_emoji/emoji_14.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: 2.0d
 		}
 	]
 	order_index: 5
@@ -30,57 +215,54 @@
 	quests: [
 		{
 			id: "04004E14A52942BA"
+			shape: "none"
+			size: 1.5d
 			tasks: [{
 				id: "1BA39B5861BA1864"
 				item: { count: 1, id: "drinkbeer:beer_barrel" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: -1.5d
+			x: 3.0d
+			y: 0.75d
 		}
 		{
 			dependencies: ["04004E14A52942BA"]
 			id: "1E5CD572EDF171D5"
+			shape: "none"
+			size: 1.5d
 			tasks: [{
 				id: "0AFF5943BBFE61CA"
 				item: { count: 1, id: "drinkbeer:recipe_board_package" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 0.5d
+			x: 4.5d
+			y: 0.75d
 		}
 		{
 			dependencies: ["04004E14A52942BA"]
 			id: "6936458D8A8BFEDC"
+			shape: "none"
+			size: 2.0d
 			tasks: [{
 				id: "3D63F9BB643B7434"
 				item: { count: 1, id: "drinkbeer:bartending_table_normal" }
 				type: "item"
 			}]
 			x: 3.0d
-			y: -1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["04004E14A52942BA"]
 			id: "608EE14326F8AD10"
+			shape: "none"
+			size: 2.0d
 			tasks: [{
 				id: "2CAE1670643874AF"
 				item: { count: 1, id: "drinkbeer:trade_box_normal" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["1E5CD572EDF171D5"]
-			id: "5C8DB33EFFBA39B7"
-			tasks: [{
-				id: "7C03533D0F54B954"
-				item: { count: 1, id: "drinkbeer:mixed_beer" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 0.5d
+			x: 5.0d
+			y: 2.0d
 		}
 		{
 			id: "322AEF1B518B10CD"
@@ -93,13 +275,14 @@
 				}
 				type: "item"
 			}]
+			shape: "none"
 			tasks: [{
 				id: "204CBCC0FBD1800F"
 				item: { count: 1, id: "drinkbeer:beer_mug" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: -0.5d
+			x: 6.0d
+			y: 1.0d
 		}
 		{
 			id: "2AFC188AD3852AB1"
@@ -112,13 +295,14 @@
 				}
 				type: "item"
 			}]
+			shape: "none"
 			tasks: [{
 				id: "6753556D003CEFF8"
 				item: { count: 1, id: "drinkbeer:beer_mug_blaze_stout" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: -1.5d
+			x: 8.0d
+			y: 1.0d
 		}
 		{
 			id: "4C1C37695E7A12DC"
@@ -131,13 +315,14 @@
 				}
 				type: "item"
 			}]
+			shape: "none"
 			tasks: [{
 				id: "0322FA4C1B98ED16"
 				item: { count: 1, id: "drinkbeer:beer_mug_blaze_milk_stout" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: -0.5d
+			x: 7.0d
+			y: 1.0d
 		}
 		{
 			id: "1F4B6221A2B7547C"
@@ -150,13 +335,14 @@
 				}
 				type: "item"
 			}]
+			shape: "none"
 			tasks: [{
 				id: "1421EFD16FB89E60"
 				item: { count: 1, id: "drinkbeer:beer_mug_apple_lambic" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: -1.5d
+			x: 9.0d
+			y: 1.0d
 		}
 		{
 			id: "1B372DC427874CBD"
@@ -169,13 +355,14 @@
 				}
 				type: "item"
 			}]
+			shape: "none"
 			tasks: [{
 				id: "2AFCB63467202F02"
 				item: { count: 1, id: "drinkbeer:beer_mug_sweet_berry_kriek" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: 0.5d
+			x: 8.0d
+			y: 2.0d
 		}
 		{
 			id: "24435CA2F0A85E97"
@@ -188,13 +375,14 @@
 				}
 				type: "item"
 			}]
+			shape: "none"
 			tasks: [{
 				id: "5A81E241B63F1209"
 				item: { count: 1, id: "drinkbeer:beer_mug_pumpkin_kvass" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 0.5d
+			x: 6.0d
+			y: 2.0d
 		}
 		{
 			id: "653C2B4BFBC8DA1B"
@@ -207,13 +395,14 @@
 				}
 				type: "item"
 			}]
+			shape: "none"
 			tasks: [{
 				id: "7E6E5293E99E6BE7"
 				item: { count: 1, id: "drinkbeer:beer_mug_haars_icey_pale_lager" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: -1.5d
+			x: 10.0d
+			y: 2.0d
 		}
 		{
 			id: "119F7420489FDBEB"
@@ -226,13 +415,14 @@
 				}
 				type: "item"
 			}]
+			shape: "none"
 			tasks: [{
 				id: "3F2A9E590B0AEF0D"
 				item: { count: 1, id: "drinkbeer:beer_mug_night_howl_kvass" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: -0.5d
+			x: 9.0d
+			y: 2.0d
 		}
 		{
 			id: "1F04AE3EA670FF51"
@@ -245,13 +435,14 @@
 				}
 				type: "item"
 			}]
+			shape: "none"
 			tasks: [{
 				id: "7448AF81AEAE1AC2"
 				item: { count: 1, id: "drinkbeer:beer_mug_frothy_pink_eggnog" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: 0.5d
+			x: 7.0d
+			y: 2.0d
 		}
 		{
 			id: "48DD0FB4555B9FFC"
@@ -263,6 +454,7 @@
 				}
 				type: "item"
 			}]
+			shape: "none"
 			tasks: [
 				{
 					id: "491B47FBFB2238FA"
@@ -340,8 +532,8 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: -1.5d
+			x: 10.0d
+			y: 1.0d
 		}
 	]
 }

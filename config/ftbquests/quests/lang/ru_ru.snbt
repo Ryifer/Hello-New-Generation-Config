@@ -2,28 +2,20 @@
 	chapter.09E7201926EFE233.title: "Военная техника"
 	chapter.18F28F0D63315939.title: "В путь! Привет, новый \"Чжэн\" путь!"
 	chapter.1A4F4FEFA69506D5.title: "Наземный транспорт"
-	chapter.2238BEDE60CB23FA.title: "Поезда"
-	chapter.250E34EF3BC0CABC.title: "Дизельное топливо"
 	chapter.25858AAFC83D1615.title: "Основы механики Create"
 	chapter.287BA2CF807935D9.title: "За пределами хранения"
 	chapter.2B650370485D02F0.title: "Вкусная выпечка"
 	chapter.37665C6188E1A6E8.title: "Воздушный транспорт"
-	chapter.48ADE9B48F05380F.title: "Логистика"
-	chapter.4BD524484B7B75A5.title: "Энергосеть"
 	chapter.4C13B9DD07C86FB1.title: "Управление"
 	chapter.4F49C7C6E12E615A.title: "Инженерная техника"
 	chapter.53181AFCB6405EAA.title: "Полезные ископаемые"
-	chapter.5973D67EC3D70D30.title: "Артиллерия"
 	chapter.5B37EF04AA3C2848.title: "Пьём пиво!"
-	chapter.5EC8AC2EE10EDD62.title: "Лифты"
 	chapter.68522B40C4768E95.title: "Create: Offroad"
 	chapter.6A881152EF97FA04.title: "Лесная таверна"
 	chapter.74BE5C98C21375B7.title: "Омаровая мебель"
 	chapter.784A70C90F6F5A49.title: "Create: Aviation"
 	chapter.7C07A761EADF3908.title: "Лесная кухня"
 	chapter.7D394B8378508CBB.title: "Морской транспорт"
-	chapter.7D7A8EEC0E898ED8.title: "Усердное земледелие"
-	chapter_group.032D94FFF1828E6D.title: "Create+"
 	chapter_group.42DF9A8C445EFF86.title: "Досуг в полях"
 	chapter_group.485E071B353FF153.title: "Авиация! Взлёт!"
 	chapter_group.59418A0B4E6E90CF.title: "Обмен транспорта"
@@ -36,7 +28,6 @@
 	quest.002FD7CF5ADF6B13.quest_subtitle: "Неплохо как двигатель для самолёта, но используй как хочешь qwq"
 	quest.002FD7CF5ADF6B13.title: "За выполнение серии заданий Лесной таверны можно получить 1 креативный двигатель"
 	quest.00843C4FC84EE6E5.quest_subtitle: "Наверное, хочешь прессовать железные пластины"
-	quest.00EC6F4C9C85E945.quest_subtitle: "Построить большой транспорт?"
 	quest.01654FC0571B9319.quest_subtitle: "Нажми W для размышления"
 	quest.027E7972194B5EE9.quest_desc: ["&4Используй пульт&r&6 ПКМ по жёлтому полублок с двумя антеннами на правом сиденье машины&r&2Привяжи пульт&r"]
 	quest.027E7972194B5EE9.title: "Чёрный гоночный автомобиль"
@@ -95,7 +86,6 @@
 		"【Личное пространство WannaMai на Bilibili】 https://b23.tv/ciLCOrt"
 	]
 	quest.0FA4AF540898DC68.title: "Большой пассажирский самолёт"
-	quest.0FBCCF1C06570003.quest_subtitle: "Наконец-то тишина"
 	quest.116264E4EE62CF97.quest_desc: ["Перед физическим подшипником помести любой блок, затем ПКМ по подшипнику — блок станет физическим. Можно продолжать ставить другие блоки на уже физический блок. Подай напряжение на заднюю часть подшипника. Физическая структура будет вращаться в ту же сторону, что и поданное напряжение."]
 	quest.116264E4EE62CF97.quest_subtitle: "Лучше использовать мотор из раздела Управление"
 	quest.123BD091E85DAE02.quest_subtitle: "Сбор на большой площади"
@@ -154,9 +144,6 @@
 	quest.25FE3814091C0CA9.quest_subtitle: "Первый шаг к созданию парового котла"
 	quest.2626D92B0D5A63F1.quest_subtitle: "Да, это мод — я"
 	quest.269A9609C518FB5D.title: "Домашняя стряпня"
-	quest.28AE1EC3C7487B61.quest_desc: ["Bilibili: 默空木仓械"]
-	quest.28AE1EC3C7487B61.title: "Прицеп"
-	quest.28B8300B07D0EDE2.quest_subtitle: "Большая штука"
 	quest.2A51ED2EBB07FF5A.quest_desc: [
 		"Ни жив, ни мёртв,"
 		"Под доспехами одна пустота,"
@@ -175,7 +162,6 @@
 	quest.2D1D19EEBE952F13.quest_subtitle: "Мощный механизм вертикальной наводки!"
 	quest.2D1D19EEBE952F13.title: "Три"
 	quest.2ECDFE18E7D06813.quest_subtitle: "Для разделения потока"
-	quest.2F3FC71D81143E9F.quest_subtitle: "Ошибка мода, невозможно скрафтить"
 	quest.2F77B596E44C1449.quest_desc: ["&2Зажми&r&2 “&r&4~&r&2”&r&2 для цепного сбора&r"]
 	quest.2F77B596E44C1449.quest_subtitle: "Добро пожаловать в Create!"
 	quest.31853E56D2F3CDF1.quest_desc: [""]
@@ -253,7 +239,6 @@
 		"&2Вся артиллерия в этом пакете поддерживает сбор киркой, а при установке автоматически соединяется в единое целое&r"
 	]
 	quest.4678713804568015.quest_subtitle: "На примере стальной пушки"
-	quest.47EB7740E3156706.quest_subtitle: "Построить транспорт?"
 	quest.480024036431C2C8.quest_subtitle: "Для сортировки, в паре с фильтросеткой лучше"
 	quest.485397A6F1EDD87D.quest_subtitle: "Да, пора уничтожить все приводы"
 	quest.485397A6F1EDD87D.title: "Большой размерчик"
@@ -315,7 +300,6 @@
 	quest.5B6B8FFA4D62DB00.quest_subtitle: "Более быстрое вождение"
 	quest.5BE1D5D2B0D98918.quest_subtitle: "Декор?"
 	quest.5C8BE542897F046C.quest_subtitle: "Всё в одном"
-	quest.5C8DB33EFFBA39B7.title: "Пивная кружка"
 	quest.5D4ECAEA92EA925E.quest_subtitle: "Рядом два моих брата"
 	quest.5D4ECAEA92EA925E.title: "Мы"
 	quest.5DF44CAA1670C2CA.title: "Бурение"
@@ -379,13 +363,11 @@
 	quest.7942A6A571A4C5EB.quest_subtitle: "Нажми W для размышления"
 	quest.795201F41C9B6440.quest_desc: ["&8Булыжник&r + &8размол&r = &8гравий&r, &8гравий&r + &3промывка воздуходувкой водой&r = &fжелезные самородки&r, &4Поздравляю, ты изобрёл автоматическую железоплавильню&r"]
 	quest.795201F41C9B6440.quest_subtitle: "Думаю, стоит построить железоплавильный завод"
-	quest.7A0E10A23849851E.title: "Колёса"
 	quest.7A655F9DDF4C1260.title: "Мастер выпечки"
 	quest.7AF0AB2628E0844E.quest_subtitle: "Пожалуйста, зажми W для размышления"
 	quest.7AFDA554F6AC34C8.quest_desc: ["Bilibili: 默空木仓械"]
 	quest.7AFDA554F6AC34C8.title: "Тяжёлый тягач"
 	quest.7C7E4E5E1AE2DEBB.title: "Красная наука"
-	quest.7CBB4BEDE188F870.title: "Еда на столе"
 	quest.7F974A27FBC6E96A.quest_subtitle: "Включи передачу, газ!!"
 	task.04B293F4C88638E0.title: "Не используй провода через разные физические структуры"
 	task.1BF54FD1E2C657FF.title: "Добро пожаловать в новый \"Чжэн\" путь"

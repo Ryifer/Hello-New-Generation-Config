@@ -65,3 +65,11 @@ keepBackpackOnDeath = true
 	simpleStorageNetworkRange = 32
 	#The number of ticks between each update check for controllers and interfaces to refresh their connection to the storage network.
 	simpleStorageNetworkUpdateTime = 20
+
+#Workshop Upgrade
+[workshop_upgrade]
+	#The kinetic speed supplied to the Workshop Upgrade's machine.
+	#Controls how fast the deployer/press processes items.
+	# Default: 32
+	# Range: 1 ~ 256
+	workshopKineticSpeed = 32

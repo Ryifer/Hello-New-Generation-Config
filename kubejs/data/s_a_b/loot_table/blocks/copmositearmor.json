@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "s_a_b:blocks/copmositearmor",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "s_a_b:copmositearmor"
+        }
+      ]
+    }
+  ]
+}

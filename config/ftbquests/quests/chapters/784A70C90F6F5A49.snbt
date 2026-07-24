@@ -9,110 +9,6 @@
 	id: "784A70C90F6F5A49"
 	images: [
 		{
-			height: 1.0d
-			image: "powergrid:block/circuit_design_table_top"
-			rotation: 0.0d
-			width: 1.0d
-			x: -4.5d
-			y: -0.5d
-		}
-		{
-			height: 1.0d
-			image: "powergrid:block/circuit_design_table_top"
-			rotation: 0.0d
-			width: 1.0d
-			x: -2.5d
-			y: -0.5d
-		}
-		{
-			height: 1.0d
-			image: "powergrid:block/circuit_design_table_top"
-			rotation: 0.0d
-			width: 1.0d
-			x: -3.5d
-			y: 0.5d
-		}
-		{
-			height: 1.0d
-			image: "powergrid:block/circuit_design_table_top"
-			rotation: 0.0d
-			width: 1.0d
-			x: -2.5d
-			y: -1.5d
-		}
-		{
-			height: 1.0d
-			image: "powergrid:block/circuit_design_table_top"
-			rotation: 0.0d
-			width: 1.0d
-			x: 0.5d
-			y: -0.5d
-		}
-		{
-			height: 1.0d
-			image: "powergrid:block/circuit_design_table_top"
-			rotation: 0.0d
-			width: 1.0d
-			x: -2.5d
-			y: 4.5d
-		}
-		{
-			height: 1.0d
-			image: "powergrid:block/circuit_design_table_top"
-			rotation: 0.0d
-			width: 1.0d
-			x: -1.5d
-			y: 1.5d
-		}
-		{
-			height: 1.0d
-			image: "powergrid:block/circuit_design_table_top"
-			rotation: 0.0d
-			width: 1.0d
-			x: -2.5d
-			y: 1.5d
-		}
-		{
-			height: 1.0d
-			image: "powergrid:block/circuit_design_table_top"
-			rotation: 0.0d
-			width: 1.0d
-			x: -4.5d
-			y: 1.5d
-		}
-		{
-			height: 1.0d
-			image: "powergrid:block/circuit_design_table_top"
-			rotation: 0.0d
-			width: 1.0d
-			x: -7.5d
-			y: 1.5d
-		}
-		{
-			height: 1.0d
-			image: "powergrid:block/circuit_design_table_top"
-			rotation: 0.0d
-			width: 1.0d
-			x: -4.5d
-			y: 2.5d
-		}
-		{
-			height: 1.0d
-			image: "powergrid:block/circuit_design_table_top"
-			rotation: 0.0d
-			width: 1.0d
-			x: -5.5d
-			y: -0.5d
-		}
-		{
-			height: 1.0d
-			image: "powergrid:block/circuit_design_table_top"
-			rotation: 0.0d
-			width: 1.0d
-			x: -4.5d
-			y: -3.5d
-		}
-		{
 			height: 15.0d
 			image: "immersiveengineering:textures/models/blueprint_frame.png"
 			order: -1
@@ -128,11 +24,11 @@
 			image: "mcshaying:textures/2.png"
 			rotation: 0.0d
 			width: 20.0d
-			x: -3.5d
-			y: -7.0d
+			x: -4.0d
+			y: -6.5d
 		}
 	]
-	order_index: 0
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -165,6 +61,7 @@
 				}
 			]
 			tasks: [{
+				consume_items: false
 				id: "1568FEC69C0D2EDD"
 				item: { count: 1, id: "aeronautics:propeller_bearing" }
 				type: "item"
@@ -201,6 +98,7 @@
 				}
 			]
 			tasks: [{
+				consume_items: false
 				id: "713707A0D9E3A31D"
 				item: { count: 1, id: "simulated:physics_assembler" }
 				type: "item"
@@ -221,11 +119,13 @@
 			}]
 			tasks: [
 				{
+					consume_items: false
 					id: "235B75168E34FCCD"
 					item: { count: 1, id: "aeronautics:adjustable_burner" }
 					type: "item"
 				}
 				{
+					consume_items: false
 					id: "3C5A43543DEA6090"
 					item: { count: 1, id: "aeronautics:white_envelope" }
 					type: "item"
@@ -238,6 +138,7 @@
 			dependencies: ["71A8CD17950F9E7E"]
 			id: "085644036C8D8E6B"
 			tasks: [{
+				consume_items: false
 				id: "1328574065120365"
 				item: { count: 1, id: "aeronautics:steam_vent" }
 				type: "item"
@@ -257,6 +158,7 @@
 				type: "item"
 			}]
 			tasks: [{
+				consume_items: false
 				id: "7892F177D7ED6D27"
 				item: { count: 1, id: "simulated:steering_wheel" }
 				type: "item"
@@ -288,6 +190,7 @@
 				}
 			]
 			tasks: [{
+				consume_items: false
 				id: "5CEB83D5B4790DB9"
 				item: { count: 1, id: "aeronautics:gyroscopic_propeller_bearing" }
 				type: "item"
@@ -299,6 +202,7 @@
 			dependencies: ["55695BB0689DA42D"]
 			id: "4B330C9C0FC02882"
 			tasks: [{
+				consume_items: false
 				count: 16L
 				id: "1B423D0883DC788C"
 				item: { count: 1, id: "simulated:white_symmetric_sail" }
@@ -319,6 +223,7 @@
 				type: "item"
 			}]
 			tasks: [{
+				consume_items: false
 				id: "00F9923267506A1A"
 				item: { count: 1, id: "simulated:red_portable_engine" }
 				type: "item"
@@ -342,16 +247,19 @@
 			}]
 			tasks: [
 				{
+					consume_items: false
 					id: "6A2F827A445726B4"
 					item: { count: 1, id: "simulated:rope_winch" }
 					type: "item"
 				}
 				{
+					consume_items: false
 					id: "5089C15B077150E4"
 					item: { count: 1, id: "simulated:rope_coupling" }
 					type: "item"
 				}
 				{
+					consume_items: false
 					id: "4A8D820ED00F7052"
 					item: { count: 1, id: "simulated:rope_connector" }
 					type: "item"
@@ -364,6 +272,7 @@
 			dependencies: ["5F9E9900C12EE80D"]
 			id: "52D1D550BD08BD15"
 			tasks: [{
+				consume_items: false
 				id: "7AD11FB4943C7677"
 				item: { count: 1, id: "simulated:docking_connector" }
 				type: "item"
@@ -375,6 +284,7 @@
 			dependencies: ["5F9E9900C12EE80D"]
 			id: "5EB327C37240443F"
 			tasks: [{
+				consume_items: false
 				id: "0E7309B8631DA29F"
 				item: { count: 1, id: "simulated:analog_transmission" }
 				type: "item"
@@ -386,6 +296,7 @@
 			dependencies: ["1F74719E8E87A936"]
 			id: "0585FA396B31976E"
 			tasks: [{
+				consume_items: false
 				id: "500DE143D5B057F9"
 				item: { count: 1, id: "simulated:navigation_table" }
 				type: "item"
@@ -397,6 +308,7 @@
 			dependencies: ["1F74719E8E87A936"]
 			id: "51D780CADAEBBFAF"
 			tasks: [{
+				consume_items: false
 				id: "39B07F437B4EDD4B"
 				item: { count: 1, id: "simulated:spring" }
 				type: "item"

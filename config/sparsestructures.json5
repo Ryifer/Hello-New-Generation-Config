@@ -1,5 +1,5 @@
 {
-  "spreadFactor": 3.2,
+  "spreadFactor": 2.8,
   "idBasedSalt": true,
   "customSpreadFactors": [
     {
@@ -24,7 +24,15 @@
     },
     {
       "structure": "minecraft:mansion",
+      "factor": 2
+    },
+    {
+      "structure": "idas:tinkers_citadel",
       "factor": 3.2
+    },
+    {
+      "structure": "idas:pillager_fortress",
+      "factor": 3.4
     }
   ]
 }
