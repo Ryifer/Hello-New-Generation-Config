@@ -1,0 +1,10 @@
+kubejs:incomplete_hard_steel	inventory_particles:incomplete_hard_steel/glint/glint0_0.png	0	0	8	8
+kubejs:incomplete_hard_steel	inventory_particles:incomplete_hard_steel/glint/glint0_1.png	8	0	8	8
+kubejs:incomplete_hard_steel	inventory_particles:incomplete_hard_steel/glint/glint0_2.png	16	0	8	8
+kubejs:incomplete_hard_steel	inventory_particles:incomplete_hard_steel/glint/glint0_3.png	24	0	8	8
+kubejs:incomplete_hard_steel	inventory_particles:incomplete_hard_steel/glint/glint0_4.png	32	0	8	8
+kubejs:incomplete_steel_quenched	inventory_particles:incomplete_steel_quenched/glint/glint0_0.png	40	0	8	8
+kubejs:incomplete_steel_quenched	inventory_particles:incomplete_steel_quenched/glint/glint0_1.png	48	0	8	8
+kubejs:incomplete_steel_quenched	inventory_particles:incomplete_steel_quenched/glint/glint0_2.png	56	0	8	8
+kubejs:incomplete_steel_quenched	inventory_particles:incomplete_steel_quenched/glint/glint0_3.png	64	0	8	8
+kubejs:incomplete_steel_quenched	inventory_particles:incomplete_steel_quenched/glint/glint0_4.png	72	0	8	8

@@ -7,6 +7,7 @@
 		id: "refurbished_furniture:oak_chair"
 	}
 	id: "74BE5C98B21375B7"
+<<<<<<< Updated upstream
 	images: [{
 		click: "https://www.bilibili.com/video/BV1Wi421a7Es?t=1.7"
 		height: 2.0d
@@ -17,6 +18,148 @@
 		x: 2.0d
 		y: 1.0d
 	}]
+=======
+	images: [
+		{
+			click: "https://www.bilibili.com/video/BV1Wi421a7Es?t=1.7"
+			height: 2.0d
+			hover: ["点击查看介绍视频"]
+			image: "refurbished_furniture:item/wrench"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "refurbished_furniture:item/package"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			height: 1.2d
+			image: "refurbished_furniture:textures/misc/electricity_nodes.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			height: 1.2d
+			image: "refurbished_furniture:textures/misc/electricity_nodes.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			height: 1.2d
+			image: "refurbished_furniture:textures/misc/electricity_nodes.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			height: 1.2d
+			image: "refurbished_furniture:textures/misc/electricity_nodes.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			height: 1.2d
+			image: "refurbished_furniture:textures/misc/electricity_nodes.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			height: 1.2d
+			image: "refurbished_furniture:textures/misc/electricity_nodes.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			height: 1.2d
+			image: "refurbished_furniture:textures/misc/electricity_nodes.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			height: 1.2d
+			image: "refurbished_furniture:textures/misc/electricity_nodes.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			height: 1.2d
+			image: "refurbished_furniture:textures/misc/electricity_nodes.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			height: 1.2d
+			image: "refurbished_furniture:textures/misc/electricity_nodes.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			height: 1.2d
+			image: "refurbished_furniture:textures/misc/electricity_nodes.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			height: 1.2d
+			image: "refurbished_furniture:textures/misc/electricity_nodes.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			height: 1.2d
+			image: "refurbished_furniture:textures/misc/electricity_nodes.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			height: 1.2d
+			image: "refurbished_furniture:textures/misc/electricity_nodes.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			height: 1.2d
+			image: "refurbished_furniture:textures/misc/electricity_nodes.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -1.5d
+		}
+	]
+>>>>>>> Stashed changes
 	order_index: 6
 	quest_links: [ ]
 	quests: [

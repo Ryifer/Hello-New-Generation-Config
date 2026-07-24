@@ -22,7 +22,11 @@ defaultGlobalExecutorParallelismExpression = "default"
 # - https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Thread.html#setPriority(int)
 # 
 threadPoolPriority = "default"
+<<<<<<< Updated upstream
 # (Default: 11) Configures the parallelism of global executor
+=======
+# (Default: 12) Configures the parallelism of global executor
+>>>>>>> Stashed changes
 globalExecutorParallelism = "default"
 
 [fixes]
@@ -174,9 +178,13 @@ globalExecutorParallelism = "default"
 		mode = "default"
 
 [noTickViewDistance]
+<<<<<<< Updated upstream
 	# (Default: true) Whether to enable no-tick view distance
 	enabled = "default"
 	# (Default: 12) No-tick view distance max concurrent chunk loads 
+=======
+	# (Default: 36) No-tick view distance max concurrent chunk loads 
+>>>>>>> Stashed changes
 	#  Lower this for a better latency and higher this for a faster loading
 	maxConcurrentChunkLoads = "default"
 	# (Default: true) Whether to use compatibility mode to send chunks 

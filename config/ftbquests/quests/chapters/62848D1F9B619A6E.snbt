@@ -1,0 +1,1184 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "62848D1F9B619A6E"
+	group: "18B92B6CD69F44D8"
+	icon: {
+		id: "create:schematic_and_quill"
+	}
+	id: "62848D1F9B619A6E"
+	images: [
+		{
+			height: 1.0d
+			hover: ["点击跳转载具使用详情"]
+			image: "quark:textures/attribute/unknown.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: -3.5d
+		}
+		{
+			height: 20.0d
+			image: "immersiveengineering:textures/models/blueprint_frame.png"
+			order: -1
+			rotation: 0.0d
+			width: 30.0d
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: 13.0d
+			y: -2.0d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 9.0d
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 9.0d
+			x: 11.0d
+			y: 8.5d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: 9.0d
+			y: 5.0d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: 13.0d
+			y: 1.5d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: 13.0d
+			y: 5.0d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			height: 2.5d
+			image: "mcshaying:textures/92.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			click: "https://www.bilibili.com/video/BV1izLE6pEfg?t=4.2"
+			height: 1.0d
+			hover: ["点击跳转载具使用详情"]
+			image: "quark:textures/attribute/unknown.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			height: 3.5d
+			image: "mcshaying:textures/s1.png"
+			order: 1
+			rotation: 0.0d
+			width: 5.5d
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			hover: ["点击跳转载具使用详情"]
+			image: "quark:textures/attribute/unknown.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			click: "https://www.bilibili.com/video/BV1f9GY6tEUF/?spm_id_from=333.337.search-card.all.click&vd_source=fbdd225a2682b4a6fe89334b4ec1c234"
+			height: 1.0d
+			hover: ["点击跳转载具使用详情"]
+			image: "quark:textures/attribute/unknown.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			height: 3.0d
+			image: "mcshaying:textures/eee11.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			click: "https://www.bilibili.com/video/BV1iZL46VEcV/?spm_id_from=333.337.search-card.all.click&vd_source=fbdd225a2682b4a6fe89334b4ec1c234"
+			height: 1.0d
+			hover: ["点击跳转载具使用详情"]
+			image: "quark:textures/attribute/unknown.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			height: 4.0d
+			image: "mcshaying:textures/eee7.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			click: "https://www.bilibili.com/video/BV1AvLV6DExy?t=1.0"
+			height: 1.0d
+			hover: ["点击跳转载具使用详情"]
+			image: "quark:textures/attribute/unknown.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: -3.5d
+		}
+		{
+			height: 3.5d
+			image: "mcshaying:textures/s2.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 12.5d
+			y: -2.0d
+		}
+		{
+			click: "https://www.bilibili.com/video/BV1aERYBDEfw/"
+			height: 1.0d
+			hover: ["点击跳转载具使用详情"]
+			image: "quark:textures/attribute/unknown.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			height: 3.0d
+			image: "mcshaying:textures/111.png"
+			rotation: 0.0d
+			width: 4.5d
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			click: "https://www.bilibili.com/video/BV1QFRuB1EcK?"
+			height: 1.0d
+			hover: ["点击跳转载具演示"]
+			image: "quark:textures/attribute/unknown.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			height: 4.0d
+			image: "mcshaying:textures/94.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 12.5d
+			y: 1.5d
+		}
+		{
+			height: 4.0d
+			image: "mcshaying:textures/fff2.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			height: 3.0d
+			image: "mcshaying:textures/fff1.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			height: 3.0d
+			image: "mcshaying:textures/fff11.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 11.0d
+			y: 8.5d
+		}
+		{
+			height: 3.5d
+			image: "mcshaying:textures/eee1.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			click: "https://www.bilibili.com/video/BV1bWVH6VEBa?vd_source=16fa82979b71c84b755dcc284319f864"
+			height: 1.0d
+			hover: ["点击跳转载具使用详情"]
+			image: "quark:textures/attribute/unknown.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			height: 4.5d
+			image: "mcshaying:textures/gg14.png"
+			order: 1
+			rotation: 0.0d
+			width: 9.0d
+			x: 3.5d
+			y: 8.0d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 9.0d
+			x: 3.0d
+			y: 8.5d
+		}
+		{
+			height: 4.0d
+			image: "mcshaying:textures/gg19.png"
+			order: 1
+			rotation: 0.0d
+			width: 7.0d
+			x: -5.0d
+			y: 8.5d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 9.0d
+			x: -5.0d
+			y: 8.5d
+		}
+		{
+			height: 3.0d
+			image: "mcshaying:textures/gggg2.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			height: 4.0d
+			image: "mcshaying:textures/gggg25.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			click: "https://www.bilibili.com/video/BV18KEG6aEHE/?share_source=copy_web&vd_source=ad7b0775c2bcda82b7f8a27f3ceaeb11"
+			height: 1.0d
+			hover: ["点击跳转载具使用详情"]
+			image: "quark:textures/attribute/unknown.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			click: "https://www.bilibili.com/video/BV1xLJn6HEYj/?share_source=copy_web&vd_source=1d3"
+			height: 1.0d
+			hover: ["点击跳转载具使用详情"]
+			image: "quark:textures/attribute/unknown.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			click: "https://www.bilibili.com/video/BV1igG76kEWC?t=9.3"
+			height: 1.0d
+			hover: ["点击跳转载具使用详情"]
+			image: "quark:textures/attribute/unknown.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: 0.0d
+		}
+		{
+			click: "https://www.bilibili.com/video/BV1Q6Eg6hEqL/?share_source=copy_web&vd_source=1f6cb13b768ef6ad2639417d0a99a116"
+			height: 1.0d
+			hover: ["点击跳转载具使用详情"]
+			image: "quark:textures/attribute/unknown.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			hover: ["点击跳转载具使用详情"]
+			image: "quark:textures/attribute/unknown.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: 7.0d
+		}
+		{
+			click: "https://www.bilibili.com/video/BV1nGNH6GEip?t=3.1"
+			height: 1.0d
+			hover: ["点击跳转载具使用详情"]
+			image: "quark:textures/attribute/unknown.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			click: "https://www.bilibili.com/video/BV1qREV6mExT?t=1.2"
+			height: 1.0d
+			hover: ["点击跳转载具使用详情"]
+			image: "quark:textures/attribute/unknown.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: 7.0d
+		}
+		{
+			click: "https://www.bilibili.com/video/BV1cvJP6eEyq/?spm_id_from=333.1387.homepage.video_card.click&vd_source=f079d8da830ee381c067038c38b65352"
+			height: 5.0d
+			image: "mcshaying:textures/fff54.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: -5.5d
+			y: 5.0d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			icon: {
+				id: "hello_new_generation_core:c8"
+			}
+			id: "4600C2739BD3E2ED"
+			rewards: [{
+				id: "2744E3180AF05DA6"
+				item: {
+					count: 1
+					id: "hello_new_generation_core:c8"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 5L
+				id: "3F014847A5A30C07"
+				item: { count: 1, id: "minecraft:netherite_ingot" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "hello_new_generation_core:c8"
+			}
+			id: "2E4E32252593CDD1"
+			rewards: [{
+				id: "6F2ECB3A93A5349B"
+				item: {
+					count: 1
+					id: "hello_new_generation_core:ss3"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "695F679E62762F57"
+					item: { count: 1, id: "minecraft:barrier" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "60626033F19ED209"
+					item: { count: 1, id: "minecraft:dragon_egg" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "19312DB5BAEF94E6"
+					item: { count: 1, id: "block_factorys_bosses:sandworm_gauntlet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "2B5332A92EB8F3A7"
+					item: { count: 1, id: "block_factorys_bosses:dragon_skull" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "3DE17872B1F76663"
+					item: { count: 1, id: "block_factorys_bosses:knight_sword" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "3BC37224E34F6A35"
+					item: { count: 1, id: "create:creative_motor" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "create:cardboard_package_12x12"
+			}
+			id: "06184B35244061A9"
+			rewards: [{
+				id: "2239407FDD0D6DFB"
+				item: {
+					count: 1
+					id: "hello_new_generation_core:e17"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "025A3B4325786EB2"
+					item: { count: 1, id: "minecraft:dragon_egg" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7F07053A690083BF"
+					item: { count: 1, id: "block_factorys_bosses:sandworm_gauntlet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1D29D44E0694EEC2"
+					item: { count: 1, id: "block_factorys_bosses:dragon_skull" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7C5F27E22EA9D8FC"
+					item: { count: 1, id: "block_factorys_bosses:knight_sword" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "54054E7BE36E57B7"
+					item: { count: 1, id: "create:creative_motor" }
+					type: "item"
+				}
+				{
+					id: "09911607A352B343"
+					item: { count: 1, id: "minecraft:barrier" }
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "create:cardboard_package_12x12"
+			}
+			id: "245468640787EE1D"
+			rewards: [{
+				id: "1E421FCD0DB97057"
+				item: {
+					count: 1
+					id: "hello_new_generation_core:e8"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "6387368433C78453"
+					item: { count: 1, id: "minecraft:dragon_egg" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "49549A7F178BAA02"
+					item: { count: 1, id: "block_factorys_bosses:sandworm_gauntlet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7AA1CD5CA4A8809B"
+					item: { count: 1, id: "block_factorys_bosses:dragon_skull" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "2AFBB9D3DBFE7275"
+					item: { count: 1, id: "block_factorys_bosses:knight_sword" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "10BE74319A49B2D1"
+					item: { count: 1, id: "create:creative_motor" }
+					type: "item"
+				}
+				{
+					id: "6B5A6CF4E1589764"
+					item: { count: 1, id: "minecraft:barrier" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "create:cardboard_package_12x12"
+			}
+			id: "4542F23614995F16"
+			rewards: [{
+				id: "04417AD0C7472F92"
+				item: {
+					count: 1
+					id: "hello_new_generation_core:e3"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "27AA16828247E7BE"
+					item: { count: 1, id: "minecraft:dragon_egg" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1266D5D9A07FF439"
+					item: { count: 1, id: "block_factorys_bosses:sandworm_gauntlet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0AE9AB2EA73E9D1A"
+					item: { count: 1, id: "block_factorys_bosses:dragon_skull" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7E32A91C2FB19CD0"
+					item: { count: 1, id: "block_factorys_bosses:knight_sword" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "163B12607FCF6BD4"
+					item: { count: 1, id: "create:creative_motor" }
+					type: "item"
+				}
+				{
+					id: "02378979E697A1ED"
+					item: { count: 1, id: "minecraft:barrier" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "hello_new_generation_core:aa12"
+			}
+			id: "0797A329EA8682D0"
+			rewards: [{
+				id: "59A85F6DABF875F7"
+				item: {
+					count: 1
+					id: "hello_new_generation_core:s2"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "1F700B672D5FF875"
+					item: { count: 1, id: "minecraft:dragon_egg" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "21A31F224421731D"
+					item: { count: 1, id: "block_factorys_bosses:sandworm_gauntlet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "60CF6DF7F262BE1F"
+					item: { count: 1, id: "block_factorys_bosses:dragon_skull" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "139C254D70EB352C"
+					item: { count: 1, id: "block_factorys_bosses:knight_sword" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "609B7067788498D7"
+					item: { count: 1, id: "create:creative_motor" }
+					type: "item"
+				}
+				{
+					id: "56CCEE24B56F389D"
+					item: { count: 1, id: "minecraft:barrier" }
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "hello_new_generation_core:s2"
+			}
+			id: "05FE91B3D8DD5815"
+			rewards: [{
+				id: "12958198DCAF5C70"
+				item: {
+					count: 1
+					id: "hello_new_generation_core:aa12"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "44728C52F59B3254"
+					item: { count: 1, id: "minecraft:nether_star" }
+					type: "item"
+				}
+				{
+					id: "1D2EA22BE905D105"
+					item: { count: 1, id: "minecraft:barrier" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "hello_new_generation_core:c8"
+			}
+			id: "40A424DF02685C52"
+			rewards: [{
+				id: "2E65321F3EF2AAB1"
+				item: {
+					count: 1
+					id: "hello_new_generation_core:ss1"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "31DAB0622EF3B431"
+					item: { count: 1, id: "minecraft:dragon_egg" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "15D49EBB39036F6D"
+					item: { count: 1, id: "block_factorys_bosses:sandworm_gauntlet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "07E0BE0CC1B11B91"
+					item: { count: 1, id: "block_factorys_bosses:dragon_skull" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "2AACD2580B559057"
+					item: { components: { "minecraft:custom_data": { itemKey: "2c7c471d-a461-4dcd-9c5a-3913d6d68a16" } }, count: 1, id: "block_factorys_bosses:knight_sword" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "5B4830B5B3463420"
+					item: { count: 1, id: "create:creative_motor" }
+					type: "item"
+				}
+				{
+					id: "30B6EBEB1875D8E8"
+					item: { count: 1, id: "minecraft:barrier" }
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "create:cardboard_package_12x12"
+			}
+			id: "7CD0622AAF4B16EF"
+			rewards: [{
+				id: "5920F9E0B794D7FD"
+				item: {
+					count: 1
+					id: "hello_new_generation_core:f2"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7F1888C39A24906D"
+					item: { count: 1, id: "minecraft:nether_star" }
+					type: "item"
+				}
+				{
+					id: "3E746CFAF5785D9E"
+					item: { count: 1, id: "minecraft:barrier" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "create:cardboard_package_12x12"
+			}
+			id: "265B81D810558CC5"
+			rewards: [{
+				id: "6FEC48ED634BE448"
+				item: {
+					count: 1
+					id: "hello_new_generation_core:f1"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 9L
+					id: "258FF7C6004CCC21"
+					item: { count: 1, id: "createendertransmission:energy_transmitter" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3507F4131E81114C"
+					item: { count: 1, id: "createpropulsion:vector_thruster" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "671F9EA1FE83ECD1"
+					item: { count: 1, id: "createaddition:electric_motor" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "2453DCE398C6FA23"
+					item: { count: 1, id: "create:rotation_speed_controller" }
+					type: "item"
+				}
+				{
+					id: "09182FC36DB3505E"
+					item: { count: 1, id: "createpropulsion:redstone_transmission" }
+					type: "item"
+				}
+				{
+					id: "215C43C4A5369496"
+					item: { count: 1, id: "createpropulsion:ion_thruster" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "593ECAACA521E104"
+					item: { count: 1, id: "aeronautics:gyroscopic_propeller_bearing" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "4A5E3E23F6316696"
+					item: { count: 1, id: "aeronautics:smart_propeller" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1E022CB3F89437D5"
+					item: { count: 1, id: "simulated:torsion_spring" }
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			id: "591CA26789BBF3C4"
+			rewards: [{
+				id: "09A7F2AD72299C30"
+				item: {
+					count: 1
+					id: "hello_new_generation_core:f15"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7F2755568C8EFD91"
+					item: { count: 1, id: "hello_new_generation_core:f15" }
+					type: "item"
+				}
+				{
+					id: "0F81F9566D7BDCAA"
+					item: { count: 1, id: "minecraft:barrier" }
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 9.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "create:cardboard_package_12x12"
+			}
+			id: "13F3CBBA730D83DF"
+			rewards: [{
+				id: "55DC500910A02380"
+				item: {
+					count: 1
+					id: "hello_new_generation_core:e15"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7CA6C5147742E0C9"
+				item: { count: 1, id: "minecraft:barrier" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "create:cardboard_package_12x12"
+			}
+			id: "46DBABCA7D64E10D"
+			rewards: [{
+				id: "1D7465FEB6D926E7"
+				item: {
+					count: 1
+					id: "hello_new_generation_core:f27"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "62A5E991E976281A"
+				item: { count: 1, id: "minecraft:nether_star" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			id: "5D1E55126F2937D4"
+			rewards: [{
+				id: "6D108F52A7548C9B"
+				item: {
+					count: 1
+					id: "hello_new_generation_core:f28"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "30F855C62BC01733"
+					item: { count: 1, id: "hello_new_generation_core:f28" }
+					type: "item"
+				}
+				{
+					id: "754045EDBBE558F1"
+					item: { count: 1, id: "minecraft:barrier" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 9.5d
+		}
+		{
+			id: "3703436D205BDE4B"
+			rewards: [{
+				id: "25D042A961D4F1C7"
+				item: {
+					count: 1
+					id: "hello_new_generation_core:f40"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3C05685D4B93F713"
+					item: { count: 1, id: "hello_new_generation_core:f40" }
+					type: "item"
+				}
+				{
+					id: "4711B69E906FB858"
+					item: { count: 1, id: "minecraft:barrier" }
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 9.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "create:cardboard_package_12x12"
+			}
+			id: "104CF1E4971F11F1"
+			rewards: [{
+				id: "36BB39B1CAC8A324"
+				item: {
+					count: 1
+					id: "hello_new_generation_core:f49"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 7L
+					id: "6AB6877DFF2D60CA"
+					item: { count: 1, id: "createadditionallogistics:flexible_shaft" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "60AC84636EDAB567"
+					item: { count: 1, id: "simulated:analog_transmission" }
+					type: "item"
+				}
+				{
+					id: "4FD244C19F2787B8"
+					item: { count: 1, id: "create:cogwheel" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "791985074759AD70"
+					item: { count: 1, id: "aeronautics:adjustable_burner" }
+					type: "item"
+				}
+				{
+					count: 18L
+					id: "0D8736000DC65324"
+					item: { count: 1, id: "create:redstone_link" }
+					type: "item"
+				}
+				{
+					id: "7F88CC0F1B6B2EEE"
+					item: { count: 1, id: "aeroworks:gyroscope" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "0F974BF4AFCA51F1"
+					item: { count: 1, id: "aeronautics:wooden_propeller" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "717AA41E71EF1396"
+					item: { count: 1, id: "create:sequenced_gearshift" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4750DFD342554D5A"
+					item: { count: 1, id: "simulated:torsion_spring" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6F07B8DA60EA9410"
+					item: { count: 1, id: "createpropulsion:ion_thruster" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "3EEEDC192B4FF180"
+					item: { count: 1, id: "simulated:swivel_bearing" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			id: "0EACCAE402CFB890"
+			rewards: [{
+				id: "2F7D303387AE4CCF"
+				item: {
+					count: 1
+					id: "create_aeronautics_toolgun:portable_structure_container"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "11A621D166853A51"
+				item: { count: 1, id: "create:blaze_cake" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.5d
+		}
+	]
+}

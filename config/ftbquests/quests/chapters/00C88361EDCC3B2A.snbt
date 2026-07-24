@@ -1,0 +1,2419 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "00C88361EDCC3B2A"
+	group: "42DF9A8C445EFF86"
+	icon: {
+		id: "kaleidoscope_cookery:rice_panicle"
+	}
+	id: "00C88361EDCC3B2A"
+	images: [
+		{
+			height: 6.0d
+			image: "farmersdelight:block/tatami"
+			rotation: 0.0d
+			width: 6.0d
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			height: 10.0d
+			image: "farmersdelight:block/tatami"
+			rotation: 0.0d
+			width: 13.0d
+			x: -12.5d
+			y: -2.5d
+		}
+		{
+			height: 5.0d
+			image: "kaleidoscope_cookery:block/stove_front_lit"
+			rotation: 0.0d
+			width: 5.0d
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			height: 3.0d
+			image: "kaleidoscope_cookery:item/iron_kitchen_knife"
+			rotation: 0.0d
+			width: 3.0d
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			height: 2.0d
+			image: "kaleidoscope_cookery:item/straw_hat"
+			rotation: 0.0d
+			width: 2.0d
+			x: -18.0d
+			y: -7.0d
+		}
+		{
+			height: 2.0d
+			image: "kaleidoscope_cookery:block/pot_oil"
+			rotation: 0.0d
+			width: 2.0d
+			x: -17.5d
+			y: 1.5d
+		}
+		{
+			height: 2.0d
+			image: "kaleidoscope_cookery:item/rice_panicle"
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.5d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "kaleidoscope_chinesefood:textures/mob_effect/overflow_saturation_to_absorption.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: -6.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3102ADE58212879E"
+			tasks: [{
+				id: "54017117A8EA9569"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			id: "5CF102487A4B0401"
+			rewards: [{
+				id: "18ED8EB76C9E1689"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "1442A8354DF423ED"
+				item: { count: 1, id: "kaleidoscope_chinesefood:yellow_croaker_soup" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.5d
+		}
+		{
+			id: "7740FBF6931A5F9C"
+			rewards: [{
+				id: "67DAB128227C7FAB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "43A46A38712F097F"
+				item: { count: 1, id: "kaleidoscope_chinesefood:century_egg_congee" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			id: "3488CB4BC1C56534"
+			rewards: [{
+				id: "00AF666C77E068AA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "1369BEAACE243322"
+				item: { count: 1, id: "kaleidoscope_chinesefood:tomato_egg_drop_soup" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			id: "6FA2E43F0DA013B7"
+			rewards: [{
+				id: "5F112580764368FA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "7E1E2EB14A61B18A"
+				item: { count: 1, id: "kaleidoscope_chinesefood:seaweed_egg_drop_soup" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			id: "57A3F2D32ABD3C97"
+			rewards: [{
+				id: "79DD20B352E1A637"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "5A30914DA019FE6E"
+				item: { count: 1, id: "kaleidoscope_chinesefood:pumpkin_porridge" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			id: "68AD112B7DEA69D9"
+			rewards: [{
+				id: "796F163635E1E83C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "1EA7578C41ACB6B8"
+				item: { count: 1, id: "kaleidoscope_chinesefood:yellow_croaker_tofu_soup" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			id: "4797B40330026656"
+			rewards: [{
+				id: "14EB07C86A1A63C4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "0F2BECC5A081AA10"
+				item: { count: 1, id: "kaleidoscope_chinesefood:steamed_rice_rolls" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			id: "59DE30DD10819FA8"
+			rewards: [{
+				id: "689C5CDA1CC95AD7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "2CF6C2BFBF4D3CA3"
+				item: { count: 1, id: "kaleidoscope_chinesefood:sichuan_boiled_fish" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			id: "58C127081BAFF643"
+			rewards: [{
+				id: "0F5F5C51BA8A440B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "3F747663405C79D6"
+				item: { count: 1, id: "kaleidoscope_chinesefood:sichuan_boiled_pork_slices" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			id: "4ADEB944C2D9C17C"
+			rewards: [{
+				id: "614427EBEDDBDFCF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "3AA7D3AF20E82F96"
+				item: { count: 1, id: "kaleidoscope_chinesefood:red_rice_roll" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			id: "7359E86E708C33EE"
+			rewards: [{
+				id: "72166241B1B9B6FF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "5280CF3766614CC8"
+				item: { count: 1, id: "kaleidoscope_chinesefood:stir_fried_three_fresh_vegetables_rice" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			id: "1AC179604B04FA8F"
+			rewards: [{
+				id: "0F33D0571E8F3536"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "354F7473766F4005"
+				item: { count: 1, id: "kaleidoscope_chinesefood:beef_with_scrambled_eggs_rice" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			id: "54A23DCB6C6F1CDD"
+			rewards: [{
+				id: "67CC9CFE81395B04"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "5552399CB375B5D1"
+				item: { count: 1, id: "kaleidoscope_chinesefood:sichuan_wonton" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			id: "13DEF1F5C1C47275"
+			rewards: [{
+				id: "249DB7166748F974"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "638507175A99F335"
+				item: { count: 1, id: "kaleidoscope_chinesefood:yangzhou_fried_rice" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			id: "4D55CAE5B7CF53CB"
+			rewards: [{
+				id: "580DC6F364BFF3B8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "3983B6F553383E94"
+				item: { count: 1, id: "kaleidoscope_chinesefood:stir_fried_yellow_beef_rice" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			id: "4C222B766AA568C4"
+			rewards: [{
+				id: "4A7AB25A86F55A00"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "4EFDE3715CB61CC9"
+				item: { count: 1, id: "kaleidoscope_chinesefood:wonton_noodles" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			id: "1B8E5D823DB9EA2D"
+			rewards: [{
+				id: "6D83A0901E467D10"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "73C70B869E9EFFC6"
+				item: { count: 1, id: "kaleidoscope_chinesefood:yangrou_paomo" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			id: "72E290D53B3C0AFD"
+			rewards: [{
+				id: "39B39D0EA52F6545"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "28706699EC02BAB1"
+				item: { count: 1, id: "kaleidoscope_chinesefood:twice_cooked_pork_rice" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			id: "031530FA436ECB55"
+			rewards: [{
+				id: "4B2988C9D65BCEC1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "1C8ED9C6F91284DF"
+				item: { count: 1, id: "kaleidoscope_chinesefood:lamb_pilaf" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			id: "1010544E1B192664"
+			rewards: [{
+				id: "686C9AF35C617BDA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "057F16297A485395"
+				item: { count: 1, id: "kaleidoscope_chinesefood:stir_fried_yellow_beef" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			id: "193075AA3450C6FC"
+			rewards: [{
+				id: "4FBB0A8CA6612F1D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "0ACB334AEF02471C"
+				item: { count: 1, id: "kaleidoscope_chinesefood:four_joy_meatballs" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			id: "41D1F688445A2F4F"
+			rewards: [{
+				id: "3EB0FBF09B55ED19"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "08AB788B3B66A300"
+				item: { count: 1, id: "kaleidoscope_chinesefood:beef_with_scrambled_eggs" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependency_requirement: "one_completed"
+			id: "1A643107885CBCEF"
+			rewards: [{
+				id: "1C7C665D003DDB2D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "50C3098C842669BF"
+				item: { count: 1, id: "kaleidoscope_chinesefood:sauerkraut_beef_noodles" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			id: "73356C684D07C468"
+			rewards: [{
+				id: "4ABD0CBDEC278E1A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "22F0665A7BDB01AE"
+				item: { count: 1, id: "kaleidoscope_chinesefood:twice_cooked_pork" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			id: "4217FE988478C09D"
+			rewards: [{
+				id: "5A11F2C1814DD297"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "60317DD1E3F7A4EF"
+				item: { count: 1, id: "kaleidoscope_chinesefood:tomato_egg_noodles" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			id: "522389AC8C212DF4"
+			rewards: [{
+				id: "06443ABEF62B00FD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "1A366016EF4FB8F7"
+				item: { count: 1, id: "kaleidoscope_chinesefood:big_plate_chicken_noodles" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			id: "3C9AF5D2397E0123"
+			rewards: [{
+				id: "5DCEA7AE1603AD3A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "25C3F3B8F040B48C"
+				item: { count: 1, id: "kaleidoscope_chinesefood:pork_chili_noodles" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			id: "6AB599BE27822DC6"
+			rewards: [{
+				id: "53E510C49FD05C07"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "098AD759645BCE79"
+				item: { count: 1, id: "kaleidoscope_chinesefood:dry_pot_potatoes" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			id: "6862798425418582"
+			rewards: [{
+				id: "31F2E0EB46415D3C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "0A24A193769FE089"
+				item: { count: 1, id: "kaleidoscope_chinesefood:dry_pot_chicken" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			id: "606D2EF249FC2EDA"
+			rewards: [{
+				id: "1F191284838486E7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "0F4AB4C81E244212"
+				item: { count: 1, id: "kaleidoscope_chinesefood:dry_pot_spare_ribs" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			id: "362940D9387BC81D"
+			rewards: [{
+				id: "30CDE1997AD151D0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "3723FE8D25335D35"
+				item: { count: 1, id: "kaleidoscope_chinesefood:maocai" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			id: "3664D109560655B2"
+			rewards: [{
+				id: "73F0FE5DE6E9CE9A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "17C616A552EA03A9"
+				item: { count: 1, id: "kaleidoscope_chinesefood:mooncake" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			id: "36CDD75BFD409D7A"
+			rewards: [{
+				id: "5F01F3ADE1A130BC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "5B69B6B20D348888"
+				item: { count: 1, id: "kaleidoscope_chinesefood:century_egg" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			id: "3203E434F50D0625"
+			rewards: [{
+				id: "017F32A153AE7E16"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "3164677E991E4789"
+				item: { count: 1, id: "kaleidoscope_chinesefood:chinese_sauerkraut" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			id: "45FFF34E84B23687"
+			rewards: [{
+				id: "5B45475605CEF374"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "490482AA3E9E2FE7"
+				item: { count: 1, id: "kaleidoscope_chinesefood:big_plate_chicken" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			id: "41D8BEC1C0CCBC1A"
+			rewards: [{
+				id: "7BA7EEF071C1AC22"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "74B85CA28770FB2C"
+				item: { count: 1, id: "kaleidoscope_chinesefood:stir_fried_three_fresh_vegetables" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			id: "3D948D4BD3CC41AD"
+			rewards: [{
+				id: "5486E753F0A69F2C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "4FCED159333C42BB"
+				item: { count: 1, id: "kaleidoscope_chinesefood:hk_milk_tea" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			id: "2C0576E87C589E1E"
+			rewards: [{
+				id: "39314E780B309BA4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "0B027B186ED224B0"
+				item: { count: 1, id: "kaleidoscope_chinesefood:lapsang" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			id: "694AB381D4351AAF"
+			rewards: [{
+				id: "57AD33C78B6B906C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "4B36FE34D686BD22"
+				item: { count: 1, id: "kaleidoscope_chinesefood:salted_egg" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			id: "477F5D9F0AC91F22"
+			rewards: [{
+				id: "4BCB36911B0305CD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "1E8B7BCAB4D3596E"
+				item: { count: 1, id: "kaleidoscope_chinesefood:yellow_croaker" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			id: "7AE4B9B3052A9B55"
+			rewards: [{
+				id: "2DBF9AF1AB5CE2A4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "696A452D21127D2E"
+				item: { count: 1, id: "kaleidoscope_twilight:frozen_bun" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			id: "47C948A4BE38C818"
+			shape: "none"
+			tasks: [{
+				consume_items: false
+				id: "5CD3D5B1ACF93D8A"
+				item: { count: 1, id: "kaleidoscope_cookery:tomato" }
+				type: "item"
+			}]
+			x: -16.5d
+			y: -5.5d
+		}
+		{
+			id: "1AE478576FC6F138"
+			shape: "none"
+			tasks: [{
+				consume_items: false
+				id: "67C68F4D43CE2C22"
+				item: { count: 1, id: "kaleidoscope_cookery:red_chili" }
+				type: "item"
+			}]
+			x: -15.5d
+			y: -5.5d
+		}
+		{
+			id: "1E1968C3487A6C4E"
+			shape: "none"
+			tasks: [{
+				consume_items: false
+				id: "47973D84A1F74F32"
+				item: { count: 1, id: "kaleidoscope_cookery:green_chili" }
+				type: "item"
+			}]
+			x: -14.5d
+			y: -5.5d
+		}
+		{
+			id: "30A23EE1113BE8AE"
+			shape: "none"
+			tasks: [{
+				consume_items: false
+				id: "25AAA90ED66BC706"
+				item: { count: 1, id: "kaleidoscope_cookery:lettuce" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: -5.5d
+		}
+		{
+			id: "194715FC85FAB5CB"
+			shape: "none"
+			tasks: [{
+				consume_items: false
+				id: "55176EF7C7D151E4"
+				item: { count: 1, id: "kaleidoscope_cookery:rice_panicle" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: -5.5d
+		}
+		{
+			id: "7855FF89CD337056"
+			shape: "none"
+			tasks: [{
+				consume_items: false
+				id: "445544F20FC544D6"
+				item: { count: 1, id: "kaleidoscope_cookery:caterpillar" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -5.5d
+		}
+		{
+			id: "29F9C36581B2C798"
+			shape: "none"
+			tasks: [{
+				consume_items: false
+				id: "061C5AFBE137A46B"
+				item: { count: 1, id: "kaleidoscope_cookery:sashimi" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -5.5d
+		}
+		{
+			id: "0711933D522CA9E5"
+			shape: "none"
+			tasks: [{
+				consume_items: false
+				id: "5765F97B398AD2E2"
+				item: { count: 1, id: "kaleidoscope_cookery:raw_lamb_chops" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -5.5d
+		}
+		{
+			id: "2FEC50C81F866066"
+			shape: "none"
+			tasks: [{
+				consume_items: false
+				id: "07C4D2E1D1D523B3"
+				item: { count: 1, id: "kaleidoscope_cookery:cooked_lamb_chops" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: -5.5d
+		}
+		{
+			id: "309F9FC128AF57CB"
+			shape: "none"
+			tasks: [{
+				consume_items: false
+				id: "0B31C65F4EFF321D"
+				item: { count: 1, id: "kaleidoscope_cookery:raw_cow_offal" }
+				type: "item"
+			}]
+			x: -16.0d
+			y: -5.0d
+		}
+		{
+			id: "031DCEF70CA75020"
+			shape: "none"
+			tasks: [{
+				consume_items: false
+				id: "78093184250EBF7B"
+				item: { count: 1, id: "kaleidoscope_cookery:cooked_cow_offal" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: -5.0d
+		}
+		{
+			id: "41438882DDC5BB71"
+			shape: "none"
+			tasks: [{
+				consume_items: false
+				id: "091D5167FD80ACBB"
+				item: { count: 1, id: "kaleidoscope_cookery:raw_pork_belly" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: -5.0d
+		}
+		{
+			id: "6C72F6B64DA247D9"
+			shape: "none"
+			tasks: [{
+				consume_items: false
+				id: "61E3156A399F77C2"
+				item: { count: 1, id: "kaleidoscope_cookery:cooked_pork_belly" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: -5.0d
+		}
+		{
+			id: "5C654F46FAD85BD2"
+			shape: "none"
+			tasks: [{
+				consume_items: false
+				id: "13DF674DDE2ACFBD"
+				item: { count: 1, id: "kaleidoscope_cookery:raw_cut_small_meats" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: -5.0d
+		}
+		{
+			id: "175020CA573E4F58"
+			shape: "none"
+			tasks: [{
+				consume_items: false
+				id: "740C0899AE7CAC89"
+				item: { count: 1, id: "kaleidoscope_cookery:cooked_cut_small_meats" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -5.0d
+		}
+		{
+			id: "5F798BD1148B2CEF"
+			shape: "none"
+			tasks: [{
+				consume_items: false
+				id: "15D0ACDE49F31721"
+				item: { count: 1, id: "kaleidoscope_cookery:raw_meatball" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -5.0d
+		}
+		{
+			id: "2C5DB8323E531D07"
+			shape: "none"
+			tasks: [{
+				consume_items: false
+				id: "0A1B50F715523500"
+				item: { count: 1, id: "kaleidoscope_cookery:cooked_meatball" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -5.0d
+		}
+		{
+			id: "79AEA84D7EE0F895"
+			shape: "none"
+			tasks: [{
+				consume_items: false
+				id: "12CE244867568B46"
+				item: { count: 1, id: "kaleidoscope_cookery:donkey_burger" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -5.0d
+		}
+		{
+			id: "0E070787BF30C2F4"
+			shape: "none"
+			tasks: [{
+				consume_items: false
+				id: "047EF8D4A0CCFD4C"
+				item: { count: 1, id: "kaleidoscope_cookery:mantou" }
+				type: "item"
+			}]
+			x: -16.5d
+			y: -4.5d
+		}
+		{
+			id: "3F64B3961201B620"
+			shape: "none"
+			tasks: [{
+				consume_items: false
+				id: "128ECE3B4C6F4091"
+				item: { count: 1, id: "kaleidoscope_cookery:baozi" }
+				type: "item"
+			}]
+			x: -15.5d
+			y: -4.5d
+		}
+		{
+			id: "6D76B250AF1B8975"
+			shape: "none"
+			tasks: [{
+				consume_items: false
+				id: "0CFE9D98E5922A9F"
+				item: { count: 1, id: "kaleidoscope_cookery:shengjian_mantou" }
+				type: "item"
+			}]
+			x: -14.5d
+			y: -4.5d
+		}
+		{
+			id: "5402152B22CB4F85"
+			shape: "none"
+			tasks: [{
+				consume_items: false
+				id: "6F25C7D643244359"
+				item: { count: 1, id: "kaleidoscope_cookery:samsa" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: -4.5d
+		}
+		{
+			id: "3D62B01D7765B59A"
+			shape: "none"
+			tasks: [{
+				consume_items: false
+				id: "67CB9063E8135139"
+				item: { count: 1, id: "kaleidoscope_cookery:meat_pie" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: -4.5d
+		}
+		{
+			id: "26C05C481AE20C80"
+			shape: "none"
+			tasks: [{
+				consume_items: false
+				id: "54CEB23BFAB5A03F"
+				item: { count: 1, id: "kaleidoscope_cookery:dumpling" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -4.5d
+		}
+		{
+			id: "70A74940543327C8"
+			shape: "none"
+			tasks: [{
+				consume_items: false
+				id: "5A7AEE6D702F361A"
+				item: { count: 1, id: "kaleidoscope_cookery:fried_egg" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -4.5d
+		}
+		{
+			id: "4E37703BC2D9B5C2"
+			shape: "none"
+			tasks: [{
+				consume_items: false
+				id: "33FD502086157920"
+				item: { count: 1, id: "kaleidoscope_cookery:sticky_candy" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -4.5d
+		}
+		{
+			id: "66DAB5C5C2EF87DF"
+			shape: "none"
+			tasks: [{
+				consume_items: false
+				id: "50387C3D9181377C"
+				item: { count: 1, id: "kaleidoscope_cookery:sticky_rice_cake" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: -4.5d
+		}
+		{
+			id: "3F07FA6CB4DEC32B"
+			shape: "none"
+			tasks: [{
+				consume_items: false
+				id: "1499D9BDE4109110"
+				item: { count: 1, id: "kaleidoscope_cookery:bamboo_tube_rice" }
+				type: "item"
+			}]
+			x: -16.0d
+			y: -4.0d
+		}
+		{
+			id: "5445F7DC7DE48171"
+			shape: "none"
+			tasks: [{
+				consume_items: false
+				id: "1CEB61BAF5943C60"
+				item: { count: 1, id: "kaleidoscope_cookery:zongzi" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: -4.0d
+		}
+		{
+			id: "076755BB24479F3A"
+			shape: "none"
+			tasks: [{
+				consume_items: false
+				id: "2E5F56AF22BA412C"
+				item: { count: 1, id: "kaleidoscope_cookery:qingtuan" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: -4.0d
+		}
+		{
+			id: "29F21CAC72CE6159"
+			shape: "none"
+			tasks: [{
+				consume_items: false
+				id: "71026AE5A6B9A000"
+				item: { count: 1, id: "kaleidoscope_cookery:cooked_rice" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: -4.0d
+		}
+		{
+			id: "02F547791CB26380"
+			shape: "none"
+			tasks: [{
+				consume_items: false
+				id: "635AF79A5DA92F67"
+				item: { count: 1, id: "kaleidoscope_cookery:egg_fried_rice" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -4.0d
+		}
+		{
+			id: "4EA1B55AA7C4E374"
+			shape: "none"
+			tasks: [{
+				consume_items: false
+				id: "167126A8593C2457"
+				item: { count: 1, id: "kaleidoscope_cookery:scramble_egg_with_tomatoes" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -4.0d
+		}
+		{
+			id: "01E21F6173CDEE22"
+			shape: "none"
+			tasks: [{
+				consume_items: false
+				id: "6C42A85FA13D7879"
+				item: { count: 1, id: "kaleidoscope_cookery:scramble_egg_with_tomatoes_rice_bowl" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -4.0d
+		}
+		{
+			id: "51874CE97FE53200"
+			shape: "none"
+			tasks: [{
+				consume_items: false
+				id: "7A19B090C2A5B492"
+				item: { count: 1, id: "kaleidoscope_cookery:braised_beef" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -4.0d
+		}
+		{
+			id: "4297DFF135119FA6"
+			shape: "none"
+			tasks: [{
+				consume_items: false
+				id: "131CD915E9138515"
+				item: { count: 1, id: "kaleidoscope_cookery:braised_beef_rice_bowl" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: -4.0d
+		}
+		{
+			id: "07D4C65E5261F636"
+			rewards: [{
+				id: "66FE4DCBC0742254"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "48D94CB1FE514CD7"
+				item: { count: 1, id: "kaleidoscope_cookery:stir_fried_pork_with_peppers" }
+				type: "item"
+			}]
+			x: -16.5d
+			y: -3.5d
+		}
+		{
+			id: "2226887F39BD130A"
+			rewards: [{
+				id: "02C67BFA6A96CEA5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "7B4952868FAA1554"
+				item: { count: 1, id: "kaleidoscope_cookery:stir_fried_pork_with_peppers_rice_bowl" }
+				type: "item"
+			}]
+			x: -15.5d
+			y: -3.5d
+		}
+		{
+			id: "284CAF19949A68CA"
+			rewards: [{
+				id: "351F3C0E7E34A27B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "06702B741611FB33"
+				item: { count: 1, id: "kaleidoscope_cookery:sweet_and_sour_pork" }
+				type: "item"
+			}]
+			x: -14.5d
+			y: -3.5d
+		}
+		{
+			id: "25BB386211790929"
+			rewards: [{
+				id: "5795ABAF52CDBE9A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "652B84F9D4B55981"
+				item: { count: 1, id: "kaleidoscope_cookery:sweet_and_sour_pork_rice_bowl" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: -3.5d
+		}
+		{
+			id: "5544D486293AE05C"
+			rewards: [{
+				id: "3FE1BEE051947089"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "58E683F03D2159AB"
+				item: { count: 1, id: "kaleidoscope_cookery:fish_flavored_shredded_pork" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: -3.5d
+		}
+		{
+			id: "37F23EAAB3487F74"
+			rewards: [{
+				id: "16FC6B740D562C05"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "268592C18848A015"
+				item: { count: 1, id: "kaleidoscope_cookery:fish_flavored_shredded_pork_rice_bowl" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -3.5d
+		}
+		{
+			id: "013958158B8DEF29"
+			rewards: [{
+				id: "037BCD6B57F9BB00"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "0A9ADAE0C07E5E87"
+				item: { count: 1, id: "kaleidoscope_cookery:pork_bone_soup" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -3.5d
+		}
+		{
+			id: "763B3FD6ED1DE555"
+			rewards: [{
+				id: "08B1CD817951FF06"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "27D08F88626A684A"
+				item: { count: 1, id: "kaleidoscope_cookery:seafood_miso_soup" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -3.5d
+		}
+		{
+			id: "636B40DF9524022B"
+			rewards: [{
+				id: "1DA78CAC75C89050"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "0BD3B03874A6775E"
+				item: { count: 1, id: "kaleidoscope_cookery:fearsome_thick_soup" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: -3.5d
+		}
+		{
+			id: "417E9BB11064F298"
+			rewards: [{
+				id: "693D067159E7572D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "796C0E3FEF5CCE02"
+				item: { count: 1, id: "kaleidoscope_cookery:lamb_and_radish_soup" }
+				type: "item"
+			}]
+			x: -16.0d
+			y: -3.0d
+		}
+		{
+			id: "5C8974D876039EAF"
+			rewards: [{
+				id: "40413481E2C3B336"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "360DDBD6E155AED5"
+				item: { count: 1, id: "kaleidoscope_cookery:braised_beef_with_potatoes" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: -3.0d
+		}
+		{
+			id: "5E3358ABFA653B6E"
+			rewards: [{
+				id: "0C8BDCECB18C109A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "1B6B184723D049AF"
+				item: { count: 1, id: "kaleidoscope_cookery:wild_mushroom_rabbit_soup" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: -3.0d
+		}
+		{
+			id: "67BCB6953D4857F0"
+			rewards: [{
+				id: "29ADC8B28642C1B7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "3737A6DEFA44F4C5"
+				item: { count: 1, id: "kaleidoscope_cookery:pufferfish_soup" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: -3.0d
+		}
+		{
+			id: "1B5C0BA1E3EFCC9F"
+			rewards: [{
+				id: "2544586283DCF21B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "57392B84369ED09F"
+				item: { count: 1, id: "kaleidoscope_cookery:borscht" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -3.0d
+		}
+		{
+			id: "48F9AB2F3BC93234"
+			rewards: [{
+				id: "56D7AA8937F90EF6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "40C693F7F28C520B"
+				item: { count: 1, id: "kaleidoscope_cookery:beef_meatball_soup" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -3.0d
+		}
+		{
+			id: "01DCC04D8DD62A02"
+			rewards: [{
+				id: "3C32CF903BF9DC71"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "181F8EA21D0608AC"
+				item: { count: 1, id: "kaleidoscope_cookery:chicken_and_mushroom_stew" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			id: "4787AE68BB2013B8"
+			rewards: [{
+				id: "49A1078342961FF2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "20491A034299634C"
+				item: { count: 1, id: "kaleidoscope_cookery:laba_congee" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.0d
+		}
+		{
+			id: "1B8A8E2FD32D62FA"
+			rewards: [{
+				id: "48A67F146C416EFB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "7F85D4BC523BDBFA"
+				item: { count: 1, id: "kaleidoscope_cookery:beef_noodle" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: -3.0d
+		}
+		{
+			id: "00E290CB42B67785"
+			rewards: [{
+				id: "143634D344521B29"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "4F610BF2F8719C41"
+				item: { count: 1, id: "kaleidoscope_cookery:hui_noodle" }
+				type: "item"
+			}]
+			x: -16.5d
+			y: -2.5d
+		}
+		{
+			id: "6A63132CF3BBD32D"
+			rewards: [{
+				id: "758E3357EA03C372"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "22902F2508ED911E"
+				item: { count: 1, id: "kaleidoscope_cookery:udon_noodle" }
+				type: "item"
+			}]
+			x: -15.5d
+			y: -2.5d
+		}
+		{
+			id: "59683DA53700B3F0"
+			rewards: [{
+				id: "7273F31AE361FB65"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "2F5BEE0C025899A2"
+				item: { count: 1, id: "kaleidoscope_cookery:hot_dry_noodles" }
+				type: "item"
+			}]
+			x: -14.5d
+			y: -2.5d
+		}
+		{
+			id: "5316D832A3E23375"
+			rewards: [{
+				id: "17CC75C9ABE978A3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "4B8173F7837F1FBC"
+				item: { count: 1, id: "kaleidoscope_cookery:dark_cuisine" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: -2.5d
+		}
+		{
+			id: "55FB85A4D5ACE648"
+			rewards: [{
+				id: "12BC92E17AA87008"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "4F1D4EE0B975F13A"
+				item: { count: 1, id: "kaleidoscope_cookery:suspicious_stir_fry" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: -2.5d
+		}
+		{
+			id: "79BA1404896DE5B5"
+			rewards: [{
+				id: "45DCB87126196CA8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "103BAE35A03CFA33"
+				item: { count: 1, id: "kaleidoscope_cookery:slime_ball_meal" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -2.5d
+		}
+		{
+			id: "3C3F85FDD91512BA"
+			rewards: [{
+				id: "3A899986515632FA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "7E5953CC228E43FA"
+				item: { count: 1, id: "kaleidoscope_cookery:fondant_pie" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -2.5d
+		}
+		{
+			id: "412CF297628E92D6"
+			rewards: [{
+				id: "344FBCDC0FC09347"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "16DBFC5A800B0688"
+				item: { count: 1, id: "kaleidoscope_cookery:dongpo_pork" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -2.5d
+		}
+		{
+			id: "618AFBFCF3D503FF"
+			rewards: [{
+				id: "42B18554DDB30FA3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "3F48D4780611DD34"
+				item: { count: 1, id: "kaleidoscope_cookery:fondant_spider_eye" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: -2.5d
+		}
+		{
+			id: "5B54F3A8DDB873FA"
+			rewards: [{
+				id: "22C2D16325155F2B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "01F75C97B782D70A"
+				item: { count: 1, id: "kaleidoscope_cookery:chorus_fried_egg" }
+				type: "item"
+			}]
+			x: -16.0d
+			y: -2.0d
+		}
+		{
+			id: "21E97C5E847BF8C5"
+			rewards: [{
+				id: "28415627FF39A96E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "177F5621849E246C"
+				item: { count: 1, id: "kaleidoscope_cookery:spicy_chicken" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: -2.0d
+		}
+		{
+			id: "1245674AB4C5F5DF"
+			rewards: [{
+				id: "58F4F215275FBFAC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "2A15DB64123D566C"
+				item: { count: 1, id: "kaleidoscope_cookery:pan_seared_knight_steak" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: -2.0d
+		}
+		{
+			id: "5B45106EF320ABB2"
+			rewards: [{
+				id: "705B41BCA1D82341"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "358EB461280CF7A1"
+				item: { count: 1, id: "kaleidoscope_cookery:stargazy_pie" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: -2.0d
+		}
+		{
+			id: "10300E98C18749E9"
+			rewards: [{
+				id: "11126917D87B9DDA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "2047ABD63631770D"
+				item: { count: 1, id: "kaleidoscope_cookery:sweet_and_sour_ender_pearls" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -2.0d
+		}
+		{
+			id: "2659CD4DD10D5AC4"
+			rewards: [{
+				id: "43205562F57973F3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "66DC9CB432822742"
+				item: { count: 1, id: "kaleidoscope_cookery:crystal_lamb_chop" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -2.0d
+		}
+		{
+			id: "225B19FDD43E8815"
+			rewards: [{
+				id: "2577284E3CD3490A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "6F3D27B2FC74E751"
+				item: { count: 1, id: "kaleidoscope_cookery:blaze_lamb_chop" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			id: "24CF64B644348B57"
+			rewards: [{
+				id: "03A9A12823ED1A51"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "551987A1C9C03724"
+				item: { count: 1, id: "kaleidoscope_cookery:frost_lamb_chop" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: -2.0d
+		}
+		{
+			id: "04552558A39E1841"
+			rewards: [{
+				id: "5BEB7603561326C8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "10012327BBD50EA3"
+				item: { count: 1, id: "kaleidoscope_cookery:nether_style_sashimi" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: -1.5d
+		}
+		{
+			id: "60AAD87DEA6E2E96"
+			rewards: [{
+				id: "3CCE89041A704F7A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "5259F69EC8D97543"
+				item: { count: 1, id: "kaleidoscope_cookery:end_style_sashimi" }
+				type: "item"
+			}]
+			x: -16.5d
+			y: -1.5d
+		}
+		{
+			id: "72CAC7E15413A448"
+			rewards: [{
+				id: "428A7B4E74BE02C7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "08CAFA8E780231D5"
+				item: { count: 1, id: "kaleidoscope_cookery:desert_style_sashimi" }
+				type: "item"
+			}]
+			x: -15.5d
+			y: -1.5d
+		}
+		{
+			id: "0BF290CA0F54BC8E"
+			rewards: [{
+				id: "066159A6DBF9E2E2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "1FA2C0BDC78DA680"
+				item: { count: 1, id: "kaleidoscope_cookery:tundra_style_sashimi" }
+				type: "item"
+			}]
+			x: -14.5d
+			y: -1.5d
+		}
+		{
+			id: "4D0A1CE5EA08EEB1"
+			rewards: [{
+				id: "3FA3425AF327F2E2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "403854085B5BA80B"
+				item: { count: 1, id: "kaleidoscope_cookery:cold_style_sashimi" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: -1.5d
+		}
+		{
+			id: "58A58B81C8B8A602"
+			rewards: [{
+				id: "54B1B7F3D19BC279"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "5B138A397C2B6CF2"
+				item: { count: 1, id: "kaleidoscope_cookery:candied_potato" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			id: "250D28DD324899CE"
+			rewards: [{
+				id: "46214FBADD24CFC5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "5CFB19E21F36B1A4"
+				item: { count: 1, id: "kaleidoscope_cookery:stuffed_tiger_skin_pepper" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -1.5d
+		}
+		{
+			id: "3252BEEC3407BE24"
+			rewards: [{
+				id: "3454A4B8AAE3427E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "48E5E0F6909837A1"
+				item: { count: 1, id: "kaleidoscope_cookery:spicy_rabbit_head" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.5d
+		}
+		{
+			id: "3A698CAF9AB20C63"
+			rewards: [{
+				id: "61B1B1948631D166"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "7BEB38C249E20184"
+				item: { count: 1, id: "kaleidoscope_cookery:fried_caterpillar" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -1.5d
+		}
+		{
+			id: "067B5BBF8AA6C1EB"
+			rewards: [{
+				id: "5D6CFB830443724E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "4787B495D6B29557"
+				item: { count: 1, id: "kaleidoscope_cookery:fried_spring_roll" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: -1.5d
+		}
+		{
+			id: "1E907D25A3C4B218"
+			rewards: [{
+				id: "3707D08679807AA0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "3B2691C044DBDCDF"
+				item: { count: 1, id: "kaleidoscope_cookery:braised_pork_ribs" }
+				type: "item"
+			}]
+			x: -16.0d
+			y: -1.0d
+		}
+		{
+			id: "7DACC003572CA6F1"
+			rewards: [{
+				id: "553943191DA8C149"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "4DC7B1C59FF544CF"
+				item: { count: 1, id: "kaleidoscope_cookery:cold_roasted_meat" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: -1.0d
+		}
+		{
+			id: "68E9486498A5AC26"
+			rewards: [{
+				id: "568A2B4F0960F4D5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "015DEB6D3C1004AB"
+				item: { count: 1, id: "kaleidoscope_cookery:oil_splashed_fish" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: -1.0d
+		}
+		{
+			id: "52E95B7A590BAE00"
+			rewards: [{
+				id: "0E46B1A3789D60EF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "6131464C3B5AD7ED"
+				item: { count: 1, id: "kaleidoscope_cookery:cold_cut_ham_slices" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: -1.0d
+		}
+		{
+			id: "7EC12054FF9674E6"
+			rewards: [{
+				id: "41CB350D07596596"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "22BE1FE26202DC8F"
+				item: { count: 1, id: "kaleidoscope_cookery:dough_drop_soup" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: -1.0d
+		}
+		{
+			id: "7526A565C0A28700"
+			rewards: [{
+				id: "1AB845691E4FA40E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "0B3F4BBEA1D37165"
+				item: { count: 1, id: "kaleidoscope_cookery:four_joy_meatball_soup" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -1.0d
+		}
+		{
+			id: "2A3AB24C45AFD3CF"
+			rewards: [{
+				id: "372BC0C4218EE071"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "2A8A2DA04D5D6785"
+				item: { count: 1, id: "kaleidoscope_cookery:numbing_spicy_chicken" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -1.0d
+		}
+		{
+			id: "7589AF2EE240DB2D"
+			rewards: [{
+				id: "04616F7E689915FF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "1D3877F4B45B2188"
+				item: { count: 1, id: "kaleidoscope_cookery:spicy_blood_stew" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			id: "2B2404D8EFA2B217"
+			rewards: [{
+				id: "391CA7E01A17A008"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "392FD74120114F76"
+				item: { count: 1, id: "kaleidoscope_cookery:brown_mushroom_pot_soup" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			id: "014AC4DD9445A396"
+			rewards: [{
+				id: "07A5793B4E22DBFF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "06C303FDC72432F5"
+				item: { count: 1, id: "kaleidoscope_cookery:red_mushroom_pot_soup" }
+				type: "item"
+			}]
+			x: -16.5d
+			y: -0.5d
+		}
+		{
+			id: "0A374972CC69B9A0"
+			rewards: [{
+				id: "784F1073805ADE80"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "3F0BDF3DE1FD1313"
+				item: { count: 1, id: "kaleidoscope_cookery:warped_fungus_pot_soup" }
+				type: "item"
+			}]
+			x: -15.5d
+			y: -0.5d
+		}
+		{
+			id: "54C3625ED6BE3061"
+			rewards: [{
+				id: "0B2A25A1549AEC82"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "0A92AEC36CF982F9"
+				item: { count: 1, id: "kaleidoscope_cookery:crimson_fungus_pot_soup" }
+				type: "item"
+			}]
+			x: -14.5d
+			y: -0.5d
+		}
+		{
+			id: "0912652012CA74EF"
+			rewards: [{
+				id: "380FCC49A69773DD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "30844D14DE515898"
+				item: { count: 1, id: "kaleidoscope_cookery:buddha_jumps_over_the_wall" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: -0.5d
+		}
+		{
+			id: "5FD91C49C4593B80"
+			rewards: [{
+				id: "32149D58E7734152"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "7C5CC5C9BED04D95"
+				item: { count: 1, id: "kaleidoscope_cookery:golden_salad" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: -0.5d
+		}
+		{
+			id: "365127FDE376BC16"
+			rewards: [{
+				id: "3B40D0D96F786659"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "45E8F206C6D43B81"
+				item: { count: 1, id: "kaleidoscope_cookery:shengjian_mantou_plate" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: -0.5d
+		}
+		{
+			id: "670A602F6CA4093D"
+			rewards: [{
+				id: "4C8AC34588F07456"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "5526D945A876674D"
+				item: { count: 1, id: "kaleidoscope_cookery:baozi_plate" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -0.5d
+		}
+		{
+			id: "535D39AF626480CC"
+			rewards: [{
+				id: "1779A3228020CBE6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "05C4DA58B3398FFC"
+				item: { count: 1, id: "kaleidoscope_cookery:qingtuan_plate" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -0.5d
+		}
+		{
+			id: "2880E3CDAF51DACA"
+			rewards: [{
+				id: "77DAD5CE0750EDC1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "44841F5183024B66"
+				item: { count: 1, id: "kaleidoscope_cookery:sticky_candy_plate" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -0.5d
+		}
+		{
+			id: "7DC45728D9009289"
+			rewards: [{
+				id: "54C0179B4BB44362"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "267ED62CFD6A3A94"
+				item: { count: 1, id: "kaleidoscope_cookery:sticky_rice_cake_plate" }
+				type: "item"
+			}]
+			x: -16.0d
+			y: 0.0d
+		}
+		{
+			id: "3BEC70FF01727146"
+			rewards: [{
+				id: "466790DE6038DB23"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "47EFA0C400954B98"
+				item: { count: 1, id: "kaleidoscope_cookery:zongzi_plate" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: 0.0d
+		}
+		{
+			id: "5B1652F50E3E34CA"
+			rewards: [{
+				id: "385B8A911BCD6636"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "4428F7BBFDA56719"
+				item: { count: 1, id: "kaleidoscope_cookery:berry_platter" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: 0.0d
+		}
+		{
+			id: "0C239DC78FC32AC1"
+			rewards: [{
+				id: "075ADCD1D0D9ECF3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "381698716DB9DA98"
+				item: { count: 1, id: "kaleidoscope_cookery:apple_platter" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: 0.0d
+		}
+		{
+			id: "147F6E5995AD769C"
+			rewards: [{
+				id: "7DD02BF9B2BED24C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "25E29DFAB44797B8"
+				item: { count: 1, id: "kaleidoscope_cookery:tomato_platter" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			id: "77CDE151FE2A1AEA"
+			rewards: [{
+				id: "6F6B09B05366DDFB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "42CB2B712BBA4581"
+				item: { count: 1, id: "kaleidoscope_cookery:watermelon_platter" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			id: "3BC82220E018AF4F"
+			rewards: [{
+				id: "209F146BA5BEDFFC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "67E920500FF871DD"
+				item: { count: 1, id: "kaleidoscope_cookery:chorus_fruit_platter" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			id: "2AFC26DB0361C1F3"
+			rewards: [{
+				id: "6FC036FB669966BA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "674FB51CE6D80166"
+				item: { count: 1, id: "kaleidoscope_cookery:empty_cup" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 0.0d
+		}
+		{
+			id: "4C5483463AA8427E"
+			rewards: [{
+				id: "0D1DDB49DE926293"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "6B23EE1947FB1C89"
+				item: { count: 1, id: "kaleidoscope_cookery:barley_tea" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 0.0d
+		}
+		{
+			id: "16AA189E67B04D5E"
+			rewards: [{
+				id: "2B7D2738C7135100"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "67656698C410BEF8"
+				item: { count: 1, id: "kaleidoscope_cookery:tieguanyin" }
+				type: "item"
+			}]
+			x: -16.5d
+			y: 0.5d
+		}
+		{
+			id: "7BB39C6127388F5E"
+			rewards: [{
+				id: "47D8573F4E51EF2A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "7222BC34ED97C4A3"
+				item: { count: 1, id: "kaleidoscope_cookery:biluochun" }
+				type: "item"
+			}]
+			x: -15.5d
+			y: 0.5d
+		}
+		{
+			id: "7D563A1869E70BD3"
+			rewards: [{
+				id: "01A0AC37AB19ED56"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "50A012FC0E038A16"
+				item: { count: 1, id: "kaleidoscope_cookery:oolong" }
+				type: "item"
+			}]
+			x: -14.5d
+			y: 0.5d
+		}
+		{
+			id: "222F3622E7196633"
+			rewards: [{
+				id: "0A2996830323CD4E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "32692DFAB64B6EBA"
+				item: { count: 1, id: "kaleidoscope_cookery:sakura_fubuki" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: 0.5d
+		}
+		{
+			id: "7C98BF312AFB3574"
+			rewards: [{
+				id: "2FE551D54CE048DC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			tasks: [{
+				id: "7F346A2D95D3D6B6"
+				item: { count: 1, id: "kaleidoscope_cookery:flower_tea" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: 0.5d
+		}
+		{
+			id: "6C8D60A5BAA43ABA"
+			tasks: [{
+				id: "5C66AA131B80C9C1"
+				type: "checkmark"
+			}]
+			x: -17.0d
+			y: -6.0d
+		}
+	]
+}

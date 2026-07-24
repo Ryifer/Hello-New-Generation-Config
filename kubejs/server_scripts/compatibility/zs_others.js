@@ -26,7 +26,7 @@ ServerEvents.recipes(function (event) {
 
 	// 1.2. 油脂体系（KC 种子磨油 → CDG 植物油）
 	// 1.2.1 种子 → 石磨 → KC油脂 + 25% 油渣（biomass_pellet）
-	event.recipes.create.milling(Item.of('kaleidoscope_cookery:oil'), Ingredient.of('#c:seeds'));
+	event.recipes.create.milling('kaleidoscope_cookery:oil', {tag: 'c:seeds'});
 
 	// 1.2.2 KC油脂 → 搅拌加热 → CDG 植物油 125mB
 	event.recipes.create.compacting([

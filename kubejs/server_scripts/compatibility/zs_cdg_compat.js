@@ -90,6 +90,7 @@ ServerEvents.recipes(function (event) {
             results: [{ id: 'createaddition:' + m + '_rod', count: 2 }] });
     });
 
+<<<<<<< Updated upstream
 	// 合成树皮
     create.compacting('farmersdelight:tree_bark', [
         Item.of('createdieselgenerators:wood_chip', 2),
@@ -106,4 +107,6 @@ ServerEvents.recipes(function (event) {
 ServerEvents.tags('item', function (event) {
 	// 移除过于廉价的 CDG 木屑木板，迫使转向 IE 纤维板木板
 	event.remove('minecraft:planks', 'createdieselgenerators:chip_wood_block');
+=======
+>>>>>>> Stashed changes
 });
