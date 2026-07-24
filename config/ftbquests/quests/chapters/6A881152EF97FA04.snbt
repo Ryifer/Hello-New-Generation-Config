@@ -7,16 +7,6 @@
 		id: "kaleidoscope_tavern:wine"
 	}
 	id: "6A881152EF97FA04"
-<<<<<<< Updated upstream
-	images: [{
-		height: 10.0d
-		image: "mcshaying:textures/22.png"
-		rotation: 0.0d
-		width: 20.0d
-		x: 0.0d
-		y: 0.5d
-	}]
-=======
 	images: [
 		{
 			height: 1.0d
@@ -359,7 +349,6 @@
 			y: 2.0d
 		}
 	]
->>>>>>> Stashed changes
 	order_index: 3
 	quest_links: [ ]
 	quests: [
@@ -373,6 +362,7 @@
 				}
 				type: "item"
 			}]
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "5B607B5A2009377C"
@@ -430,7 +420,7 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
+			x: 2.0d
 			y: 2.0d
 		}
 		{
@@ -461,6 +451,7 @@
 					type: "command"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "2D06B0D2107D80D5"
@@ -503,7 +494,7 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
+			x: 1.0d
 			y: 2.0d
 		}
 		{
@@ -516,6 +507,7 @@
 				}
 				type: "item"
 			}]
+			shape: "gear"
 			tasks: [
 				{
 					id: "3741833832BD39CE"
@@ -553,8 +545,456 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
+			x: 3.0d
 			y: 2.0d
+		}
+		{
+			id: "52485CF54BC7D11A"
+			rewards: [{
+				count: 16
+				id: "315D068418B43F90"
+				item: {
+					count: 1
+					id: "kaleidoscope_tavern:grape"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "0A4AAC4C2C6C900E"
+				item: { count: 1, id: "kaleidoscope_tavern:grape" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			id: "71920046ED11350A"
+			rewards: [{
+				count: 16
+				id: "2931A31B435E8877"
+				item: {
+					count: 1
+					id: "kaleidoscope_tavern:ice_grape"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "0E4AB2FD1E2CBED0"
+				item: { count: 1, id: "kaleidoscope_tavern:ice_grape" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			id: "18162C8FA1F6F39A"
+			rewards: [{
+				count: 16
+				id: "3F7C0D45EA5657AD"
+				item: {
+					count: 1
+					id: "kaleidoscope_tavern:gold_grape"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "67108C9F47C94D3F"
+				item: { count: 1, id: "kaleidoscope_tavern:gold_grape" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			id: "3AD4B69D3A28E0D5"
+			rewards: [{
+				count: 16
+				id: "3627E4231DF68B06"
+				item: {
+					count: 1
+					id: "kaleidoscope_tavern:green_grape"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "68A5118DC9FB81CD"
+				item: { count: 1, id: "kaleidoscope_tavern:green_grape" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			id: "1AFE12FBB0C2B0DC"
+			shape: "none"
+			tasks: [{
+				id: "1636B8F4678002F9"
+				item: { count: 1, id: "kaleidoscope_tavern:trellis" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "7AE4538F4BFD40C0"
+			shape: "none"
+			tasks: [{
+				id: "4D9B96E3B4F6F0EB"
+				item: { count: 1, id: "kaleidoscope_tavern:pressing_tub" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			id: "7289D80A3E172CC1"
+			rewards: [{
+				count: 16
+				id: "3EF236C7F7A814E9"
+				item: {
+					count: 1
+					id: "kaleidoscope_tavern:empty_bottle"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			size: 3.0d
+			tasks: [{
+				id: "1DF232DF051F6DDA"
+				item: { count: 1, id: "kaleidoscope_tavern:barrel" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "1A542902DEBF348B"
+			shape: "none"
+			tasks: [{
+				id: "0761B87DE9C2D5CB"
+				item: { count: 1, id: "kaleidoscope_tavern:tap" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			id: "78504D7368150E6A"
+			shape: "none"
+			tasks: [{
+				id: "66C1956A232B6A4B"
+				item: { count: 1, id: "kaleidoscope_tavern:grapevine" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			id: "5E83B8CF93D7B4D5"
+			shape: "none"
+			tasks: [{
+				id: "40EB311512076625"
+				item: { count: 1, id: "kaleidoscope_tavern:pressing_tub" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			id: "7E8A3C89BE4F6C6D"
+			shape: "none"
+			tasks: [{
+				id: "22714C7C09C1CFCB"
+				item: { count: 1, id: "kaleidoscope_tavern:pressing_tub" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			id: "16E5CFC8B3D51CC2"
+			shape: "none"
+			tasks: [{
+				id: "025F430D0DFAEDD5"
+				item: { count: 1, id: "kaleidoscope_tavern:pressing_tub" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			id: "3A1E57CB177BFA1A"
+			shape: "none"
+			tasks: [{
+				id: "174CE4E4EA01BD8F"
+				item: { count: 1, id: "kaleidoscope_tavern:trellis" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			id: "16D260A0BFF87D52"
+			shape: "none"
+			tasks: [{
+				id: "7614874ED8677AC0"
+				item: { count: 1, id: "kaleidoscope_tavern:trellis" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			id: "2E81A53B9467C4A5"
+			shape: "none"
+			tasks: [{
+				id: "767190973D7803B7"
+				item: { count: 1, id: "kaleidoscope_tavern:trellis" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			id: "3EC8F67D5435101C"
+			shape: "none"
+			tasks: [{
+				id: "62676B5E4C368945"
+				item: { count: 1, id: "kaleidoscope_tavern:trellis" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			id: "2941D133F871072F"
+			shape: "none"
+			tasks: [{
+				id: "50B91401D01B3C46"
+				item: { count: 1, id: "kaleidoscope_tavern:trellis" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "572CC90F5C67A94C"
+			shape: "none"
+			tasks: [{
+				id: "4978B18DEAC5C899"
+				item: { count: 1, id: "kaleidoscope_tavern:trellis" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			id: "528AEAC32BACC1B6"
+			shape: "none"
+			tasks: [{
+				id: "548EBAB02B67357F"
+				item: { count: 1, id: "kaleidoscope_tavern:trellis" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			icon: {
+				id: "quark:oak_post"
+			}
+			id: "7A32BC86664B61D9"
+			rewards: [{
+				count: 2
+				id: "79BFEB6A0EF50A69"
+				item: {
+					components: {
+						"kaleidoscope_tavern:brew_level": 6
+					}
+					count: 1
+					id: "kaleidoscope_tavern:sherry"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [
+				{
+					id: "63F783F4825A554A"
+					item: { count: 1, id: "kaleidoscope_tavern:trellis" }
+					type: "item"
+				}
+				{
+					id: "7DF27F92A1F65F25"
+					item: { count: 1, id: "minecraft:shears" }
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			id: "420AF792B2B2B82C"
+			shape: "none"
+			tasks: [{
+				id: "08AEC7FEB15B6F8E"
+				item: { count: 1, id: "kaleidoscope_tavern:trellis" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			id: "2FC8CB02D2887281"
+			shape: "none"
+			tasks: [{
+				id: "653E26057D2305B9"
+				item: { count: 1, id: "kaleidoscope_tavern:trellis" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			id: "427DECFF348B3C51"
+			shape: "none"
+			tasks: [{
+				id: "6CDCA2848F231927"
+				item: { count: 1, id: "kaleidoscope_tavern:trellis" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			id: "1830CB6281910248"
+			shape: "none"
+			tasks: [{
+				id: "1BAAB7F5BB56EEA3"
+				item: { count: 1, id: "kaleidoscope_tavern:trellis" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			id: "5293DE5C8ABF6ECD"
+			shape: "none"
+			tasks: [{
+				id: "517E979A1E8FB068"
+				item: { count: 1, id: "kaleidoscope_tavern:trellis" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			id: "01EA8FB67493CD72"
+			shape: "none"
+			tasks: [{
+				id: "459ED4D1D418D64F"
+				item: { count: 1, id: "kaleidoscope_tavern:trellis" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			id: "27BC119B5D791FA7"
+			shape: "none"
+			tasks: [{
+				id: "680145C506F1A453"
+				item: { count: 1, id: "kaleidoscope_tavern:trellis" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			id: "596F59BE0E51AB4C"
+			shape: "none"
+			tasks: [{
+				id: "3829558410C23E52"
+				item: { count: 1, id: "kaleidoscope_tavern:trellis" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			id: "3C7B6CAC7801E3DC"
+			shape: "none"
+			size: 2.0d
+			tasks: [{
+				id: "577F5043251B7DC6"
+				item: { count: 1, id: "kaleidoscope_tavern:pink_sofa" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "6DC4C7BA29B90ED6"
+			shape: "none"
+			size: 2.0d
+			tasks: [{
+				id: "123430F6E2AA7867"
+				item: { count: 1, id: "kaleidoscope_tavern:table" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			id: "0B2554F9274D3000"
+			shape: "none"
+			size: 2.0d
+			tasks: [{
+				id: "338C679E251E0896"
+				item: { count: 1, id: "kaleidoscope_tavern:stepladder" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			id: "407A3856F69D900F"
+			shape: "none"
+			size: 2.0d
+			tasks: [{
+				id: "6BA4F34D359B54C6"
+				item: { count: 1, id: "kaleidoscope_tavern:table" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			id: "093D0F72B9192161"
+			shape: "none"
+			size: 2.0d
+			tasks: [{
+				id: "1F21144145AFF21B"
+				item: { count: 1, id: "kaleidoscope_tavern:table" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			id: "275CCFBA300B0686"
+			shape: "none"
+			size: 2.0d
+			tasks: [{
+				id: "460AA8A649087BF7"
+				item: { count: 1, id: "kaleidoscope_tavern:glass_bar_cabinet" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
 		}
 	]
 }

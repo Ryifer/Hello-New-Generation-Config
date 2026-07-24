@@ -2,21 +2,12 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "1A4F4FEFA69506D5"
-	group: "59418A0B4E6E90CF"
+	group: "6C5E761EA98BF3D2"
 	icon: {
 		id: "create:schematic_and_quill"
 	}
 	id: "1A4F4FEFA69506D5"
 	images: [
-		{
-			height: 15.0d
-			image: "immersiveengineering:textures/models/blueprint_frame.png"
-			order: -1
-			rotation: 0.0d
-			width: 25.0d
-			x: 12.0d
-			y: 3.0d
-		}
 		{
 			height: 4.0d
 			image: "create:block/bogey/particle"
@@ -187,14 +178,6 @@
 			y: 3.5d
 		}
 		{
-			height: 2.0d
-			image: "mcshaying:textures/78.png"
-			rotation: 0.0d
-			width: 3.0d
-			x: 16.0d
-			y: 3.5d
-		}
-		{
 			click: "https://www.bilibili.com/video/BV1559mBoEbR?"
 			height: 1.0d
 			hover: ["点击跳转载具使用详情"]
@@ -265,21 +248,11 @@
 			y: 2.0d
 		}
 		{
-			click: "https://www.bilibili.com/video/BV1Pf5J6vEtU?"
-			height: 1.0d
-			hover: ["点击跳转载具使用详情"]
-			image: "quark:textures/attribute/unknown.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 14.5d
-			y: 2.0d
-		}
-		{
 			height: 3.0d
 			image: "mcshaying:textures/83.png"
 			rotation: 0.0d
 			width: 3.0d
-			x: 20.0d
+			x: 16.0d
 			y: 3.5d
 		}
 		{
@@ -308,12 +281,15 @@
 		}
 		{
 			height: 1.0d
-			hover: ["点击跳转载具使用详情"]
+			hover: [
+				"驾车，或是开飞艇？"
+				"惬意~"
+			]
 			image: "quark:textures/attribute/unknown.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -1.0d
-			y: -0.5d
+			x: 14.0d
+			y: -2.5d
 		}
 		{
 			click: "https://www.bilibili.com/video/BV1JmLP6DEHb?t=2.0"
@@ -341,7 +317,7 @@
 			image: "quark:textures/attribute/unknown.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 18.5d
+			x: 14.5d
 			y: 2.0d
 		}
 		{
@@ -367,14 +343,6 @@
 			width: 3.0d
 			x: 16.0d
 			y: 7.0d
-		}
-		{
-			height: 2.0d
-			image: "mcshaying:textures/eee8.png"
-			rotation: 0.0d
-			width: 3.0d
-			x: 4.0d
-			y: 0.0d
 		}
 		{
 			click: "https://space.bilibili.com/47777182?spm_id_from=333.337.0.0"
@@ -407,13 +375,232 @@
 			y: 5.5d
 		}
 		{
+			height: 20.0d
+			image: "immersiveengineering:textures/models/blueprint_frame.png"
+			order: -1
+			rotation: 0.0d
+			width: 30.0d
+			x: 14.0d
+			y: 4.5d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: 24.0d
+			y: 3.5d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: 24.0d
+			y: 7.0d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: 4.0d
+			y: 10.5d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: 8.0d
+			y: 10.5d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: 12.0d
+			y: 10.5d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: 16.0d
+			y: 10.5d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: 20.0d
+			y: 10.5d
+		}
+		{
+			height: 4.0d
+			image: "create:block/bogey/particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: 24.0d
+			y: 10.5d
+		}
+		{
+			height: 3.7d
+			image: "mcshaying:textures/ffff1.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: 4.0d
+			y: 10.5d
+		}
+		{
+			height: 3.8d
+			image: "mcshaying:textures/ffff11.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: 24.0d
+			y: 10.5d
+		}
+		{
+			height: 3.0d
+			image: "mcshaying:textures/gg3.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 12.0d
+			y: 10.5d
+		}
+		{
+			height: 2.6d
+			image: "mcshaying:textures/gg16.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			height: 3.0d
+			image: "mcshaying:textures/gggg24.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 20.0d
+			y: 3.5d
+		}
+		{
+			height: 3.0d
+			image: "mcshaying:textures/gggg27.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 8.0d
+			y: 10.5d
+		}
+		{
+			height: 5.0d
+			image: "mcshaying:textures/gggg28.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			height: 3.0d
+			image: "mcshaying:textures/gggg7.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 24.0d
+			y: 7.0d
+		}
+		{
+			click: "https://www.bilibili.com/video/BV1FaN36UEQP/?share_source=copy_web&vd_source=1d3b18b965966e6a3c3773f9e93bc195"
 			height: 1.0d
 			hover: ["点击跳转载具使用详情"]
 			image: "quark:textures/attribute/unknown.png"
+			order: 1
 			rotation: 0.0d
 			width: 1.0d
 			x: 2.5d
 			y: -1.5d
+		}
+		{
+			height: 1.0d
+			hover: ["点击跳转载具使用详情"]
+			image: "quark:textures/attribute/unknown.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 22.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			hover: ["点击跳转载具使用详情"]
+			image: "quark:textures/attribute/unknown.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			hover: ["点击跳转载具使用详情"]
+			image: "quark:textures/attribute/unknown.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 22.5d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			hover: ["点击跳转载具使用详情"]
+			image: "quark:textures/attribute/unknown.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 22.5d
+			y: 9.0d
+		}
+		{
+			click: "https://www.bilibili.com/video/BV1oqMt6FEqT?t=1.0"
+			height: 1.0d
+			hover: ["点击跳转载具使用详情"]
+			image: "quark:textures/attribute/unknown.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.5d
+			y: 9.0d
+		}
+		{
+			click: "https://www.bilibili.com/video/BV1wvj668ETR?vd_source=e1fb6de3a3ceaf6b6bf9776f996d6db5"
+			height: 1.0d
+			hover: ["点击跳转载具使用详情"]
+			image: "quark:textures/attribute/unknown.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: 9.0d
+		}
+		{
+			height: 1.0d
+			hover: ["点击跳转载具使用详情"]
+			image: "quark:textures/attribute/unknown.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 9.0d
 		}
 	]
 	order_index: 0
@@ -426,7 +613,7 @@
 			}
 			id: "0AFD6E36FB2A381E"
 			rewards: [{
-				id: "438A0A207E6572D1"
+				id: "6641056342901AE7"
 				item: {
 					count: 1
 					id: "hello_new_generation_core:aa6"
@@ -976,7 +1163,7 @@
 				item: { count: 1, id: "create:blaze_cake" }
 				type: "item"
 			}]
-			x: 12.0d
+			x: 14.0d
 			y: -2.5d
 		}
 		{
@@ -1451,120 +1638,6 @@
 		{
 			can_repeat: true
 			icon: {
-				id: "hello_new_generation_core:b8"
-			}
-			id: "28AE1EC3C7487B61"
-			rewards: [{
-				id: "460B299BED660961"
-				item: {
-					count: 1
-					id: "hello_new_generation_core:b8"
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					consume_items: true
-					count: 2L
-					id: "29C1F8B381ACB4C7"
-					item: { count: 1, id: "create:cogwheel" }
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 2L
-					id: "30802969D4EA0B37"
-					item: { count: 1, id: "bits_n_bobs:headlamp" }
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 8L
-					id: "43EBA15049FC2366"
-					item: { count: 1, id: "offroad:large_tire" }
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 8L
-					id: "141A6CAD3CA965EA"
-					item: { count: 1, id: "offroad:wheel_mount" }
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 7L
-					id: "5AF16CB4484B03E5"
-					item: { count: 1, id: "simulated:rope_winch" }
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "22E4A786215C7D45"
-					item: { count: 1, id: "create_connected:brass_gearbox" }
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "3E83D00AD041387C"
-					item: { count: 1, id: "create:copper_valve_handle" }
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "16FD9BE8BC458AB3"
-					item: { count: 1, id: "bits_n_bobs:large_flanged_cogwheel" }
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 2L
-					id: "2D8A1FA9FC09438B"
-					item: { count: 1, id: "simulated:rope_connector" }
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 6L
-					id: "00D624E76211B432"
-					item: { count: 1, id: "create:piston_extension_pole" }
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 2L
-					id: "72D9C03710329E5C"
-					item: { count: 1, id: "create:mechanical_piston" }
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 2L
-					id: "6ED94C287C67359F"
-					item: { count: 1, id: "simulated:swivel_bearing" }
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 2L
-					id: "294FDAD92DA7A3BE"
-					item: { count: 1, id: "create:hand_crank" }
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 3L
-					id: "4AFC71FA3BFD0553"
-					item: { count: 1, id: "minecraft:diamond" }
-					type: "item"
-				}
-			]
-			x: 16.0d
-			y: 4.5d
-		}
-		{
-			can_repeat: true
-			icon: {
 				id: "hello_new_generation_core:c3"
 			}
 			id: "027084BB871EBD66"
@@ -1673,7 +1746,7 @@
 					type: "item"
 				}
 			]
-			x: 20.0d
+			x: 16.0d
 			y: 4.5d
 		}
 		{
@@ -1917,7 +1990,7 @@
 				}
 			]
 			x: 19.5d
-			y: 8.5d
+			y: 8.0d
 		}
 		{
 			can_repeat: true
@@ -1971,7 +2044,7 @@
 				}
 			]
 			x: 20.5d
-			y: 8.5d
+			y: 8.0d
 		}
 		{
 			can_repeat: true
@@ -2057,51 +2130,6 @@
 			]
 			x: 8.0d
 			y: 8.0d
-		}
-		{
-			can_repeat: true
-			icon: {
-				id: "hello_new_generation_core:c3"
-			}
-			id: "794BCC1F8BC952D6"
-			rewards: [{
-				id: "069F3DE575A6207D"
-				item: {
-					count: 1
-					id: "hello_new_generation_core:e4"
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "57A50CB81BBC49AC"
-					item: { count: 1, id: "drivebywiretypewriter:typewriter_hub" }
-					type: "item"
-				}
-				{
-					id: "2D4B15FAE2BCD1BC"
-					item: { count: 1, id: "simulated:red_portable_engine" }
-					type: "item"
-				}
-				{
-					id: "05898BB4A78D8EAD"
-					item: { count: 1, id: "aeroworks:gyroscope" }
-					type: "item"
-				}
-				{
-					id: "33C1CDBC8EE69588"
-					item: { count: 1, id: "simulated:directional_gearshift" }
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "52B26E59F298CE24"
-					item: { count: 1, id: "offroad:tire" }
-					type: "item"
-				}
-			]
-			x: 4.0d
-			y: 1.0d
 		}
 		{
 			can_repeat: true
@@ -2315,6 +2343,531 @@
 				}
 			]
 			x: 16.0d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "create:cardboard_package_12x12"
+			}
+			id: "646BCD561CA5CA6C"
+			rewards: [{
+				id: "0A659B70E2DD752C"
+				item: {
+					count: 1
+					id: "hello_new_generation_core:f5"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "0F37411CF776A50D"
+					item: { count: 1, id: "createpropulsion:redstone_transmission" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "012F2FF648C2AFAB"
+					item: { count: 1, id: "create_flight_control:flight_control_redstone_proxy" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4F1EF1ADEA51A4F2"
+					item: { count: 1, id: "create:encased_chain_drive" }
+					type: "item"
+				}
+				{
+					id: "0FA17A1958265497"
+					item: { count: 1, id: "createaddition:alternator" }
+					type: "item"
+				}
+				{
+					id: "416B2CE1D7EBE103"
+					item: { count: 1, id: "create_flight_control:angular_velocity_coupler" }
+					type: "item"
+				}
+				{
+					id: "3D6EDDCC601ABDAE"
+					item: { count: 1, id: "create_flight_control:attitude_hold" }
+					type: "item"
+				}
+				{
+					id: "2B52289B98025B8A"
+					item: { count: 1, id: "createpropulsion:stirling_engine" }
+					type: "item"
+				}
+				{
+					id: "13EA304CF50C0B0A"
+					item: { count: 1, id: "create:steam_engine" }
+					type: "item"
+				}
+				{
+					id: "20F9E4129929C509"
+					item: { count: 1, id: "create:rotation_speed_controller" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "36B3D3B242C31753"
+					item: { count: 1, id: "create:mechanical_pump" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 11.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "create:cardboard_package_12x12"
+			}
+			id: "5CF43D422A5015F7"
+			rewards: [{
+				id: "174E67821CB7DB35"
+				item: {
+					count: 1
+					id: "hello_new_generation_core:f24"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "3E189A00F8E30EC0"
+					item: { count: 1, id: "aeronautics_dyeable_components:black_large_tire" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "0960F71DC32DA9C9"
+					item: { count: 1, id: "create_connected:brass_gearbox" }
+					type: "item"
+				}
+				{
+					id: "2692D50D211D2A0C"
+					item: { count: 1, id: "simulated:analog_transmission" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7ACFE28D6D4B499E"
+					item: { count: 1, id: "offroad:wheel_mount" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "35DD77CDABA9EC2E"
+					item: { count: 1, id: "create:cogwheel" }
+					type: "item"
+				}
+				{
+					id: "7FF14949118683C8"
+					item: { count: 1, id: "aeronautics_utility_objects:universal_joint_rod2" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1FB2E56C94903471"
+					item: { count: 1, id: "aeronautics_utility_objects:brass_universal_joint" }
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "create:cardboard_package_12x12"
+			}
+			id: "1776E9E189057A48"
+			rewards: [{
+				id: "51307B2BB8DD0640"
+				item: {
+					count: 1
+					id: "hello_new_generation_core:f18"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "6428E918C7741B7F"
+					item: { count: 1, id: "offroad:wheel_mount" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "73E5C0E392653743"
+					item: { count: 1, id: "offroad:tire" }
+					type: "item"
+				}
+				{
+					count: 14L
+					id: "5E503F0841410E33"
+					item: { count: 1, id: "create_connected:encased_chain_cogwheel" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "45FBF4520391F1F1"
+					item: { count: 1, id: "createdieselgenerators:large_diesel_engine" }
+					type: "item"
+				}
+				{
+					id: "2555C389CB248BCA"
+					item: { count: 1, id: "create:rotation_speed_controller" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1F262325BF56B7C5"
+					item: { count: 1, id: "create_connected:inverted_clutch" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "1740324DE49BEA74"
+					item: { count: 1, id: "create:encased_chain_drive" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "7DAF54BBB3CF7C96"
+					item: { count: 1, id: "create:brass_block" }
+					type: "item"
+				}
+			]
+			x: 24.0d
+			y: 11.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "create:cardboard_package_12x12"
+			}
+			id: "30C28ADA002943BC"
+			rewards: [{
+				id: "76BBCB53EF4FC855"
+				item: {
+					count: 1
+					id: "hello_new_generation_core:f17"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 10L
+					id: "383966C011924249"
+					item: { count: 1, id: "quark:blaze_lantern" }
+					type: "item"
+				}
+				{
+					count: 21L
+					id: "78D80B60C3C2F446"
+					item: { count: 1, id: "railways:gray_slashed_locometal" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "4F6561E66E6A76B8"
+					item: { count: 1, id: "create_connected:encased_chain_cogwheel" }
+					type: "item"
+				}
+				{
+					id: "681ACBA115E9FD3E"
+					item: { count: 1, id: "create:rotation_speed_controller" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "735C270E28EDC18F"
+					item: { count: 1, id: "createdieselgenerators:huge_diesel_engine" }
+					type: "item"
+				}
+				{
+					id: "13A0C1A815807B51"
+					item: { count: 1, id: "createaddition:alternator" }
+					type: "item"
+				}
+				{
+					id: "18E83B6BE656FEC7"
+					item: { count: 1, id: "create_flight_control:attitude_hold" }
+					type: "item"
+				}
+				{
+					id: "2FE8ACE01F006ACA"
+					item: { count: 1, id: "simulated:analog_transmission" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "64D35F3C3E723B1C"
+					item: { count: 1, id: "createaddition:electrum_wire" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 11.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "create:cardboard_package_12x12"
+			}
+			id: "283C88D90E53BA1E"
+			rewards: [{
+				id: "08C6C80DC4E53FDE"
+				item: {
+					count: 1
+					id: "hello_new_generation_core:f26"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "2BAD5FF6CD930878"
+					item: { count: 1, id: "bits_n_tracks:flanged_cogwheel" }
+					type: "item"
+				}
+				{
+					count: 14L
+					id: "13402B5F7A7A58AA"
+					item: { count: 1, id: "bits_n_tracks:medium_flanged_cogwheel" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "679801A18AE1997F"
+					item: { count: 1, id: "bits_n_tracks:industrial_belt" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "62829D7ECE478809"
+					item: { count: 1, id: "createaddition:modular_accumulator" }
+					type: "item"
+				}
+				{
+					id: "15CBB1AB33633DFD"
+					item: { count: 1, id: "createaddition:electric_motor" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7548EFD5998610BC"
+					item: { count: 1, id: "createaddition:alternator" }
+					type: "item"
+				}
+				{
+					id: "49EB184A6502B243"
+					item: { count: 1, id: "simulated:analog_transmission" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4CB81EABDFBDA470"
+					item: { count: 1, id: "createdieselgenerators:large_diesel_engine" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1C5542E5038CC2C2"
+					item: { count: 1, id: "create:mechanical_bearing" }
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "114E28AE3CDDE28E"
+					item: { count: 1, id: "createaddition:electrum_wire" }
+					type: "item"
+				}
+			]
+			x: 24.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			id: "3739D8716F660FE9"
+			rewards: [{
+				id: "1AF4573CE108976C"
+				item: {
+					count: 1
+					id: "hello_new_generation_core:f48"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "692D69A6EF853636"
+					item: { count: 1, id: "hello_new_generation_core:f48" }
+					type: "item"
+				}
+				{
+					id: "5CA19484262FF530"
+					item: { count: 1, id: "minecraft:barrier" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 11.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "create:cardboard_package_12x12"
+			}
+			id: "47F3DD867C444082"
+			rewards: [{
+				id: "77970D1C1243A165"
+				item: {
+					count: 1
+					id: "hello_new_generation_core:f44"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 3L
+					id: "74AC9EA3636B9356"
+					item: { count: 1, id: "simulated:throttle_lever" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2DCB84651EAFC9CF"
+					item: { count: 1, id: "offroad:small_tire" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4234DC53CA48116E"
+					item: { count: 1, id: "offroad:wheel_mount" }
+					type: "item"
+				}
+				{
+					id: "47B4E9C35E4E59A6"
+					item: { components: { "minecraft:block_entity_data": { Keys: [ ], id: "drivebywiretypewriter:typewriter_hub", typedEntry: "" } }, count: 1, id: "drivebywiretypewriter:typewriter_hub" }
+					type: "item"
+				}
+				{
+					id: "6702072BD24B3A26"
+					item: { count: 1, id: "createdieselgenerators:large_diesel_engine" }
+					type: "item"
+				}
+				{
+					id: "482975FDBEA62ABA"
+					item: { count: 1, id: "create_dragons_plus:fluid_hatch" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5DC9C687364ADBBC"
+					item: { count: 1, id: "create_connected:fluid_vessel" }
+					type: "item"
+				}
+				{
+					id: "54ACF8378C7C4BD8"
+					item: { count: 1, id: "compactflap:analog_swivel_bearing" }
+					type: "item"
+				}
+				{
+					id: "79F7EEF0D9FFF18F"
+					item: { count: 1, id: "dndecor:brass_frontlight" }
+					type: "item"
+				}
+				{
+					id: "714CFF24F7B31F36"
+					item: { count: 1, id: "create:sequenced_gearshift" }
+					type: "item"
+				}
+				{
+					id: "3F2DD39A8D1069D7"
+					item: { count: 1, id: "simulated:directional_gearshift" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "create:cardboard_package_12x12"
+			}
+			id: "12ABF15DFD66345A"
+			rewards: [{
+				id: "1EB421F7E73AD36A"
+				item: {
+					count: 1
+					id: "hello_new_generation_core:b1"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 6L
+					id: "082A885B2DBCAC39"
+					item: { count: 1, id: "offroad:wheel_mount" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "38034CDA4A74C1A2"
+					item: { count: 1, id: "offroad:large_tire" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "44E288C2DEF7EE63"
+					item: { count: 1, id: "create_connected:brass_gearbox" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "420BEADB04573382"
+					item: { count: 1, id: "simulated:directional_gearshift" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "5184C99CB6565F1A"
+					item: { count: 1, id: "create:encased_chain_drive" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "3D78D1AAA28642AA"
+					item: { count: 1, id: "simulated:red_portable_engine" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "51F91507AEE8F3E7"
+					item: { count: 1, id: "simulated:analog_transmission" }
+					type: "item"
+				}
+				{
+					id: "60606B3F106C2DF4"
+					item: { count: 1, id: "create_connected:inverted_clutch" }
+					type: "item"
+				}
+				{
+					id: "7B2DB8EACE44CE95"
+					item: { components: { "minecraft:block_entity_data": { Keys: [ { FirstItem: { count: 1, id: "minecraft:light_gray_concrete" }, GLFWKey: 32, SecondItem: { } }, { FirstItem: { count: 1, id: "minecraft:black_concrete" }, GLFWKey: 65, SecondItem: { } }, { FirstItem: { }, GLFWKey: 83, SecondItem: { count: 1, id: "minecraft:gray_concrete" } }, { FirstItem: { }, GLFWKey: 68, SecondItem: { count: 1, id: "minecraft:black_concrete" } }, { FirstItem: { count: 1, id: "minecraft:gray_concrete" }, GLFWKey: 87, SecondItem: { } } ], id: "simulated:linked_typewriter", typedEntry: "DAWDDDADAADAWDSAAWDSDAWA" } }, count: 1, id: "simulated:linked_typewriter" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "2CBA687944DBC980"
+					item: { count: 1, id: "create:redstone_link" }
+					type: "item"
+				}
+			]
+			x: 24.0d
 			y: 8.0d
 		}
 	]

@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "53181AFCB6405EAA"
-	group: "032D94FFF1828E6D"
+	group: ""
 	icon: {
 		id: "create:mechanical_drill"
 	}
@@ -15,32 +15,160 @@
 		x: -5.0d
 		y: 1.5d
 	}]
-<<<<<<< Updated upstream
-	order_index: 1
-=======
 	order_index: 2
->>>>>>> Stashed changes
 	quest_links: [ ]
 	quests: [
 		{
-			id: "76992B57A7C0CA9D"
-			shape: "none"
-			size: 2.0d
-			tasks: [
+			dependencies: ["76992B57A7C0CA9D"]
+			id: "34455C4A9ED5D4B0"
+			tasks: [{
+				consume_items: false
+				count: 640L
+				id: "06C5D61811893CCE"
+				item: { count: 1, id: "minecraft:quartz" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["76992B57A7C0CA9D"]
+			id: "517660F1B740DD00"
+			rewards: [{
+				count: 640
+				id: "5E735C0C0843A917"
+				item: {
+					components: {
+						"createbigcannons:fuze": [{
+							item: {
+								count: 1
+								id: "createbigcannons:impact_fuze"
+							}
+							slot: 0
+						}]
+					}
+					count: 1
+					id: "createbigcannons:he_shell"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				count: 640L
+				id: "5D38196E5FD34DDB"
+				item: { count: 1, id: "minecraft:gunpowder" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["76992B57A7C0CA9D"]
+			id: "0AE1E0BFED08C657"
+			rewards: [
 				{
-					count: 6L
-					id: "66A607D3F1BA6578"
-					item: { count: 1, id: "create:crushing_wheel" }
+					count: 8
+					id: "07C934615D4680BB"
+					item: {
+						count: 1
+						id: "minecraft:spawner"
+					}
 					type: "item"
 				}
 				{
-					count: 3L
-					id: "01B3EEE3AA7D82C5"
-					item: { count: 1, id: "create:encased_fan" }
+					count: 8
+					id: "43EBA05715B4FEB0"
+					item: {
+						count: 1
+						id: "minecraft:cave_spider_spawn_egg"
+					}
 					type: "item"
 				}
 			]
-			x: -5.0d
+			tasks: [{
+				consume_items: false
+				count: 640L
+				id: "22944117B53E9D1A"
+				item: { count: 1, id: "minecraft:flint" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["76992B57A7C0CA9D"]
+			id: "4AF87EC3AC051827"
+			rewards: [{
+				count: 320
+				id: "12EC54D64EDEE2F2"
+				item: {
+					count: 1
+					id: "create:andesite_alloy"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				count: 640L
+				id: "64CEE591A05BD6BD"
+				item: { count: 1, id: "minecraft:andesite" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["76992B57A7C0CA9D"]
+			id: "51F5EE1324C4B57E"
+			rewards: [
+				{
+					count: 8
+					id: "7040417F6993B8A7"
+					item: {
+						count: 1
+						id: "minecraft:iron_golem_spawn_egg"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0D6185B274155272"
+					item: {
+						count: 1
+						id: "minecraft:spawner"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 640L
+				id: "34C9B693E32E6340"
+				item: { count: 1, id: "minecraft:copper_ingot" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["76992B57A7C0CA9D"]
+			id: "5FEDF7D00316DFEE"
+			rewards: [{
+				id: "3CC823A0D8BD8E95"
+				item: {
+					count: 1
+					id: "create:netherite_backtank"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				count: 640L
+				id: "5835C83539375B94"
+				item: { count: 1, id: "minecraft:gold_ingot" }
+				type: "item"
+			}]
+			x: -7.5d
 			y: 2.0d
 		}
 		{
@@ -67,6 +195,7 @@
 				}
 			]
 			tasks: [{
+				consume_items: false
 				count: 640L
 				id: "4CF13797DAC4977B"
 				item: { count: 1, id: "minecraft:iron_ingot" }
@@ -74,90 +203,6 @@
 			}]
 			x: -7.5d
 			y: 3.0d
-		}
-		{
-			dependencies: ["76992B57A7C0CA9D"]
-			id: "51F5EE1324C4B57E"
-			rewards: [
-				{
-					count: 8
-					id: "7040417F6993B8A7"
-					item: {
-						count: 1
-						id: "minecraft:iron_golem_spawn_egg"
-					}
-					type: "item"
-				}
-				{
-					count: 8
-					id: "0D6185B274155272"
-					item: {
-						count: 1
-						id: "minecraft:spawner"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				count: 640L
-				id: "34C9B693E32E6340"
-				item: { count: 1, id: "minecraft:copper_ingot" }
-				type: "item"
-			}]
-			x: -7.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["76992B57A7C0CA9D"]
-			id: "5FEDF7D00316DFEE"
-			rewards: [{
-				id: "3CC823A0D8BD8E95"
-				item: {
-					count: 1
-					id: "create:netherite_backtank"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				count: 640L
-				id: "5835C83539375B94"
-				item: { count: 1, id: "minecraft:gold_ingot" }
-				type: "item"
-			}]
-			x: -7.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["76992B57A7C0CA9D"]
-			id: "24EE843C9C223008"
-			rewards: [
-				{
-					count: 8
-					id: "471BB1C73306C354"
-					item: {
-						count: 1
-						id: "minecraft:spawner"
-					}
-					type: "item"
-				}
-				{
-					count: 8
-					id: "4CF77AEBD92C59A9"
-					item: {
-						count: 1
-						id: "minecraft:evoker_spawn_egg"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				count: 64L
-				id: "1A1B4BF12D5ECB5D"
-				item: { count: 1, id: "minecraft:netherite_scrap" }
-				type: "item"
-			}]
-			x: -5.0d
-			y: 4.5d
 		}
 		{
 			dependencies: ["76992B57A7C0CA9D"]
@@ -183,6 +228,7 @@
 				}
 			]
 			tasks: [{
+				consume_items: false
 				count: 640L
 				id: "21F3CC38649ED6F6"
 				item: { count: 1, id: "minecraft:diamond" }
@@ -215,6 +261,7 @@
 				}
 			]
 			tasks: [{
+				consume_items: false
 				count: 640L
 				id: "0765AA4DA73F21B4"
 				item: { count: 1, id: "minecraft:redstone" }
@@ -225,11 +272,11 @@
 		}
 		{
 			dependencies: ["76992B57A7C0CA9D"]
-			id: "0AE1E0BFED08C657"
+			id: "24EE843C9C223008"
 			rewards: [
 				{
 					count: 8
-					id: "07C934615D4680BB"
+					id: "471BB1C73306C354"
 					item: {
 						count: 1
 						id: "minecraft:spawner"
@@ -238,22 +285,23 @@
 				}
 				{
 					count: 8
-					id: "43EBA05715B4FEB0"
+					id: "4CF77AEBD92C59A9"
 					item: {
 						count: 1
-						id: "minecraft:cave_spider_spawn_egg"
+						id: "minecraft:evoker_spawn_egg"
 					}
 					type: "item"
 				}
 			]
 			tasks: [{
-				count: 640L
-				id: "22944117B53E9D1A"
-				item: { count: 1, id: "minecraft:flint" }
+				consume_items: false
+				count: 64L
+				id: "1A1B4BF12D5ECB5D"
+				item: { count: 1, id: "minecraft:netherite_scrap" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: -0.5d
+			x: -5.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["76992B57A7C0CA9D"]
@@ -279,6 +327,7 @@
 				}
 			]
 			tasks: [{
+				consume_items: false
 				count: 640L
 				id: "580CA8606CDFE202"
 				item: { count: 1, id: "create:zinc_ingot" }
@@ -288,69 +337,91 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["76992B57A7C0CA9D"]
-			id: "517660F1B740DD00"
-			rewards: [{
-				count: 640
-				id: "5E735C0C0843A917"
-				item: {
-					components: {
-						"createbigcannons:fuze": [{
-							item: {
-								count: 1
-								id: "createbigcannons:impact_fuze"
-							}
-							slot: 0
-						}]
-						"createbigcannons:tracer": [ ]
+			id: "76992B57A7C0CA9D"
+			rewards: [
+				{
+					id: "5D79D0F6A8DA025E"
+					item: {
+						count: 1
+						id: "create_connected:fan_blasting_catalyst"
 					}
-					count: 1
-					id: "createbigcannons:he_shell"
+					type: "item"
 				}
-				type: "item"
-			}]
-			tasks: [{
-				count: 640L
-				id: "5D38196E5FD34DDB"
-				item: { count: 1, id: "minecraft:gunpowder" }
-				type: "item"
-			}]
+				{
+					id: "6F8E097130955D8A"
+					item: {
+						count: 1
+						id: "create_connected:fan_smoking_catalyst"
+					}
+					type: "item"
+				}
+				{
+					id: "3F022C123BB386F3"
+					item: {
+						count: 1
+						id: "create_connected:fan_splashing_catalyst"
+					}
+					type: "item"
+				}
+				{
+					id: "3A9D5F2855E37872"
+					item: {
+						count: 1
+						id: "create_connected:fan_haunting_catalyst"
+					}
+					type: "item"
+				}
+				{
+					id: "5D09E9100A22F1B4"
+					item: {
+						count: 1
+						id: "create_connected:fan_freezing_catalyst"
+					}
+					type: "item"
+				}
+				{
+					id: "083498D801293C42"
+					item: {
+						count: 1
+						id: "create_connected:fan_sanding_catalyst"
+					}
+					type: "item"
+				}
+				{
+					id: "3F51BAA933C1DB38"
+					item: {
+						count: 1
+						id: "create_connected:fan_ending_catalyst_dragons_breath"
+					}
+					type: "item"
+				}
+				{
+					id: "4F904543136E96B2"
+					item: {
+						count: 1
+						id: "create_connected:fan_ending_catalyst_dragon_head"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			size: 2.0d
+			tasks: [
+				{
+					count: 6L
+					id: "66A607D3F1BA6578"
+					item: { count: 1, id: "create:crushing_wheel" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "01B3EEE3AA7D82C5"
+					item: { count: 1, id: "create:encased_fan" }
+					type: "item"
+				}
+			]
 			x: -5.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["76992B57A7C0CA9D"]
-			id: "34455C4A9ED5D4B0"
-			tasks: [{
-				count: 640L
-				id: "06C5D61811893CCE"
-				item: { count: 1, id: "minecraft:quartz" }
-				type: "item"
-			}]
-			x: -4.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["76992B57A7C0CA9D"]
-			id: "4AF87EC3AC051827"
-			rewards: [{
-				count: 320
-				id: "12EC54D64EDEE2F2"
-				item: {
-					count: 1
-					id: "create:andesite_alloy"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 640L
-				id: "64CEE591A05BD6BD"
-				item: { count: 1, id: "minecraft:andesite" }
-				type: "item"
-			}]
-			x: -7.0d
-			y: 0.0d
+			y: 2.0d
 		}
 	]
 }

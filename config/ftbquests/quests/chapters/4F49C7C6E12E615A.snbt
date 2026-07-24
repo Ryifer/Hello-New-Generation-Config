@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "4F49C7C6E12E615A"
-	group: "59418A0B4E6E90CF"
+	group: "6C5E761EA98BF3D2"
 	icon: {
 		id: "create:schematic_and_quill"
 	}
@@ -150,8 +150,8 @@
 			image: "mcshaying:textures/d4.png"
 			rotation: 0.0d
 			width: 4.0d
-			x: -11.5d
-			y: -2.5d
+			x: -7.5d
+			y: -6.0d
 		}
 		{
 			click: "https://b23.tv/gFWA72s"
@@ -170,11 +170,29 @@
 			image: "quark:textures/attribute/unknown.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -13.0d
-			y: -4.0d
+			x: -9.0d
+			y: -7.5d
+		}
+		{
+			height: 3.0d
+			image: "mcshaying:textures/fff9.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -3.5d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			hover: ["点击跳转载具使用详情"]
+			image: "quark:textures/attribute/unknown.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -7.5d
 		}
 	]
-	order_index: 3
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -422,8 +440,53 @@
 					type: "item"
 				}
 			]
-			x: -11.5d
-			y: -1.5d
+			x: -7.5d
+			y: -5.0d
+		}
+		{
+			id: "5A295E7485BEC38E"
+			rewards: [{
+				id: "055B2FA3E1B50F9F"
+				item: {
+					count: 1
+					id: "hello_new_generation_core:f13"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4D36CA767C80D87C"
+					item: { count: 1, id: "hello_new_generation_core:f13" }
+					type: "item"
+				}
+				{
+					id: "7D72C8D9FF93F046"
+					item: { count: 1, id: "minecraft:barrier" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			id: "615E94955BB4D1C9"
+			rewards: [{
+				id: "45B6AE60D03D2DE2"
+				item: {
+					count: 1
+					id: "create_aeronautics_toolgun:portable_structure_container"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "2E0C775F24488B0B"
+				item: { count: 1, id: "create:blaze_cake" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -8.5d
 		}
 	]
 }

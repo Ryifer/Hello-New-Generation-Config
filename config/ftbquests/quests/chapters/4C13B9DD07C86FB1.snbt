@@ -7,36 +7,82 @@
 		id: "synaxis:dynamic_joint_motor"
 	}
 	id: "4C13B9DD07C86FB1"
-	order_index: 2
-	quest_links: [ ]
-	quests: [{
-		id: "7A48779C75C91621"
-		rewards: [{
-			id: "24EF1F286374A8A6"
-			item: {
-				count: 1
-				id: "minecraft:netherite_ingot"
-			}
-			type: "item"
-		}]
-		tasks: [
-			{
-				id: "0AF4D992DBF415BE"
-				item: { count: 1, id: "synaxis:dynamic_revolute_motor" }
-				type: "item"
-			}
-			{
-				id: "18430554201CFC9D"
-				item: { count: 1, id: "synaxis:dynamic_joint_motor" }
-				type: "item"
-			}
-			{
-				id: "0DEA05259FBF3182"
-				item: { count: 1, id: "synaxis:kinetic_resistor" }
-				type: "item"
-			}
-		]
-		x: 0.0d
-		y: 0.5d
+	images: [{
+		click: "https://www.bilibili.com/video/BV12Ljo6jER9?t=1.2"
+		height: 1.0d
+		hover: ["点击查看详细教程"]
+		image: "minecraft:textures/gui/sprites/hud/heart/full.png"
+		rotation: 0.0d
+		width: 1.0d
+		x: 2.5d
+		y: -2.0d
 	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7A48779C75C91621"
+			rewards: [{
+				id: "24EF1F286374A8A6"
+				item: {
+					count: 1
+					id: "minecraft:netherite_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "0AF4D992DBF415BE"
+					item: { count: 1, id: "synaxis:dynamic_revolute_motor" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "18430554201CFC9D"
+					item: { count: 1, id: "synaxis:dynamic_joint_motor" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0DEA05259FBF3182"
+					item: { count: 1, id: "synaxis:kinetic_resistor" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			id: "56244104D9DEFC5C"
+			tasks: [
+				{
+					consume_items: false
+					id: "34A1265DE8C89B77"
+					item: { count: 1, id: "create_flight_control:attitude_hold" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "3A50018CF74DA7C8"
+					item: { count: 1, id: "create_flight_control:altitude_hold" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1E7A0189A229F053"
+					item: { count: 1, id: "create_flight_control:smart_vector_ion_thruster" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "42AF3102C03B26B8"
+					item: { count: 1, id: "create_flight_control:smart_vector_thruster_nozzle" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -1.5d
+		}
+	]
 }
