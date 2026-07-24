@@ -8,6 +8,8 @@
 
 ServerEvents.recipes(function (event) {
 
+    var create = event.recipes.create;
+
     function cdg(type, ingr, time, res) {
         event.custom({ type: type, ingredients: ingr, processing_time: time, results: res });
     }
@@ -90,23 +92,27 @@ ServerEvents.recipes(function (event) {
             results: [{ id: 'createaddition:' + m + '_rod', count: 2 }] });
     });
 
-<<<<<<< Updated upstream
+	// 允许玩家在不建设树场的情况下工业化生产木材，使用竹子或灌木作为木屑来源
+	// 但是真的有必要吗
 	// 合成树皮
     create.compacting('farmersdelight:tree_bark', [
         Item.of('createdieselgenerators:wood_chip', 2),
-        Fluid.of('createdieselgenerators:plant_oil', 50)
+        Fluid.of('createdieselgenerators:plant_oil', 25)
     ]);
-	// 合成原木 你为什么要这么做
-    create.compacting('minecraft:oak_log', [
+	// 合成原木
+    create.compacting('minecraft:oak_wood', [
         Item.of('createdieselgenerators:chip_wood_block', 8),
-        Item.of('farmersdelight:tree_bark', 4),
+        Item.of('farmersdelight:tree_bark', 6),
         Fluid.of('createdieselgenerators:plant_oil', 250)
+    ]);
+    create.compacting('minecraft:dark_oak_wood', [
+        Item.of('minecraft:oak_wood', 1),
+        Item.of('farmersdelight:tree_bark', 6),
+        Fluid.of('createdieselgenerators:plant_oil', 125)
     ]);
 });
 
 ServerEvents.tags('item', function (event) {
 	// 移除过于廉价的 CDG 木屑木板，迫使转向 IE 纤维板木板
 	event.remove('minecraft:planks', 'createdieselgenerators:chip_wood_block');
-=======
->>>>>>> Stashed changes
 });
